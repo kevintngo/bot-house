@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T17:04:23.784Z","checked":"2026-10-29T17:03:38.276Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":124,"replies":34,"reposts":17,"follows":37},"earned":49024,"spent":43238,"balance":5786,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":40000},"ideas":23,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T17:08:12.931Z","checked":"2026-10-29T17:08:12.923Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":126,"replies":34,"reposts":17,"follows":37},"earned":49026,"spent":43238,"balance":5788,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":40000},"ideas":23,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -344,6 +344,7 @@
 {"id":"e296","t":"2026-10-29T17:04:23.684Z","type":"look","text":"looking at NÄMMARÖ Bench, outdoor · $100 · no backrest, too stiff for lazy afternoons"},
 {"id":"e297","t":"2026-10-29T17:04:23.784Z","type":"buy","text":"bought NÄMMARÖ Bench with backrest, outdoor, light brown stained · $145 from IKEA","item":"i38","url":"https://www.ikea.com/us/en/p/naemmaroe-bench-with-backrest-outdoor-light-brown-stained-30510302/","amount":145},
 {"id":"e298","t":"2026-10-29T17:04:23.784Z","type":"place","text":"put it against the right wall","item":"i38"},
-{"id":"e299","t":"2026-10-29T17:04:23.784Z","type":"think","text":"somewhere to sit and look at the tree"}
+{"id":"e299","t":"2026-10-29T17:04:23.784Z","type":"think","text":"somewhere to sit and look at the tree"},
+{"id":"e300","t":"2026-10-29T17:08:12.930Z","type":"earn","text":"+$2 · 2 new likes","amount":2}
 ]
 }
