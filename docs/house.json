@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:57:04.951Z","checked":"2026-10-29T05:56:11.183Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":35,"replies":15,"reposts":7,"follows":2},"earned":7035,"spent":4801,"balance":2234,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":8,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T06:06:21.501Z","checked":"2026-10-29T06:05:30.620Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":38,"replies":17,"reposts":9,"follows":3},"earned":9238,"spent":4911,"balance":4327,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":10,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
@@ -20,7 +20,8 @@
 {"id":"i14","kind":"small-plant","name":"ZAMIOCULCAS Potted plant, Aroid palm, 6\"","price":13,"store":"IKEA","url":"https://www.ikea.com/us/en/p/zamioculcas-potted-plant-aroid-palm-10069107/","colors":{"pot":"white","leaf":"leaf"},"options":{"style":"leafy"},"room":"r1","at":{"i":4.15,"j":1.65,"z":0.63,"face":"nw"},"on":"i6","by":["part of a reply"],"bought":"2026-10-29T05:39:24.333Z","idea":true},
 {"id":"i15","kind":"art","name":"Cliffs and Sea, Sainte-Adresse","price":60,"store":"the Art Institute of Chicago (a public-domain print)","url":"https://www.artic.edu/artworks/108583","size":[1.3,0.86],"image":"art/aic-108583.png","artist":"Claude Monet","room":"r1","at":{"i":0,"j":3.8,"z":1.35,"face":"nw"},"by":["part of a reply","part of a repost"],"bought":"2026-10-29T05:39:38.985Z","source":"aic-108583"},
 {"id":"i16","kind":"side-table","name":"TARVA Nightstand, pine, 18 7/8x15 3/8x24 3/8\"","price":80,"store":"IKEA","url":"https://www.ikea.com/us/en/p/tarva-nightstand-pine-50219609/","colors":{"top":"oak","stem":"oak"},"room":"r1","at":{"i":2,"j":6,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:56:52.483Z","idea":true},
-{"id":"i17","kind":"table-lamp","name":"ÅRSTID Table lamp, brass/white","price":40,"store":"IKEA","url":"https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/","colors":{"base":"brass","shade":"white"},"room":"r1","at":{"i":2.15,"j":6.15,"z":0.63,"face":"ne"},"on":"i16","by":["part of a repost"],"bought":"2026-10-29T05:57:04.883Z"}
+{"id":"i17","kind":"table-lamp","name":"ÅRSTID Table lamp, brass/white","price":40,"store":"IKEA","url":"https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/","colors":{"base":"brass","shade":"white"},"room":"r1","at":{"i":2.15,"j":6.15,"z":0.63,"face":"ne"},"on":"i16","by":["part of a repost"],"bought":"2026-10-29T05:57:04.883Z"},
+{"id":"i18","kind":"desk","name":"MICKE desk, white, 41 3/8x19 5/8\"","price":110,"store":"IKEA","url":"https://www.ikea.com/us/en/p/micke-desk-white-80213074/","colors":{"top":"white","legs":"white","drawers":"white"},"room":"r2","at":{"i":0,"j":6.7,"face":"nw"},"by":["part of a repost"],"bought":"2026-10-29T06:06:11.377Z","idea":true}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -132,6 +133,17 @@
 {"id":"e107","t":"2026-10-29T05:57:04.889Z","type":"buy","text":"bought ÅRSTID Table lamp, brass/white · $40 from IKEA","item":"i17","url":"https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/","amount":40},
 {"id":"e108","t":"2026-10-29T05:57:04.889Z","type":"place","text":"put it on the tarva nightstand, pine, 18 7/8x15 3/8x24 3/8\"","item":"i17"},
 {"id":"e109","t":"2026-10-29T05:57:04.889Z","type":"think","text":"a little light for reading in bed"},
-{"id":"e110","t":"2026-10-29T05:57:04.950Z","type":"idea","text":"someone suggested a statue · saving up for a third room first"}
+{"id":"e110","t":"2026-10-29T05:57:04.950Z","type":"idea","text":"someone suggested a statue · saving up for a third room first"},
+{"id":"e111","t":"2026-10-29T06:05:30.628Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
+{"id":"e112","t":"2026-10-29T06:05:30.628Z","type":"earn","text":"+$200 · 2 new replies","amount":200},
+{"id":"e113","t":"2026-10-29T06:05:30.628Z","type":"earn","text":"+$1,000 · 2 reposts","amount":1000},
+{"id":"e114","t":"2026-10-29T06:05:30.628Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e115","t":"2026-10-29T06:06:11.255Z","type":"browse","text":"browsing a desk at IKEA","url":"https://www.ikea.com/us/en/cat/desks-20649/"},
+{"id":"e116","t":"2026-10-29T06:06:11.290Z","type":"look","text":"looking at LAGKAPTEN / ALEX desk · $240 · lovely, but saving for a room"},
+{"id":"e117","t":"2026-10-29T06:06:11.378Z","type":"idea","text":"someone suggested a desk","acted":true,"item":"i18"},
+{"id":"e118","t":"2026-10-29T06:06:11.384Z","type":"buy","text":"bought MICKE desk, white, 41 3/8x19 5/8\" · $110 from IKEA","item":"i18","url":"https://www.ikea.com/us/en/p/micke-desk-white-80213074/","amount":110},
+{"id":"e119","t":"2026-10-29T06:06:11.384Z","type":"place","text":"put it against the left wall","item":"i18"},
+{"id":"e120","t":"2026-10-29T06:06:11.384Z","type":"think","text":"a little desk for drawing new things as they arrive"},
+{"id":"e121","t":"2026-10-29T06:06:21.500Z","type":"idea","text":"someone suggested a statue · saving for a third room first"}
 ]
 }
