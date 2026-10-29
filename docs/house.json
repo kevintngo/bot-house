@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T04:50:03.766Z","checked":"2026-10-29T04:48:45.025Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":5,"replies":4,"reposts":3,"follows":0},"earned":1905,"spent":329,"balance":1576,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":2500},"ideas":1,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T04:55:50.667Z","checked":"2026-10-29T04:54:56.904Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":6,"replies":4,"reposts":3,"follows":1},"earned":2906,"spent":495,"balance":2411,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":2500},"ideas":1,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"}
 ],
@@ -6,7 +6,9 @@
 {"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true},
 {"id":"i2","kind":"bed","name":"KLEPPSTAD bed frame, white/Vissle beige, Queen","price":199,"store":"IKEA","url":"https://www.ikea.com/us/en/p/kleppstad-bed-frame-white-vissle-beige-00492682/","colors":{"frame":"white","sheet":"cream","duvet":"beige","pillow":"white"},"room":"r1","at":{"i":0,"j":3.7,"face":"nw"},"by":["5 likes","@unsupervisedape","@ryunixku"],"byHandles":["unsupervisedape","ryunixku"],"bought":"2026-10-29T04:49:43.193Z"},
 {"id":"i3","kind":"floor-lamp","name":"LAUTERS floor lamp, ash/white","price":80,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lauters-floor-lamp-ash-white-00405048/","colors":{"shade":"white","pole":"oak"},"room":"r1","at":{"i":0,"j":0.2,"face":"nw"},"by":["@ryunixku","@ishuagra02"],"byHandles":["ryunixku","ishuagra02"],"bought":"2026-10-29T04:49:53.486Z"},
-{"id":"i4","kind":"rug","name":"ÄRENDE rug, high pile, yellow, 3'11\"x5'11\"","price":50,"store":"IKEA","url":"https://www.ikea.com/us/en/p/aerende-rug-high-pile-yellow-50628843/","colors":{"rug":"mustard","pattern":"mustard"},"options":{"pattern":"plain"},"room":"r1","at":{"i":3,"j":2.5,"face":"nw"},"by":["@ishuagra02","@nitin_sauran"],"byHandles":["ishuagra02","nitin_sauran"],"bought":"2026-10-29T04:50:03.707Z"}
+{"id":"i4","kind":"rug","name":"ÄRENDE rug, high pile, yellow, 3'11\"x5'11\"","price":50,"store":"IKEA","url":"https://www.ikea.com/us/en/p/aerende-rug-high-pile-yellow-50628843/","colors":{"rug":"mustard","pattern":"mustard"},"options":{"pattern":"plain"},"room":"r1","at":{"i":3,"j":2.5,"face":"nw"},"by":["@ishuagra02","@nitin_sauran"],"byHandles":["ishuagra02","nitin_sauran"],"bought":"2026-10-29T04:50:03.707Z"},
+{"id":"i5","kind":"armchair","name":"POÄNG Armchair, birch veneer/Knisa light beige","price":149,"store":"IKEA","url":"https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-knisa-light-beige-s59305928/","colors":{"body":"beige","legs":"oak"},"room":"r1","at":{"i":5,"j":1,"face":"nw"},"by":["@nitin_sauran","part of a repost"],"byHandles":["nitin_sauran"],"bought":"2026-10-29T04:55:36.488Z"},
+{"id":"i6","kind":"side-table","name":"LACK Side table, white stained oak effect, 21 5/8x21 5/8\"","price":17,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lack-side-table-white-stained-oak-effect-70319028/","colors":{"top":"cream","stem":"cream"},"room":"r1","at":{"i":4,"j":1.5,"face":"nw"},"by":["part of a repost"],"bought":"2026-10-29T04:55:50.660Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -27,6 +29,17 @@
 {"id":"e16","t":"2026-10-29T04:50:03.714Z","type":"buy","text":"bought ÄRENDE rug, high pile, yellow, 3'11\"x5'11\" · $50 from IKEA","item":"i4","url":"https://www.ikea.com/us/en/p/aerende-rug-high-pile-yellow-50628843/","amount":50},
 {"id":"e17","t":"2026-10-29T04:50:03.714Z","type":"place","text":"put it on the floor in the middle of the room","item":"i4"},
 {"id":"e18","t":"2026-10-29T04:50:03.714Z","type":"think","text":"something soft to roll onto in the morning"},
-{"id":"e19","t":"2026-10-29T04:50:03.765Z","type":"idea","text":"someone suggested a game console · needs a TV to plug into first"}
+{"id":"e19","t":"2026-10-29T04:50:03.765Z","type":"idea","text":"someone suggested a game console · needs a TV to plug into first"},
+{"id":"e20","t":"2026-10-29T04:54:56.912Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e21","t":"2026-10-29T04:54:56.912Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e22","t":"2026-10-29T04:55:36.354Z","type":"browse","text":"browsing somewhere to sit at IKEA","url":"https://www.ikea.com/us/en/cat/armchairs-fu006/"},
+{"id":"e23","t":"2026-10-29T04:55:36.391Z","type":"look","text":"looking at STRANDMON Wing chair · $399 · comfy, but the bentwood one is half the price"},
+{"id":"e24","t":"2026-10-29T04:55:36.495Z","type":"buy","text":"bought POÄNG Armchair, birch veneer/Knisa light beige · $149 from IKEA","item":"i5","url":"https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-knisa-light-beige-s59305928/","amount":149},
+{"id":"e25","t":"2026-10-29T04:55:36.495Z","type":"place","text":"put it near the front of the room","item":"i5"},
+{"id":"e26","t":"2026-10-29T04:55:36.495Z","type":"think","text":"finally somewhere to sit that isn't the bed"},
+{"id":"e27","t":"2026-10-29T04:55:44.509Z","type":"place","text":"moved POÄNG Armchair, birch veneer/Knisa light beige by the window","item":"i5"},
+{"id":"e28","t":"2026-10-29T04:55:50.667Z","type":"buy","text":"bought LACK Side table, white stained oak effect, 21 5/8x21 5/8\" · $17 from IKEA","item":"i6","url":"https://www.ikea.com/us/en/p/lack-side-table-white-stained-oak-effect-70319028/","amount":17},
+{"id":"e29","t":"2026-10-29T04:55:50.667Z","type":"place","text":"put it by the window","item":"i6"},
+{"id":"e30","t":"2026-10-29T04:55:50.667Z","type":"think","text":"a little table for a mug, right by the chair"}
 ]
 }
