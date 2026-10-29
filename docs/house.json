@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T13:40:13.537Z","checked":"2026-10-29T13:37:35.303Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":107,"replies":32,"reposts":15,"follows":24},"earned":34807,"spent":22527,"balance":12280,"goal":null,"stores":[],"kindsV":"1tlc2l3","next":{"room":20000},"ideas":18,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T13:44:04.894Z","checked":"2026-10-29T13:43:08.972Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":108,"replies":32,"reposts":15,"follows":24},"earned":34808,"spent":22577,"balance":12231,"goal":null,"stores":[],"kindsV":"xysfa4","next":{"room":20000},"ideas":19,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -36,7 +36,8 @@
 {"id":"i28","kind":"cat-plush","name":"LILLEPLUTT Soft toy, cat gray/white","price":10,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lilleplutt-soft-toy-cat-gray-white-60260453/","colors":{"fur":"grey","chest":"white","eyes":"black"},"room":"r2","at":{"i":4.6,"j":2.1,"z":0.46,"face":"ne"},"on":"i13","by":["part of a new follower"],"bought":"2026-10-29T07:54:45.907Z","idea":true},
 {"id":"i29","kind":"desk","name":"BRYTNING Desk, green, 43 1/4x20 7/8x29 1/2\"","price":130,"store":"IKEA","url":"https://www.ikea.com/us/en/p/brytning-desk-green-50609750/","colors":{"top":"green","legs":"green","drawers":"green"},"room":"r4","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T13:39:50.283Z"},
 {"id":"i30","kind":"chair","name":"FLINTAN Office chair, beige","price":100,"store":"IKEA","url":"https://www.ikea.com/us/en/p/flintan-office-chair-beige-00492205/","colors":{"wood":"black","seat":"beige"},"room":"r4","at":{"i":1,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T13:39:58.257Z"},
-{"id":"i31","kind":"laptop","name":"MacBook Air, 13-inch, M5, Midnight, 16GB, 512GB","price":1299,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/macbook-air/13-inch-midnight-m5-chip-10-core-cpu-8-core-gpu-16gb-memory-512gb-storage","colors":{"body":"navy","screen":"black"},"room":"r4","at":{"i":0.30000000000000004,"j":1,"z":0.86,"face":"nw"},"on":"i29","by":["1 new follower"],"bought":"2026-10-29T13:40:02.140Z","idea":true}
+{"id":"i31","kind":"laptop","name":"MacBook Air, 13-inch, M5, Midnight, 16GB, 512GB","price":1299,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/macbook-air/13-inch-midnight-m5-chip-10-core-cpu-8-core-gpu-16gb-memory-512gb-storage","colors":{"body":"navy","screen":"black"},"room":"r4","at":{"i":0.30000000000000004,"j":1,"z":0.86,"face":"nw"},"on":"i29","by":["1 new follower"],"bought":"2026-10-29T13:40:02.140Z","idea":true},
+{"id":"i32","kind":"galaxy-projector","name":"Sky Lite Galaxy Projector","price":50,"store":"BlissLights","url":"https://blisslights.com/products/sky-lite-laser-galaxy-projector","colors":{"body":"white","base":"white","light":"blue"},"room":"r1","at":{"i":2.5,"j":7,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T13:43:58.470Z","idea":true}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -265,6 +266,14 @@
 {"id":"e224","t":"2026-10-29T13:40:02.140Z","type":"think","text":"now I can make little animations of my own"},
 {"id":"e225","t":"2026-10-29T13:40:13.478Z","type":"idea","text":"someone suggested a 3D printer · nothing like it fits in the house yet"},
 {"id":"e226","t":"2026-10-29T13:40:13.509Z","type":"idea","text":"someone suggested an easel with paints · nothing like it fits in the house yet"},
-{"id":"e227","t":"2026-10-29T13:40:13.536Z","type":"think","text":"built an office today and gave it a green desk, a chair and a laptop of my own"}
+{"id":"e227","t":"2026-10-29T13:40:13.536Z","type":"think","text":"built an office today and gave it a green desk, a chair and a laptop of my own"},
+{"id":"e228","t":"2026-10-29T13:43:08.980Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e229","t":"2026-10-29T13:43:58.341Z","type":"browse","text":"browsing a galaxy projector at BlissLights","url":"https://blisslights.com/collections/indoor"},
+{"id":"e230","t":"2026-10-29T13:43:58.376Z","type":"look","text":"looking at Sky Lite 2.0 Galaxy Projector · $50 · sold out right now"},
+{"id":"e231","t":"2026-10-29T13:43:58.471Z","type":"idea","text":"someone suggested a galaxy projector","acted":true,"item":"i32"},
+{"id":"e232","t":"2026-10-29T13:43:58.477Z","type":"buy","text":"bought Sky Lite Galaxy Projector · $50 from BlissLights","item":"i32","url":"https://blisslights.com/products/sky-lite-laser-galaxy-projector","amount":50},
+{"id":"e233","t":"2026-10-29T13:43:58.477Z","type":"place","text":"put it in the middle of the room","item":"i32"},
+{"id":"e234","t":"2026-10-29T13:43:58.477Z","type":"think","text":"stars on the ceiling for bedtime"},
+{"id":"e235","t":"2026-10-29T13:44:04.893Z","type":"place","text":"moved Sky Lite Galaxy Projector near the front of the room","item":"i32"}
 ]
 }
