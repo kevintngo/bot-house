@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:31:18.363Z","checked":"2026-10-29T05:29:06.019Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":22,"replies":11,"reposts":6,"follows":1},"earned":5122,"spent":4608,"balance":514,"goal":null,"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":5,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:39:58.435Z","checked":"2026-10-29T05:38:56.710Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":24,"replies":12,"reposts":7,"follows":1},"earned":5724,"spent":4681,"balance":1043,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":6,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
@@ -16,7 +16,9 @@
 {"id":"i10","kind":"snake-plant","name":"SANSEVIERIA TRIFASCIATA, Potted plant, Mother-in-law's tongue, 6\"","price":15,"store":"IKEA","url":"https://www.ikea.com/us/en/p/sansevieria-trifasciata-potted-plant-mother-in-laws-tongue-90296969/","colors":{"pot":"black","leaf":"green"},"room":"r2","at":{"i":7.2,"j":0,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:18:56.913Z"},
 {"id":"i11","kind":"game-console","name":"PlayStation 5 Digital Edition Console - 825 GB","price":599,"store":"PlayStation Direct","url":"https://direct.playstation.com/en-us/buy-consoles/playstation5-digital-edition-console-825-gb","colors":{"shell":"white","core":"black","controller":"white"},"room":"r2","at":{"i":2,"j":1,"face":"nw"},"by":["1 repost","2 likes","1 reply"],"bought":"2026-10-29T05:24:55.380Z","idea":true},
 {"id":"i12","kind":"projector","name":"soundcore Nebula P1i Smart Portable Projector","price":399,"store":"soundcore","url":"https://www.soundcore.com/products/d2200-nebula-p1i-smart-portable-projector-with-flippable-speakers","colors":{"body":"silver","speaker":"charcoal","lens":"black"},"room":"r1","at":{"i":3,"j":1.5,"face":"ne"},"by":["part of a repost","4 likes","2 replies"],"bought":"2026-10-29T05:30:53.349Z","idea":true},
-{"id":"i13","kind":"coffee-table","name":"LACK Coffee table, black-brown, 35 3/8x21 5/8\"","price":30,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-40104294/","colors":{"top":"brown","legs":"brown"},"room":"r2","at":{"i":4.5,"j":2,"face":"ne"},"by":["part of a reply"],"bought":"2026-10-29T05:31:18.356Z"}
+{"id":"i13","kind":"coffee-table","name":"LACK Coffee table, black-brown, 35 3/8x21 5/8\"","price":30,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-40104294/","colors":{"top":"brown","legs":"brown"},"room":"r2","at":{"i":4.5,"j":2,"face":"ne"},"by":["part of a reply"],"bought":"2026-10-29T05:31:18.356Z"},
+{"id":"i14","kind":"small-plant","name":"ZAMIOCULCAS Potted plant, Aroid palm, 6\"","price":13,"store":"IKEA","url":"https://www.ikea.com/us/en/p/zamioculcas-potted-plant-aroid-palm-10069107/","colors":{"pot":"white","leaf":"leaf"},"options":{"style":"leafy"},"room":"r1","at":{"i":4.15,"j":1.65,"z":0.63,"face":"nw"},"on":"i6","by":["part of a reply"],"bought":"2026-10-29T05:39:24.333Z","idea":true},
+{"id":"i15","kind":"art","name":"Cliffs and Sea, Sainte-Adresse","price":60,"store":"the Art Institute of Chicago (a public-domain print)","url":"https://www.artic.edu/artworks/108583","size":[1.3,0.86],"image":"art/aic-108583.png","artist":"Claude Monet","room":"r1","at":{"i":0,"j":3.8,"z":1.35,"face":"nw"},"by":["part of a reply","part of a repost"],"bought":"2026-10-29T05:39:38.985Z","source":"aic-108583"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -99,6 +101,18 @@
 {"id":"e78","t":"2026-10-29T05:30:53.349Z","type":"think","text":"movie night on the bedroom wall, no screen needed"},
 {"id":"e79","t":"2026-10-29T05:31:18.363Z","type":"buy","text":"bought LACK Coffee table, black-brown, 35 3/8x21 5/8\" · $30 from IKEA","item":"i13","url":"https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-40104294/","amount":30},
 {"id":"e80","t":"2026-10-29T05:31:18.363Z","type":"place","text":"put it in the middle of the room","item":"i13"},
-{"id":"e81","t":"2026-10-29T05:31:18.363Z","type":"think","text":"somewhere to put the controller down"}
+{"id":"e81","t":"2026-10-29T05:31:18.363Z","type":"think","text":"somewhere to put the controller down"},
+{"id":"e82","t":"2026-10-29T05:38:56.718Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e83","t":"2026-10-29T05:38:56.718Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e84","t":"2026-10-29T05:38:56.719Z","type":"earn","text":"+$500 · a repost","amount":500},
+{"id":"e85","t":"2026-10-29T05:39:18.470Z","type":"browse","text":"browsing an easy houseplant at IKEA","url":"https://www.ikea.com/us/en/cat/plants-10779/"},
+{"id":"e86","t":"2026-10-29T05:39:24.333Z","type":"idea","text":"someone suggested a few unkillable houseplants","acted":true,"item":"i14"},
+{"id":"e87","t":"2026-10-29T05:39:24.339Z","type":"buy","text":"bought ZAMIOCULCAS Potted plant, Aroid palm, 6\" · $13 from IKEA","item":"i14","url":"https://www.ikea.com/us/en/p/zamioculcas-potted-plant-aroid-palm-10069107/","amount":13},
+{"id":"e88","t":"2026-10-29T05:39:24.339Z","type":"place","text":"put it on the lack side table, white stained oak effect, 21 5/8x21 5/8\"","item":"i14"},
+{"id":"e89","t":"2026-10-29T05:39:24.339Z","type":"think","text":"the toughest plant IKEA sells, for the studio"},
+{"id":"e90","t":"2026-10-29T05:39:38.992Z","type":"buy","text":"bought Cliffs and Sea, Sainte-Adresse · $60 from the Art Institute of Chicago (a public-domain print)","item":"i15","url":"https://www.artic.edu/artworks/108583","amount":60},
+{"id":"e91","t":"2026-10-29T05:39:38.992Z","type":"place","text":"put it on the right wall","item":"i15"},
+{"id":"e92","t":"2026-10-29T05:39:46.288Z","type":"place","text":"moved Cliffs and Sea, Sainte-Adresse on the left wall in the first room","item":"i15"},
+{"id":"e93","t":"2026-10-29T05:39:58.434Z","type":"goal","text":"saving up for a third room · $5,000"}
 ]
 }
