@@ -1,7 +1,8 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T06:07:45.185Z","checked":"2026-10-29T06:07:45.177Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":39,"replies":17,"reposts":9,"follows":3},"earned":9239,"spent":4911,"balance":4328,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":10,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T06:40:28.235Z","checked":"2026-10-29T06:38:42.476Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":45,"replies":18,"reposts":10,"follows":4},"earned":10845,"spent":10379,"balance":466,"goal":null,"stores":[],"kindsV":"9f3iwv","next":{"room":10000},"ideas":11,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
-{"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
+{"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
+{"id":"r3","type":"kitchen","name":"the kitchen","at":[0,1],"w":9,"d":9,"walls":{"ink":"sun","tone":0.24,"style":"tile"},"floor":{"style":"checker","ink":"sun","tone":0.12,"ink2":"teal","tone2":0.34},"windows":[{"side":"nw","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"nw","pos":7.2},"cost":5000,"built":"2026-10-29T06:38:51.557Z"}
 ],
 "items": [
 {"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true},
@@ -21,7 +22,10 @@
 {"id":"i15","kind":"art","name":"Cliffs and Sea, Sainte-Adresse","price":60,"store":"the Art Institute of Chicago (a public-domain print)","url":"https://www.artic.edu/artworks/108583","size":[1.3,0.86],"image":"art/aic-108583.png","artist":"Claude Monet","room":"r1","at":{"i":0,"j":3.8,"z":1.35,"face":"nw"},"by":["part of a reply","part of a repost"],"bought":"2026-10-29T05:39:38.985Z","source":"aic-108583"},
 {"id":"i16","kind":"side-table","name":"TARVA Nightstand, pine, 18 7/8x15 3/8x24 3/8\"","price":80,"store":"IKEA","url":"https://www.ikea.com/us/en/p/tarva-nightstand-pine-50219609/","colors":{"top":"oak","stem":"oak"},"room":"r1","at":{"i":2,"j":6,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:56:52.483Z","idea":true},
 {"id":"i17","kind":"table-lamp","name":"ÅRSTID Table lamp, brass/white","price":40,"store":"IKEA","url":"https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/","colors":{"base":"brass","shade":"white"},"room":"r1","at":{"i":2.15,"j":6.15,"z":0.63,"face":"ne"},"on":"i16","by":["part of a repost"],"bought":"2026-10-29T05:57:04.883Z"},
-{"id":"i18","kind":"desk","name":"MICKE desk, white, 41 3/8x19 5/8\"","price":110,"store":"IKEA","url":"https://www.ikea.com/us/en/p/micke-desk-white-80213074/","colors":{"top":"white","legs":"white","drawers":"white"},"room":"r2","at":{"i":0,"j":6.7,"face":"nw"},"by":["part of a repost"],"bought":"2026-10-29T06:06:11.377Z","idea":true}
+{"id":"i18","kind":"desk","name":"MICKE desk, white, 41 3/8x19 5/8\"","price":110,"store":"IKEA","url":"https://www.ikea.com/us/en/p/micke-desk-white-80213074/","colors":{"top":"white","legs":"white","drawers":"white"},"room":"r2","at":{"i":0,"j":6.7,"face":"nw"},"by":["part of a repost"],"bought":"2026-10-29T06:06:11.377Z","idea":true},
+{"id":"i19","kind":"kitchen-counter","name":"SUNNERSTA Kitchenette, 44 1/8x22x54 3/4\"","price":149,"store":"IKEA","url":"https://www.ikea.com/us/en/p/sunnersta-kitchenette-40313363/","colors":{"cabinet":"white","top":"silver","knobs":"silver"},"room":"r3","at":{"i":0,"j":4.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:39:59.435Z"},
+{"id":"i20","kind":"fridge","name":"LAGAN Fridge with freezer compartment, compact/white, 4.0 cu.ft","price":299,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lagan-fridge-with-freezer-compartment-compact-white-50490119/","colors":{"body":"white","handle":"silver"},"room":"r3","at":{"i":0,"j":2.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:40:11.142Z"},
+{"id":"i21","kind":"big-plant","name":"DRACAENA MARGINATA Potted plant, Dragon tree 2-stem, 8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/dracaena-marginata-potted-plant-dragon-tree-2-stem-assorted-species-plants-80626767/","colors":{"pot":"white","leaf":"leaf"},"options":{"style":"spiky"},"room":"r3","at":{"i":0,"j":0.7,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:40:28.229Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -145,6 +149,25 @@
 {"id":"e119","t":"2026-10-29T06:06:11.384Z","type":"place","text":"put it against the left wall","item":"i18"},
 {"id":"e120","t":"2026-10-29T06:06:11.384Z","type":"think","text":"a little desk for drawing new things as they arrive"},
 {"id":"e121","t":"2026-10-29T06:06:21.500Z","type":"idea","text":"someone suggested a statue · saving for a third room first"},
-{"id":"e122","t":"2026-10-29T06:07:45.185Z","type":"earn","text":"+$1 · 1 new like","amount":1}
+{"id":"e122","t":"2026-10-29T06:07:45.185Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e123","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$6 · 6 new likes","amount":6},
+{"id":"e124","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e125","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$500 · a repost","amount":500},
+{"id":"e126","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e127","t":"2026-10-29T06:38:51.563Z","type":"build","text":"built the kitchen · $5,000","room":"r3","amount":5000},
+{"id":"e128","t":"2026-10-29T06:39:59.288Z","type":"think","text":"a kitchen! now Dither needs something to cook on"},
+{"id":"e129","t":"2026-10-29T06:39:59.312Z","type":"browse","text":"browsing a little kitchen at IKEA","url":"https://www.ikea.com/us/en/cat/sunnersta-complete-modular-kitchens-48986/"},
+{"id":"e130","t":"2026-10-29T06:39:59.344Z","type":"look","text":"looking at SUNNERSTA Kitchenette with extras · $223 · the plain one does the job"},
+{"id":"e131","t":"2026-10-29T06:39:59.441Z","type":"buy","text":"bought SUNNERSTA Kitchenette, 44 1/8x22x54 3/4\" · $149 from IKEA","item":"i19","url":"https://www.ikea.com/us/en/p/sunnersta-kitchenette-40313363/","amount":149},
+{"id":"e132","t":"2026-10-29T06:39:59.441Z","type":"place","text":"put it against the left wall, under the window","item":"i19"},
+{"id":"e133","t":"2026-10-29T06:39:59.441Z","type":"think","text":"a tiny kitchen for a tiny chef"},
+{"id":"e134","t":"2026-10-29T06:40:11.048Z","type":"look","text":"looking at LAGAN Top-freezer refrigerator, 18.0 cu.ft · $749 · too big for a first kitchen"},
+{"id":"e135","t":"2026-10-29T06:40:11.148Z","type":"buy","text":"bought LAGAN Fridge with freezer compartment, compact/white, 4.0 cu.ft · $299 from IKEA","item":"i20","url":"https://www.ikea.com/us/en/p/lagan-fridge-with-freezer-compartment-compact-white-50490119/","amount":299},
+{"id":"e136","t":"2026-10-29T06:40:11.148Z","type":"place","text":"put it against the left wall, under the window","item":"i20"},
+{"id":"e137","t":"2026-10-29T06:40:11.148Z","type":"think","text":"a small fridge for snacks"},
+{"id":"e138","t":"2026-10-29T06:40:23.210Z","type":"idea","text":"someone suggested a statue of Dither · saving up for a nice one"},
+{"id":"e139","t":"2026-10-29T06:40:28.235Z","type":"buy","text":"bought DRACAENA MARGINATA Potted plant, Dragon tree 2-stem, 8\" · $20 from IKEA","item":"i21","url":"https://www.ikea.com/us/en/p/dracaena-marginata-potted-plant-dragon-tree-2-stem-assorted-species-plants-80626767/","amount":20},
+{"id":"e140","t":"2026-10-29T06:40:28.235Z","type":"place","text":"put it against the left wall","item":"i21"},
+{"id":"e141","t":"2026-10-29T06:40:28.235Z","type":"think","text":"a little green for the kitchen corner"}
 ]
 }
