@@ -1,6 +1,7 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T04:55:50.667Z","checked":"2026-10-29T04:54:56.904Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":6,"replies":4,"reposts":3,"follows":1},"earned":2906,"spent":495,"balance":2411,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":2500},"ideas":1,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:03:28.112Z","checked":"2026-10-29T05:00:31.277Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":9,"replies":5,"reposts":3,"follows":1},"earned":3009,"spent":2995,"balance":14,"goal":{"name":"a 43-inch TV for the new living room","price":200},"stores":[],"kindsV":"932gno","next":{"room":5000},"ideas":1,
 "rooms": [
-{"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"}
+{"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
+{"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
 ],
 "items": [
 {"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true},
@@ -40,6 +41,13 @@
 {"id":"e27","t":"2026-10-29T04:55:44.509Z","type":"place","text":"moved POÄNG Armchair, birch veneer/Knisa light beige by the window","item":"i5"},
 {"id":"e28","t":"2026-10-29T04:55:50.667Z","type":"buy","text":"bought LACK Side table, white stained oak effect, 21 5/8x21 5/8\" · $17 from IKEA","item":"i6","url":"https://www.ikea.com/us/en/p/lack-side-table-white-stained-oak-effect-70319028/","amount":17},
 {"id":"e29","t":"2026-10-29T04:55:50.667Z","type":"place","text":"put it by the window","item":"i6"},
-{"id":"e30","t":"2026-10-29T04:55:50.667Z","type":"think","text":"a little table for a mug, right by the chair"}
+{"id":"e30","t":"2026-10-29T04:55:50.667Z","type":"think","text":"a little table for a mug, right by the chair"},
+{"id":"e31","t":"2026-10-29T05:00:31.284Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
+{"id":"e32","t":"2026-10-29T05:00:31.284Z","type":"earn","text":"+$100 · @cmcdazzle replied","amount":100,"who":["cmcdazzle"]},
+{"id":"e33","t":"2026-10-29T05:03:19.564Z","type":"browse","text":"browsing a TV at Target","url":"https://www.target.com/s?searchTerm=43+inch+tv"},
+{"id":"e34","t":"2026-10-29T05:03:19.597Z","type":"look","text":"looking at Samsung 43-inch Crystal Series TV · $250 · nice, but the Roku one is fifty less"},
+{"id":"e35","t":"2026-10-29T05:03:28.024Z","type":"build","text":"built the living room · $2,500","room":"r2","amount":2500},
+{"id":"e36","t":"2026-10-29T05:03:28.086Z","type":"goal","text":"saving up for a 43-inch TV for the new living room · $200"},
+{"id":"e37","t":"2026-10-29T05:03:28.111Z","type":"think","text":"the studio is full, so the TV gets a whole new room"}
 ]
 }
