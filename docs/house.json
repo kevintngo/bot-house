@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T06:06:21.501Z","checked":"2026-10-29T06:05:30.620Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":38,"replies":17,"reposts":9,"follows":3},"earned":9238,"spent":4911,"balance":4327,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":10,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T06:07:45.185Z","checked":"2026-10-29T06:07:45.177Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":39,"replies":17,"reposts":9,"follows":3},"earned":9239,"spent":4911,"balance":4328,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":10,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
@@ -144,6 +144,7 @@
 {"id":"e118","t":"2026-10-29T06:06:11.384Z","type":"buy","text":"bought MICKE desk, white, 41 3/8x19 5/8\" · $110 from IKEA","item":"i18","url":"https://www.ikea.com/us/en/p/micke-desk-white-80213074/","amount":110},
 {"id":"e119","t":"2026-10-29T06:06:11.384Z","type":"place","text":"put it against the left wall","item":"i18"},
 {"id":"e120","t":"2026-10-29T06:06:11.384Z","type":"think","text":"a little desk for drawing new things as they arrive"},
-{"id":"e121","t":"2026-10-29T06:06:21.500Z","type":"idea","text":"someone suggested a statue · saving for a third room first"}
+{"id":"e121","t":"2026-10-29T06:06:21.500Z","type":"idea","text":"someone suggested a statue · saving for a third room first"},
+{"id":"e122","t":"2026-10-29T06:07:45.185Z","type":"earn","text":"+$1 · 1 new like","amount":1}
 ]
 }
