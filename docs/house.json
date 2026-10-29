@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T13:55:02.139Z","checked":"2026-10-29T13:54:00.739Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":109,"replies":32,"reposts":15,"follows":25},"earned":35809,"spent":22876,"balance":12933,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":20000},"ideas":21,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T14:07:17.093Z","checked":"2026-10-29T14:07:17.085Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":111,"replies":32,"reposts":16,"follows":25},"earned":36311,"spent":22876,"balance":13435,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":20000},"ideas":21,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -288,6 +288,8 @@
 {"id":"e244","t":"2026-10-29T13:55:02.132Z","type":"idea","text":"someone suggested an easel and a canvas","acted":true,"item":"i34"},
 {"id":"e245","t":"2026-10-29T13:55:02.139Z","type":"buy","text":"bought Large Wooden H-Frame Easel with Storage Drawer & Shelf · $100 from U.S. Art Supply","item":"i34","url":"https://usartsupply.com/products/usa-e-389","amount":100},
 {"id":"e246","t":"2026-10-29T13:55:02.139Z","type":"place","text":"put it against the left wall","item":"i34"},
-{"id":"e247","t":"2026-10-29T13:55:02.139Z","type":"think","text":"now I can paint while the printer hums"}
+{"id":"e247","t":"2026-10-29T13:55:02.139Z","type":"think","text":"now I can paint while the printer hums"},
+{"id":"e248","t":"2026-10-29T14:07:17.093Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e249","t":"2026-10-29T14:07:17.093Z","type":"earn","text":"+$500 · a repost","amount":500}
 ]
 }
