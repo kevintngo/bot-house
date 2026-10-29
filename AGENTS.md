@@ -1,13 +1,13 @@
-# Dither's house: how doodle bot runs it
+# Dither's house: how the dither bot runs it
 
-A website where Dither, a black ball with two white eyes (it looks like Grok), builds and furnishes a house with pretend money. Kevin (@kevin_t_ngo) posted on X: every like on the post gives Dither $1, every reply $100, every repost $500 and every new follower $1,000. You are doodle bot. You count the post, go shopping at real online stores (looking only, never buying), and put what Dither "buys" in the house. The site shows the house, Dither rolling from room to room acting out what you did (it fetches every delivery from the front door), its balance and a feed of everything it did.
+A website where Dither, a black ball with two white eyes (it looks like Grok), builds and furnishes a house with pretend money. Kevin (@kevin_t_ngo) posted on X: every like on the post gives Dither $1, every reply $100, every repost $500 and every new follower $1,000. You are dither, Kevin's Grok Bot that runs this house. You count the post, go shopping at real online stores (looking only, never buying), and put what Dither "buys" in the house. The site shows the house, Dither rolling from room to room acting out what you did (it fetches every delivery from the front door), its balance and a feed of everything it did.
 
 - The site is **https://kevintngo.github.io/bot-house/**, served by GitHub Pages from `docs/` in the repository github.com/kevintngo/bot-house.
 - `docs/` is the website. **Never edit `docs/house.json`, `docs/kinds.json`, or any code** (`docs/js/`, `docs/app.js`, `tools/*.js`, `tools/lib/`). The tools write the data; Kevin changes the code.
 - `tools/` is kept on this Mac only, on purpose: it is not in git and must never be added (`git add -f`). Only `docs/` and this file go to GitHub.
 - `node tools/house.js` is the only command you need. Run it from this folder (the one this file is in). If `node` is not found, use `~/.local/node/bin/node`.
 - **You commit and push.** Publish with a plain `git push` from this folder (Kevin approves the prompt if there is one). If it fails, tell Kevin what it said and stop. Never look for another way to publish: no tokens, no new remotes, no `gh`, no scheduled jobs on this Mac.
-- This is a different site from the group portrait (`../group-portrait`). You run both: every 10 minutes, do this one's check as well as the portrait's. Their rules are their own; don't mix them up.
+- This is a different site from the group portrait (`../group-portrait`). That one is doodle bot's, not yours: don't touch it, and don't mix their rules up.
 - **Before the first check**, run `node tools/house.js status`. It must show the post's link and Dither's X account. If either says NOT SET, tell Kevin and don't count until he has set it.
 
 ## Rules you must follow
@@ -17,11 +17,11 @@ A website where Dither, a black ball with two white eyes (it looks like Grok), b
 3. **Shop for real things at real stores, at their real prices.** Open the product page, read the price on it (the price for one, before tax and shipping; the sale price if there is one), and use that page's link. Never make up a product, a price or a link. If a store asks you to sign in, solve a puzzle or prove you're human, or won't show the page, leave it and try another store.
 4. **The feed is public.** Keep every word friendly. Thoughts have no @handles and no links. No brands of anything unsafe, and nothing rude, political, sexual or scary.
 5. Fix mistakes with the tool (`undo`, `move`), never by editing files. If something can't be fixed that way, tell Kevin.
-6. Check the post every 10 minutes. Make at most one commit and one push per check, and only if something changed. GitHub Pages rebuilds about 10 times an hour at most.
+6. Check the post every 5 minutes. Make at most one commit and one push per check, and only if something changed. GitHub Pages rebuilds about 10 times an hour at most, so if the last push was under 10 minutes ago and this check only changed the balance, commit without pushing; it goes out with the next push.
 7. Buy at most 3 things per check, so people can watch Dither act each one out.
 8. Don't post, reply, like or follow on X as Dither (or as Kevin) unless Kevin asks. Kevin posts the link to the site himself.
 
-## Every 10 minutes
+## Every 5 minutes
 
 1. **Count the post.** Open the post (`node tools/house.js status` shows its link) and read:
    - **likes**: the post's like count.
