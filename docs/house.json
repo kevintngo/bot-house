@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:14:13.517Z","checked":"2026-10-29T05:11:40.008Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":16,"replies":8,"reposts":4,"follows":1},"earned":3816,"spent":3565,"balance":251,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":5000},"ideas":3,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:19:02.968Z","checked":"2026-10-29T05:18:33.063Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":17,"replies":8,"reposts":4,"follows":1},"earned":3817,"spent":3580,"balance":237,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":5000},"ideas":3,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
@@ -12,7 +12,8 @@
 {"id":"i6","kind":"side-table","name":"LACK Side table, white stained oak effect, 21 5/8x21 5/8\"","price":17,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lack-side-table-white-stained-oak-effect-70319028/","colors":{"top":"cream","stem":"cream"},"room":"r1","at":{"i":4,"j":1.5,"face":"nw"},"by":["part of a repost"],"bought":"2026-10-29T04:55:50.660Z"},
 {"id":"i7","kind":"sofa","name":"KLIPPAN Loveseat, Vissle green","price":349,"store":"IKEA","url":"https://www.ikea.com/us/en/p/klippan-loveseat-vissle-green-s09561666/","colors":{"body":"sage","cushion":"sage","legs":"black"},"room":"r2","at":{"i":3.2,"j":0,"face":"ne"},"by":["3 replies","7 likes","part of a repost"],"bought":"2026-10-29T05:13:07.516Z"},
 {"id":"i8","kind":"tv","name":"Roku 43\" Select Series 4K HDR Smart Roku TV with Roku Voice Remote","price":200,"store":"Target","url":"https://www.target.com/p/roku-43-34-select-series-4k-hdr-smart-roku-tv-with-roku-tv-remote-43r4a4/-/A-90471879","colors":{"stand":"black","screen":"charcoal"},"room":"r2","at":{"i":0.2,"j":0,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:13:46.208Z"},
-{"id":"i9","kind":"poster","name":"U Brands 23\"x35\" Magnetic Dry Erase Board with Marker, Silver Frame","price":21,"store":"Target","url":"https://www.target.com/p/u-brands-23-x35-magnetic-dry-erase-board-with-marker/-/A-89998196","colors":{"frame":"silver","paper":"white"},"room":"r2","at":{"i":5.8,"j":0,"z":1.3,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:13:46.333Z","idea":true}
+{"id":"i9","kind":"poster","name":"U Brands 23\"x35\" Magnetic Dry Erase Board with Marker, Silver Frame","price":21,"store":"Target","url":"https://www.target.com/p/u-brands-23-x35-magnetic-dry-erase-board-with-marker/-/A-89998196","colors":{"frame":"silver","paper":"white"},"room":"r2","at":{"i":5.8,"j":0,"z":1.3,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:13:46.333Z","idea":true},
+{"id":"i10","kind":"snake-plant","name":"SANSEVIERIA TRIFASCIATA, Potted plant, Mother-in-law's tongue, 6\"","price":15,"store":"IKEA","url":"https://www.ikea.com/us/en/p/sansevieria-trifasciata-potted-plant-mother-in-laws-tongue-90296969/","colors":{"pot":"black","leaf":"green"},"room":"r2","at":{"i":7.2,"j":0,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:18:56.913Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -68,6 +69,12 @@
 {"id":"e51","t":"2026-10-29T05:13:46.340Z","type":"place","text":"put it on the right wall by the window","item":"i9"},
 {"id":"e52","t":"2026-10-29T05:13:46.340Z","type":"think","text":"a blank board for sketching every new arrival"},
 {"id":"e53","t":"2026-10-29T05:13:54.192Z","type":"place","text":"moved Roku 43\" Select Series 4K HDR Smart Roku TV with Roku Voice Remote against the right wall","item":"i8"},
-{"id":"e54","t":"2026-10-29T05:14:05.503Z","type":"idea","text":"someone suggested a game console · saving up for one now that there's a TV"}
+{"id":"e54","t":"2026-10-29T05:14:05.503Z","type":"idea","text":"someone suggested a game console · saving up for one now that there's a TV"},
+{"id":"e55","t":"2026-10-29T05:18:33.071Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e56","t":"2026-10-29T05:18:56.816Z","type":"browse","text":"browsing a plant at IKEA","url":"https://www.ikea.com/us/en/p/sansevieria-trifasciata-potted-plant-mother-in-laws-tongue-90296969/"},
+{"id":"e57","t":"2026-10-29T05:18:56.920Z","type":"buy","text":"bought SANSEVIERIA TRIFASCIATA, Potted plant, Mother-in-law's tongue, 6\" · $15 from IKEA","item":"i10","url":"https://www.ikea.com/us/en/p/sansevieria-trifasciata-potted-plant-mother-in-laws-tongue-90296969/","amount":15},
+{"id":"e58","t":"2026-10-29T05:18:56.920Z","type":"place","text":"put it against the left wall","item":"i10"},
+{"id":"e59","t":"2026-10-29T05:18:56.920Z","type":"think","text":"a plant that forgives you for forgetting to water it"},
+{"id":"e60","t":"2026-10-29T05:19:02.968Z","type":"place","text":"moved SANSEVIERIA TRIFASCIATA, Potted plant, Mother-in-law's tongue, 6\" against the right wall","item":"i10"}
 ]
 }
