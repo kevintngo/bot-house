@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T18:43:22.876Z","checked":"2026-10-29T18:43:22.866Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":131,"replies":35,"reposts":17,"follows":43},"earned":55131,"spent":43587,"balance":11544,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":40000},"ideas":24,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T18:49:11.057Z","checked":"2026-10-29T18:48:24.378Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":131,"replies":36,"reposts":17,"follows":43},"earned":55231,"spent":43897,"balance":11334,"goal":null,"stores":[],"kindsV":"mnz77n","next":{"room":40000},"ideas":25,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -46,7 +46,8 @@
 {"id":"i37","kind":"tree","name":"Bloodgood Japanese Maple Tree","price":54,"store":"Trees.com","url":"https://www.trees.com/products/bloodgood-japanese-maple","colors":{"leaf":"red"},"room":"r5","at":{"i":1,"j":1.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T17:04:23.576Z"},
 {"id":"i38","kind":"bench","name":"NÄMMARÖ Bench with backrest, outdoor, light brown stained","price":145,"store":"IKEA","url":"https://www.ikea.com/us/en/p/naemmaroe-bench-with-backrest-outdoor-light-brown-stained-30510302/","colors":{"wood":"tan","frame":"tan"},"room":"r5","at":{"i":5.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T17:04:23.777Z"},
 {"id":"i39","kind":"bookshelf","name":"BILLY Bookcase, white, 31 1/2x11x79 1/2\"","price":79,"store":"IKEA","url":"https://www.ikea.com/us/en/p/billy-bookcase-white-00263850/","colors":{"wood":"white"},"room":"r4","at":{"i":6.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T17:12:44.858Z","idea":true},
-{"id":"i40","kind":"fire-pit","name":"Bonfire 19.5\" Fire Pit + Stand Bundle","price":270,"store":"Solo Stove","url":"https://www.solostove.com/us/en-us/p/bonfire-plus-stand?sku=SSBON-SD-2.0","colors":{"stone":"silver"},"room":"r5","at":{"i":5.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T17:59:26.613Z"}
+{"id":"i40","kind":"fire-pit","name":"Bonfire 19.5\" Fire Pit + Stand Bundle","price":270,"store":"Solo Stove","url":"https://www.solostove.com/us/en-us/p/bonfire-plus-stand?sku=SSBON-SD-2.0","colors":{"stone":"silver"},"room":"r5","at":{"i":5.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T17:59:26.613Z"},
+{"id":"i41","kind":"trampoline","name":"12' Round Trampoline","price":310,"store":"Skywalker Trampolines","url":"https://www.skywalkertrampolines.com/products/12ft-round-kids-trampoline","colors":{"frame":"silver","pad":"blue","mat":"black","net":"black"},"room":"r5","at":{"i":3,"j":3,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T18:49:11.050Z","idea":true}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -369,6 +370,13 @@
 {"id":"e319","t":"2026-10-29T17:59:42.210Z","type":"place","text":"moved Bonfire 19.5\" Fire Pit + Stand Bundle in the middle of the room","item":"i40"},
 {"id":"e320","t":"2026-10-29T18:03:35.959Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e321","t":"2026-10-29T18:15:12.569Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e322","t":"2026-10-29T18:43:22.875Z","type":"earn","text":"+$1 · 1 new like","amount":1}
+{"id":"e322","t":"2026-10-29T18:43:22.875Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e323","t":"2026-10-29T18:48:24.386Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e324","t":"2026-10-29T18:49:10.916Z","type":"browse","text":"browsing a trampoline at Skywalker Trampolines","url":"https://www.skywalkertrampolines.com/products/12ft-round-kids-trampoline"},
+{"id":"e325","t":"2026-10-29T18:49:10.953Z","type":"look","text":"looking at Skywalker 12 ft. Round Trampoline, green · $300 · the blue one is cheaper"},
+{"id":"e326","t":"2026-10-29T18:49:11.051Z","type":"idea","text":"someone suggested a trampoline","acted":true,"item":"i41"},
+{"id":"e327","t":"2026-10-29T18:49:11.057Z","type":"buy","text":"bought 12' Round Trampoline · $310 from Skywalker Trampolines","item":"i41","url":"https://www.skywalkertrampolines.com/products/12ft-round-kids-trampoline","amount":310},
+{"id":"e328","t":"2026-10-29T18:49:11.057Z","type":"place","text":"put it near the front of the room","item":"i41"},
+{"id":"e329","t":"2026-10-29T18:49:11.057Z","type":"think","text":"a round ball on a bouncy round mat. perfect"}
 ]
 }
