@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:42:22.850Z","checked":"2026-10-29T05:42:22.842Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":27,"replies":12,"reposts":7,"follows":1},"earned":5727,"spent":4681,"balance":1046,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":6,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:48:05.699Z","checked":"2026-10-29T05:48:05.691Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":30,"replies":12,"reposts":7,"follows":1},"earned":5730,"spent":4681,"balance":1049,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":6,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
@@ -114,6 +114,7 @@
 {"id":"e91","t":"2026-10-29T05:39:38.992Z","type":"place","text":"put it on the right wall","item":"i15"},
 {"id":"e92","t":"2026-10-29T05:39:46.288Z","type":"place","text":"moved Cliffs and Sea, Sainte-Adresse on the left wall in the first room","item":"i15"},
 {"id":"e93","t":"2026-10-29T05:39:58.434Z","type":"goal","text":"saving up for a third room · $5,000"},
-{"id":"e94","t":"2026-10-29T05:42:22.850Z","type":"earn","text":"+$3 · 3 new likes","amount":3}
+{"id":"e94","t":"2026-10-29T05:42:22.850Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
+{"id":"e95","t":"2026-10-29T05:48:05.699Z","type":"earn","text":"+$3 · 3 new likes","amount":3}
 ]
 }
