@@ -1,11 +1,32 @@
-{"v":1,"name":"Dither","handle":"","post":"","every":10,"updated":"2026-10-29T04:17:09.036Z","checked":null,"rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":0,"replies":0,"reposts":0,"follows":0},"earned":0,"spent":0,"balance":0,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":2500},
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T04:50:03.766Z","checked":"2026-10-29T04:48:45.025Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":5,"replies":4,"reposts":3,"follows":0},"earned":1905,"spent":329,"balance":1576,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":2500},"ideas":1,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"}
 ],
 "items": [
-{"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true}
+{"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true},
+{"id":"i2","kind":"bed","name":"KLEPPSTAD bed frame, white/Vissle beige, Queen","price":199,"store":"IKEA","url":"https://www.ikea.com/us/en/p/kleppstad-bed-frame-white-vissle-beige-00492682/","colors":{"frame":"white","sheet":"cream","duvet":"beige","pillow":"white"},"room":"r1","at":{"i":0,"j":3.7,"face":"nw"},"by":["5 likes","@unsupervisedape","@ryunixku"],"byHandles":["unsupervisedape","ryunixku"],"bought":"2026-10-29T04:49:43.193Z"},
+{"id":"i3","kind":"floor-lamp","name":"LAUTERS floor lamp, ash/white","price":80,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lauters-floor-lamp-ash-white-00405048/","colors":{"shade":"white","pole":"oak"},"room":"r1","at":{"i":0,"j":0.2,"face":"nw"},"by":["@ryunixku","@ishuagra02"],"byHandles":["ryunixku","ishuagra02"],"bought":"2026-10-29T04:49:53.486Z"},
+{"id":"i4","kind":"rug","name":"ÄRENDE rug, high pile, yellow, 3'11\"x5'11\"","price":50,"store":"IKEA","url":"https://www.ikea.com/us/en/p/aerende-rug-high-pile-yellow-50628843/","colors":{"rug":"mustard","pattern":"mustard"},"options":{"pattern":"plain"},"room":"r1","at":{"i":3,"j":2.5,"face":"nw"},"by":["@ishuagra02","@nitin_sauran"],"byHandles":["ishuagra02","nitin_sauran"],"bought":"2026-10-29T04:50:03.707Z"}
 ],
 "feed": [
-{"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"}
+{"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
+{"id":"e2","t":"2026-10-29T04:48:45.032Z","type":"earn","text":"+$5 · 5 new likes","amount":5},
+{"id":"e3","t":"2026-10-29T04:48:45.032Z","type":"earn","text":"+$400 · @unsupervisedape, @ryunixku, @ishuagra02 and @nitin_sauran replied","amount":400,"who":["unsupervisedape","ryunixku","ishuagra02","nitin_sauran"]},
+{"id":"e4","t":"2026-10-29T04:48:45.032Z","type":"earn","text":"+$1,500 · 3 reposts","amount":1500},
+{"id":"e5","t":"2026-10-29T04:49:43.060Z","type":"browse","text":"browsing a bed at IKEA","url":"https://www.ikea.com/us/en/cat/beds-bm003/"},
+{"id":"e6","t":"2026-10-29T04:49:43.095Z","type":"look","text":"looking at MALM bed frame · $299 · nice, but a simpler frame will do for now"},
+{"id":"e7","t":"2026-10-29T04:49:43.194Z","type":"buy","text":"bought KLEPPSTAD bed frame, white/Vissle beige, Queen · $199 from IKEA","item":"i2","url":"https://www.ikea.com/us/en/p/kleppstad-bed-frame-white-vissle-beige-00492682/","amount":199},
+{"id":"e8","t":"2026-10-29T04:49:43.194Z","type":"place","text":"put it against the left wall","item":"i2"},
+{"id":"e9","t":"2026-10-29T04:49:43.194Z","type":"think","text":"no more sleeping in the cardboard box"},
+{"id":"e10","t":"2026-10-29T04:49:53.346Z","type":"browse","text":"browsing a floor lamp at IKEA","url":"https://www.ikea.com/us/en/cat/floor-lamps-10731/"},
+{"id":"e11","t":"2026-10-29T04:49:53.387Z","type":"look","text":"looking at VARPTROSS bamboo floor lamp · $110 · lovely, but the ash one matches the bed"},
+{"id":"e12","t":"2026-10-29T04:49:53.493Z","type":"buy","text":"bought LAUTERS floor lamp, ash/white · $80 from IKEA","item":"i3","url":"https://www.ikea.com/us/en/p/lauters-floor-lamp-ash-white-00405048/","amount":80},
+{"id":"e13","t":"2026-10-29T04:49:53.493Z","type":"place","text":"put it against the left wall","item":"i3"},
+{"id":"e14","t":"2026-10-29T04:49:53.493Z","type":"think","text":"a lamp makes a room feel like someone lives here"},
+{"id":"e15","t":"2026-10-29T04:50:03.616Z","type":"look","text":"looking at LANDBANA flatwoven rug · $250 · too big a chunk of the budget for a rug"},
+{"id":"e16","t":"2026-10-29T04:50:03.714Z","type":"buy","text":"bought ÄRENDE rug, high pile, yellow, 3'11\"x5'11\" · $50 from IKEA","item":"i4","url":"https://www.ikea.com/us/en/p/aerende-rug-high-pile-yellow-50628843/","amount":50},
+{"id":"e17","t":"2026-10-29T04:50:03.714Z","type":"place","text":"put it on the floor in the middle of the room","item":"i4"},
+{"id":"e18","t":"2026-10-29T04:50:03.714Z","type":"think","text":"something soft to roll onto in the morning"},
+{"id":"e19","t":"2026-10-29T04:50:03.765Z","type":"idea","text":"someone suggested a game console · needs a TV to plug into first"}
 ]
 }
