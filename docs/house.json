@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T07:19:52.539Z","checked":"2026-10-29T07:18:47.307Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":50,"replies":21,"reposts":10,"follows":7},"earned":14150,"spent":10713,"balance":3437,"goal":null,"stores":[],"kindsV":"wj8hm8","next":{"room":10000},"ideas":14,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T07:22:25.281Z","checked":"2026-10-29T07:21:51.970Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":51,"replies":21,"reposts":11,"follows":8},"earned":15651,"spent":10963,"balance":4688,"goal":null,"stores":[],"kindsV":"wj8hm8","next":{"room":10000},"ideas":14,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -29,7 +29,8 @@
 {"id":"i22","kind":"dining-table","name":"SANDSBERG table, black, 43 1/4x26 3/8\"","price":70,"store":"IKEA","url":"https://www.ikea.com/us/en/p/sandsberg-table-black-s29420393/","colors":{"top":"black","legs":"black"},"room":"r3","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:59:51.628Z"},
 {"id":"i23","kind":"chair","name":"ÅLHULT chair, black/Bomstad black","price":65,"store":"IKEA","url":"https://www.ikea.com/us/en/p/alhult-chair-black-bomstad-black-30600802/","colors":{"wood":"black","seat":"black"},"room":"r3","at":{"i":2,"j":4.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:59:59.170Z"},
 {"id":"i24","kind":"foosball-table","name":"SereneLife 48\" Competition-Sized Foosball Table","price":140,"store":"Target","url":"https://www.target.com/p/serenelife-soccer-foosball-table/-/A-92606856","colors":{"body":"oak","legs":"black","field":"green"},"room":"r2","at":{"i":4,"j":3,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T07:11:03.988Z","idea":true},
-{"id":"i25","kind":"globe","name":"Decorative Globe on Tripod Stand, 19\", Brown","price":59,"store":"Target","url":"https://www.target.com/p/decorative-globe-on-tripod-stand-vintage-home-decor-accent-for-bathroom-office-living-room-or-shelf-decor-19-brown/-/A-1009000890","colors":{"stand":"walnut","globe":"cream","land":"tan","ring":"brass"},"room":"r2","at":{"i":0.30000000000000004,"j":7.5,"z":0.86,"face":"nw"},"on":"i18","by":["part of a new follower"],"bought":"2026-10-29T07:19:42.885Z","idea":true}
+{"id":"i25","kind":"globe","name":"Decorative Globe on Tripod Stand, 19\", Brown","price":59,"store":"Target","url":"https://www.target.com/p/decorative-globe-on-tripod-stand-vintage-home-decor-accent-for-bathroom-office-living-room-or-shelf-decor-19-brown/-/A-1009000890","colors":{"stand":"walnut","globe":"cream","land":"tan","ring":"brass"},"room":"r2","at":{"i":0.30000000000000004,"j":7.5,"z":0.86,"face":"nw"},"on":"i18","by":["part of a new follower"],"bought":"2026-10-29T07:19:42.885Z","idea":true},
+{"id":"i26","kind":"rug","name":"IKEA PS 2026 Rug, low pile, oval/green off-white, 6'7\"x8'9\"","price":250,"store":"IKEA","url":"https://www.ikea.com/us/en/p/ikea-ps-2026-rug-low-pile-oval-green-off-white-90619399/","colors":{"rug":"cream","pattern":"green"},"options":{"pattern":"round"},"room":"r2","at":{"i":4,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T07:22:16.121Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -202,6 +203,15 @@
 {"id":"e168","t":"2026-10-29T07:19:42.892Z","type":"buy","text":"bought Decorative Globe on Tripod Stand, 19\", Brown · $59 from Target","item":"i25","url":"https://www.target.com/p/decorative-globe-on-tripod-stand-vintage-home-decor-accent-for-bathroom-office-living-room-or-shelf-decor-19-brown/-/A-1009000890","amount":59},
 {"id":"e169","t":"2026-10-29T07:19:42.892Z","type":"place","text":"put it on the micke desk, white, 41 3/8x19 5/8\"","item":"i25"},
 {"id":"e170","t":"2026-10-29T07:19:42.892Z","type":"think","text":"now I can spin it and pick where to roll next"},
-{"id":"e171","t":"2026-10-29T07:19:52.538Z","type":"idea","text":"someone suggested a fancy battery cooktop for the kitchen · saving up for one"}
+{"id":"e171","t":"2026-10-29T07:19:52.538Z","type":"idea","text":"someone suggested a fancy battery cooktop for the kitchen · saving up for one"},
+{"id":"e172","t":"2026-10-29T07:21:51.978Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e173","t":"2026-10-29T07:21:51.978Z","type":"earn","text":"+$500 · a repost","amount":500},
+{"id":"e174","t":"2026-10-29T07:21:51.978Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e175","t":"2026-10-29T07:22:15.993Z","type":"browse","text":"browsing a rug for the living room at IKEA","url":"https://www.ikea.com/us/en/cat/rugs-10653/"},
+{"id":"e176","t":"2026-10-29T07:22:16.029Z","type":"look","text":"looking at STOENSE rug, green · $150 · a bit too plain next to the green loveseat"},
+{"id":"e177","t":"2026-10-29T07:22:16.128Z","type":"buy","text":"bought IKEA PS 2026 Rug, low pile, oval/green off-white, 6'7\"x8'9\" · $250 from IKEA","item":"i26","url":"https://www.ikea.com/us/en/p/ikea-ps-2026-rug-low-pile-oval-green-off-white-90619399/","amount":250},
+{"id":"e178","t":"2026-10-29T07:22:16.128Z","type":"place","text":"put it on the floor in the middle of the room","item":"i26"},
+{"id":"e179","t":"2026-10-29T07:22:16.128Z","type":"think","text":"green ink swirls to tie the living room together"},
+{"id":"e180","t":"2026-10-29T07:22:25.281Z","type":"place","text":"moved IKEA PS 2026 Rug, low pile, oval/green off-white, 6'7\"x8'9\" on the floor in the middle of the room","item":"i26"}
 ]
 }
