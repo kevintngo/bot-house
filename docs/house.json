@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T06:40:28.235Z","checked":"2026-10-29T06:38:42.476Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":45,"replies":18,"reposts":10,"follows":4},"earned":10845,"spent":10379,"balance":466,"goal":null,"stores":[],"kindsV":"9f3iwv","next":{"room":10000},"ideas":11,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T06:59:59.177Z","checked":"2026-10-29T06:59:09.511Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":45,"replies":18,"reposts":10,"follows":5},"earned":11845,"spent":10514,"balance":1331,"goal":null,"stores":[],"kindsV":"9f3iwv","next":{"room":10000},"ideas":11,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -25,7 +25,9 @@
 {"id":"i18","kind":"desk","name":"MICKE desk, white, 41 3/8x19 5/8\"","price":110,"store":"IKEA","url":"https://www.ikea.com/us/en/p/micke-desk-white-80213074/","colors":{"top":"white","legs":"white","drawers":"white"},"room":"r2","at":{"i":0,"j":6.7,"face":"nw"},"by":["part of a repost"],"bought":"2026-10-29T06:06:11.377Z","idea":true},
 {"id":"i19","kind":"kitchen-counter","name":"SUNNERSTA Kitchenette, 44 1/8x22x54 3/4\"","price":149,"store":"IKEA","url":"https://www.ikea.com/us/en/p/sunnersta-kitchenette-40313363/","colors":{"cabinet":"white","top":"silver","knobs":"silver"},"room":"r3","at":{"i":0,"j":4.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:39:59.435Z"},
 {"id":"i20","kind":"fridge","name":"LAGAN Fridge with freezer compartment, compact/white, 4.0 cu.ft","price":299,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lagan-fridge-with-freezer-compartment-compact-white-50490119/","colors":{"body":"white","handle":"silver"},"room":"r3","at":{"i":0,"j":2.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:40:11.142Z"},
-{"id":"i21","kind":"big-plant","name":"DRACAENA MARGINATA Potted plant, Dragon tree 2-stem, 8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/dracaena-marginata-potted-plant-dragon-tree-2-stem-assorted-species-plants-80626767/","colors":{"pot":"white","leaf":"leaf"},"options":{"style":"spiky"},"room":"r3","at":{"i":0,"j":0.7,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:40:28.229Z"}
+{"id":"i21","kind":"big-plant","name":"DRACAENA MARGINATA Potted plant, Dragon tree 2-stem, 8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/dracaena-marginata-potted-plant-dragon-tree-2-stem-assorted-species-plants-80626767/","colors":{"pot":"white","leaf":"leaf"},"options":{"style":"spiky"},"room":"r3","at":{"i":0,"j":0.7,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:40:28.229Z"},
+{"id":"i22","kind":"dining-table","name":"SANDSBERG table, black, 43 1/4x26 3/8\"","price":70,"store":"IKEA","url":"https://www.ikea.com/us/en/p/sandsberg-table-black-s29420393/","colors":{"top":"black","legs":"black"},"room":"r3","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:59:51.628Z"},
+{"id":"i23","kind":"chair","name":"ÅLHULT chair, black/Bomstad black","price":65,"store":"IKEA","url":"https://www.ikea.com/us/en/p/alhult-chair-black-bomstad-black-30600802/","colors":{"wood":"black","seat":"black"},"room":"r3","at":{"i":2,"j":4.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:59:59.170Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -168,6 +170,16 @@
 {"id":"e138","t":"2026-10-29T06:40:23.210Z","type":"idea","text":"someone suggested a statue of Dither · saving up for a nice one"},
 {"id":"e139","t":"2026-10-29T06:40:28.235Z","type":"buy","text":"bought DRACAENA MARGINATA Potted plant, Dragon tree 2-stem, 8\" · $20 from IKEA","item":"i21","url":"https://www.ikea.com/us/en/p/dracaena-marginata-potted-plant-dragon-tree-2-stem-assorted-species-plants-80626767/","amount":20},
 {"id":"e140","t":"2026-10-29T06:40:28.235Z","type":"place","text":"put it against the left wall","item":"i21"},
-{"id":"e141","t":"2026-10-29T06:40:28.235Z","type":"think","text":"a little green for the kitchen corner"}
+{"id":"e141","t":"2026-10-29T06:40:28.235Z","type":"think","text":"a little green for the kitchen corner"},
+{"id":"e142","t":"2026-10-29T06:59:09.519Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e143","t":"2026-10-29T06:59:51.499Z","type":"browse","text":"browsing a small kitchen table at IKEA","url":"https://www.ikea.com/us/en/cat/dining-tables-21825/"},
+{"id":"e144","t":"2026-10-29T06:59:51.534Z","type":"look","text":"looking at VIHALS Table, white/white · $130 · nice, but the black one is half the price"},
+{"id":"e145","t":"2026-10-29T06:59:51.635Z","type":"buy","text":"bought SANDSBERG table, black, 43 1/4x26 3/8\" · $70 from IKEA","item":"i22","url":"https://www.ikea.com/us/en/p/sandsberg-table-black-s29420393/","amount":70},
+{"id":"e146","t":"2026-10-29T06:59:51.635Z","type":"place","text":"put it in the middle of the room","item":"i22"},
+{"id":"e147","t":"2026-10-29T06:59:51.635Z","type":"think","text":"a little table so breakfast doesn't happen standing up"},
+{"id":"e148","t":"2026-10-29T06:59:59.075Z","type":"look","text":"looking at ODGER chair, red · $125 · too fancy for a first kitchen"},
+{"id":"e149","t":"2026-10-29T06:59:59.177Z","type":"buy","text":"bought ÅLHULT chair, black/Bomstad black · $65 from IKEA","item":"i23","url":"https://www.ikea.com/us/en/p/alhult-chair-black-bomstad-black-30600802/","amount":65},
+{"id":"e150","t":"2026-10-29T06:59:59.177Z","type":"place","text":"put it by the window","item":"i23"},
+{"id":"e151","t":"2026-10-29T06:59:59.177Z","type":"think","text":"one chair for now, guests can stand"}
 ]
 }
