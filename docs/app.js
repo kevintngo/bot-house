@@ -219,7 +219,7 @@ function actOut(events) {
     const mark = () => plan({ do: 'call', fn: () => markFeed(e.id) });
     if (e.type === 'earn') { earned++; if (earned <= 2) plan({ do: 'call', fn: () => { markFeed(e.id); bumpBalance(); } }, { do: 'act', act: 'cheer', mood: 'happy', face: 'se', dur: 1.3 }); }
     else if (e.type === 'browse') { mark(); plan({ do: 'act', act: 'browse', dur: 2.6 }); }
-    else if (e.type === 'look' || e.type === 'think' || e.type === 'goal') { mark(); plan({ do: 'act', act: 'think', mood: 'think', dur: 1.8 }); }
+    else if (e.type === 'look' || e.type === 'think' || e.type === 'goal' || e.type === 'idea') { mark(); plan({ do: 'act', act: 'think', mood: 'think', dur: 1.8 }); }
     else if (e.type === 'build') {
       const id = e.room; mark();
       plan({ do: 'call', fn: () => { reveal(id); index(); follow(rooms.get(id)); } }, { do: 'act', act: 'cheer', mood: 'happy', face: 'se', dur: 1.2 },
@@ -275,6 +275,7 @@ function wallet() {
   const goal = h.goal || { name: 'the next room', price: h.next.room }, pct = Math.max(0, Math.min(100, h.balance / goal.price * 100));
   $('.goal-name').textContent = goal.name; $('.goal-price').textContent = `(${money(goal.price)})`;
   $('.bar-fill').style.width = pct.toFixed(1) + '%'; $('.bar').setAttribute('aria-valuenow', String(Math.round(pct)));
+  const n = h.ideas || 0; $('.ideas').textContent = n ? `${n.toLocaleString('en-US')} ${n === 1 ? 'idea' : 'ideas'} from the replies so far.` : '';
   trip();
 }
 function trip() {
@@ -293,6 +294,7 @@ const ICON = {
   think: '<path d="M5 13a4 4 0 0 1 1-7.5A4.5 4.5 0 0 1 14.5 6 3.5 3.5 0 0 1 15 13z"/><circle cx="6" cy="16.5" r="1"/><circle cx="3.5" cy="18.5" r=".6"/>',
   goal: '<circle cx="10" cy="10" r="7"/><circle cx="10" cy="10" r="3.5"/><circle cx="10" cy="10" r=".6"/>',
   note: '<path d="M4 3h9l3 3v11H4z"/><path d="M7 9h6M7 12h6"/>',
+  idea: '<path d="M7.2 13.2c-1.6-1.1-2.7-2.9-2.7-4.9a5.5 5.5 0 0 1 11 0c0 2-1.1 3.8-2.7 4.9V15H7.2z"/><path d="M7.8 17.5h4.4"/>',
 };
 const ago = (t) => { const s = (Date.now() - Date.parse(t)) / 1000; if (s < 60) return 'just now'; if (s < 3600) return `${Math.floor(s / 60)} min ago`; if (s < 86400) return `${Math.floor(s / 3600)} h ago`; return new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); };
 let feedShown = 40;
@@ -329,7 +331,7 @@ function showReceipt(it) {
   if (it.store) { pr.append(it.url ? ' from ' : ` from ${it.store}`); if (it.url) { const a = document.createElement('a'); a.href = it.url; a.textContent = it.store; a.rel = 'noopener nofollow'; a.target = '_blank'; pr.append(a); } }
   const by = $('.receipt-by', el); by.replaceChildren();
   if (it.by && it.by.length) { by.append('Paid for by '); it.by.forEach((w, n) => { if (n) by.append(n === it.by.length - 1 ? ' and ' : ', '); if (w[0] === '@') { const a = document.createElement('a'); a.href = 'https://x.com/' + w.slice(1); a.textContent = w; a.rel = 'noopener'; a.target = '_blank'; by.append(a); } else by.append(w); }); by.append('.'); }
-  $('.receipt-when', el).textContent = it.bought ? `bought ${ago(it.bought)}` : '';
+  $('.receipt-when', el).textContent = (it.idea ? 'Someone in the replies suggested it. ' : '') + (it.bought ? `Bought ${ago(it.bought)}.` : '');
   el.hidden = false;
 }
 function hideReceipt() { $('#receipt').hidden = true; receiptFor = null; }

@@ -70,6 +70,8 @@ button:hover { background: var(--sun); }
 .bar-fill { display: block; height: 100%; width: 0; background-color: var(--coral); background-image: var(--dither-coral); background-size: 8px 8px; image-rendering: pixelated; transition: width 0.8s; }
 .trip { margin: 10px 0 0; font-size: 0.85rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .cta { margin: 8px 0 0; font-size: 0.95rem; }
+.ideas { margin: 4px 0 0; font-size: 0.85rem; color: var(--ink-2); }
+.ideas:empty { display: none; }
 
 .log { margin: 26px 0 0; }
 .log-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
