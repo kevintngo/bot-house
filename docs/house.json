@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:51:04.540Z","checked":"2026-10-29T05:51:04.532Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":31,"replies":12,"reposts":7,"follows":1},"earned":5731,"spent":4681,"balance":1050,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":6,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T05:57:04.951Z","checked":"2026-10-29T05:56:11.183Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":35,"replies":15,"reposts":7,"follows":2},"earned":7035,"spent":4801,"balance":2234,"goal":{"name":"a third room","price":5000},"stores":[],"kindsV":"9f3iwv","next":{"room":5000},"ideas":8,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"}
@@ -18,7 +18,9 @@
 {"id":"i12","kind":"projector","name":"soundcore Nebula P1i Smart Portable Projector","price":399,"store":"soundcore","url":"https://www.soundcore.com/products/d2200-nebula-p1i-smart-portable-projector-with-flippable-speakers","colors":{"body":"silver","speaker":"charcoal","lens":"black"},"room":"r1","at":{"i":3,"j":1.5,"face":"ne"},"by":["part of a repost","4 likes","2 replies"],"bought":"2026-10-29T05:30:53.349Z","idea":true},
 {"id":"i13","kind":"coffee-table","name":"LACK Coffee table, black-brown, 35 3/8x21 5/8\"","price":30,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-40104294/","colors":{"top":"brown","legs":"brown"},"room":"r2","at":{"i":4.5,"j":2,"face":"ne"},"by":["part of a reply"],"bought":"2026-10-29T05:31:18.356Z"},
 {"id":"i14","kind":"small-plant","name":"ZAMIOCULCAS Potted plant, Aroid palm, 6\"","price":13,"store":"IKEA","url":"https://www.ikea.com/us/en/p/zamioculcas-potted-plant-aroid-palm-10069107/","colors":{"pot":"white","leaf":"leaf"},"options":{"style":"leafy"},"room":"r1","at":{"i":4.15,"j":1.65,"z":0.63,"face":"nw"},"on":"i6","by":["part of a reply"],"bought":"2026-10-29T05:39:24.333Z","idea":true},
-{"id":"i15","kind":"art","name":"Cliffs and Sea, Sainte-Adresse","price":60,"store":"the Art Institute of Chicago (a public-domain print)","url":"https://www.artic.edu/artworks/108583","size":[1.3,0.86],"image":"art/aic-108583.png","artist":"Claude Monet","room":"r1","at":{"i":0,"j":3.8,"z":1.35,"face":"nw"},"by":["part of a reply","part of a repost"],"bought":"2026-10-29T05:39:38.985Z","source":"aic-108583"}
+{"id":"i15","kind":"art","name":"Cliffs and Sea, Sainte-Adresse","price":60,"store":"the Art Institute of Chicago (a public-domain print)","url":"https://www.artic.edu/artworks/108583","size":[1.3,0.86],"image":"art/aic-108583.png","artist":"Claude Monet","room":"r1","at":{"i":0,"j":3.8,"z":1.35,"face":"nw"},"by":["part of a reply","part of a repost"],"bought":"2026-10-29T05:39:38.985Z","source":"aic-108583"},
+{"id":"i16","kind":"side-table","name":"TARVA Nightstand, pine, 18 7/8x15 3/8x24 3/8\"","price":80,"store":"IKEA","url":"https://www.ikea.com/us/en/p/tarva-nightstand-pine-50219609/","colors":{"top":"oak","stem":"oak"},"room":"r1","at":{"i":2,"j":6,"face":"ne"},"by":["part of a repost"],"bought":"2026-10-29T05:56:52.483Z","idea":true},
+{"id":"i17","kind":"table-lamp","name":"ÅRSTID Table lamp, brass/white","price":40,"store":"IKEA","url":"https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/","colors":{"base":"brass","shade":"white"},"room":"r1","at":{"i":2.15,"j":6.15,"z":0.63,"face":"ne"},"on":"i16","by":["part of a repost"],"bought":"2026-10-29T05:57:04.883Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -116,6 +118,20 @@
 {"id":"e93","t":"2026-10-29T05:39:58.434Z","type":"goal","text":"saving up for a third room · $5,000"},
 {"id":"e94","t":"2026-10-29T05:42:22.850Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
 {"id":"e95","t":"2026-10-29T05:48:05.699Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
-{"id":"e96","t":"2026-10-29T05:51:04.540Z","type":"earn","text":"+$1 · 1 new like","amount":1}
+{"id":"e96","t":"2026-10-29T05:51:04.540Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e97","t":"2026-10-29T05:56:11.191Z","type":"earn","text":"+$4 · 4 new likes","amount":4},
+{"id":"e98","t":"2026-10-29T05:56:11.191Z","type":"earn","text":"+$300 · 3 new replies","amount":300},
+{"id":"e99","t":"2026-10-29T05:56:11.191Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e100","t":"2026-10-29T05:56:52.354Z","type":"browse","text":"browsing a nightstand for the bed at IKEA","url":"https://www.ikea.com/us/en/cat/nightstands-20656/"},
+{"id":"e101","t":"2026-10-29T05:56:52.389Z","type":"look","text":"looking at HEMNES 2-drawer chest · $150 · a bit big for one bed"},
+{"id":"e102","t":"2026-10-29T05:56:52.483Z","type":"idea","text":"someone suggested a nightstand and a lamp by the bed","acted":true,"item":"i16"},
+{"id":"e103","t":"2026-10-29T05:56:52.490Z","type":"buy","text":"bought TARVA Nightstand, pine, 18 7/8x15 3/8x24 3/8\" · $80 from IKEA","item":"i16","url":"https://www.ikea.com/us/en/p/tarva-nightstand-pine-50219609/","amount":80},
+{"id":"e104","t":"2026-10-29T05:56:52.490Z","type":"place","text":"put it near the front of the room","item":"i16"},
+{"id":"e105","t":"2026-10-29T05:56:52.490Z","type":"think","text":"somewhere to put a glass of water at night"},
+{"id":"e106","t":"2026-10-29T05:57:04.789Z","type":"look","text":"looking at NYMÅNE table lamp · $40 · pretty, but the classic one fits better"},
+{"id":"e107","t":"2026-10-29T05:57:04.889Z","type":"buy","text":"bought ÅRSTID Table lamp, brass/white · $40 from IKEA","item":"i17","url":"https://www.ikea.com/us/en/p/arstid-table-lamp-brass-white-80321380/","amount":40},
+{"id":"e108","t":"2026-10-29T05:57:04.889Z","type":"place","text":"put it on the tarva nightstand, pine, 18 7/8x15 3/8x24 3/8\"","item":"i17"},
+{"id":"e109","t":"2026-10-29T05:57:04.889Z","type":"think","text":"a little light for reading in bed"},
+{"id":"e110","t":"2026-10-29T05:57:04.950Z","type":"idea","text":"someone suggested a statue · saving up for a third room first"}
 ]
 }
