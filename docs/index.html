@@ -28,7 +28,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" href="fonts/KevinSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/KevinSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <div class="app">
@@ -77,12 +77,7 @@
     <section class="log" aria-label="What it has been doing">
       <div class="log-head">
         <h2>What it's been doing</h2>
-        <form class="find" role="search">
-          <label class="sr" for="find-q">Find what your money bought</label>
-          <span aria-hidden="true">@</span><input id="find-q" type="search" placeholder="what did I buy?" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="16">
-        </form>
       </div>
-      <p class="find-msg" role="status"></p>
       <ol class="feed" id="feed"></ol>
       <button type="button" class="more" id="more" hidden>show older</button>
     </section>
@@ -97,6 +92,6 @@
 <script src="js/kinds.js"></script>
 <script src="js/robot.js"></script>
 <script src="js/scene.js"></script>
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>

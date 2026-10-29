@@ -303,13 +303,10 @@ function feedLine(e) {
   li.innerHTML = `<svg viewBox="0 0 20 20" aria-hidden="true">${ICON[e.type] || ICON.note}</svg>`;
   const tx = document.createElement('div'); tx.className = 'tx';
   const it = e.item && house.items.find((x) => x.id === e.item);
-  // the words, with @handles linked to X and the thing's name a button that shows it
-  const parts = String(e.text).split(/(@[A-Za-z0-9_]{1,15})/);
-  for (const p of parts) {
-    if (/^@[A-Za-z0-9_]{1,15}$/.test(p)) { const a = document.createElement('a'); a.href = 'https://x.com/' + p.slice(1); a.textContent = p; a.rel = 'noopener'; a.target = '_blank'; tx.append(a); continue; }
-    if (it && e.type === 'buy' && p.includes(it.name)) { const [x, y] = p.split(it.name); tx.append(x); const b = document.createElement('button'); b.type = 'button'; b.className = 'it'; b.textContent = it.name; b.addEventListener('click', () => focusItem(it)); tx.append(b, y); continue; }
-    tx.append(p);
-  }
+  // the words, with the thing's name a button that shows it
+  const p = String(e.text);
+  if (it && e.type === 'buy' && p.includes(it.name)) { const [x, y] = p.split(it.name); tx.append(x); const b = document.createElement('button'); b.type = 'button'; b.className = 'it'; b.textContent = it.name; b.addEventListener('click', () => focusItem(it)); tx.append(b, y); }
+  else tx.append(p);
   if (e.url) { tx.append(' '); const a = document.createElement('a'); a.href = e.url; a.textContent = 'link'; a.rel = 'noopener nofollow'; a.target = '_blank'; tx.append(a); }
   const tm = document.createElement('span'); tm.className = 'tm'; tm.textContent = ago(e.t); tx.append(tm);
   li.append(tx); return li;
@@ -322,7 +319,7 @@ function renderFeed() {
 }
 function markFeed(id, quiet) { for (const li of document.querySelectorAll('.feed li.is-now')) li.classList.remove('is-now'); const li = document.querySelector(`.feed li[data-id="${id}"]`); if (li) li.classList.add('is-now'); }
 
-// the receipt: what a thing is, what it cost, who paid for it
+// the receipt: what a thing is, what it cost, what paid for it (counts only, never who)
 function showReceipt(it) {
   const k = kindOf(it), el = $('#receipt'); receiptFor = it;
   $('.receipt-kind', el).textContent = it.artist ? `a print · ${it.artist}` : k.label;
@@ -330,7 +327,7 @@ function showReceipt(it) {
   const pr = $('.receipt-price', el); pr.replaceChildren(it.free ? 'it came with the room' : `${money(it.price)}`);
   if (it.store) { pr.append(it.url ? ' from ' : ` from ${it.store}`); if (it.url) { const a = document.createElement('a'); a.href = it.url; a.textContent = it.store; a.rel = 'noopener nofollow'; a.target = '_blank'; pr.append(a); } }
   const by = $('.receipt-by', el); by.replaceChildren();
-  if (it.by && it.by.length) { by.append('Paid for by '); it.by.forEach((w, n) => { if (n) by.append(n === it.by.length - 1 ? ' and ' : ', '); if (w[0] === '@') { const a = document.createElement('a'); a.href = 'https://x.com/' + w.slice(1); a.textContent = w; a.rel = 'noopener'; a.target = '_blank'; by.append(a); } else by.append(w); }); by.append('.'); }
+  if (it.by && it.by.length) { by.append('Paid for by '); it.by.forEach((w, n) => { if (n) by.append(n === it.by.length - 1 ? ' and ' : ', '); by.append(w); }); by.append('.'); }
   $('.receipt-when', el).textContent = (it.idea ? 'Someone in the replies suggested it. ' : '') + (it.bought ? `Bought ${ago(it.bought)}.` : '');
   el.hidden = false;
 }
@@ -432,15 +429,6 @@ for (const b of document.querySelectorAll('[data-zoom]')) b.addEventListener('cl
 $('.receipt-x').addEventListener('click', hideReceipt);
 addEventListener('keydown', (e) => { if (e.key === 'Escape') hideReceipt(); });
 $('#more').addEventListener('click', () => { feedShown += 60; renderFeed(); });
-$('.find').addEventListener('submit', (e) => e.preventDefault());
-$('#find-q').addEventListener('input', (e) => {
-  const q = e.target.value.replace(/^@/, '').trim().toLowerCase(), msg = $('.find-msg');
-  if (!q) { msg.textContent = ''; found = new Set(); return; }
-  const its = house.items.filter((it) => (it.byHandles || []).includes(q));
-  found = new Set(its.map((it) => it.id));
-  msg.textContent = its.length ? `@${q} helped pay for ${its.map((it) => it.name).join(', ')}.` : (house.feed.some((ev) => (ev.who || []).includes(q)) ? `@${q}'s money hasn't been spent yet.` : '');
-  if (its.length === 1) focusItem(its[0]);
-});
 
 // ---------------- running ----------------
 function paperTile() {
