@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T19:59:12.474Z","checked":"2026-10-29T19:59:12.467Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":133,"replies":36,"reposts":17,"follows":46},"earned":58233,"spent":43897,"balance":14336,"goal":null,"stores":[],"kindsV":"mnz77n","next":{"room":40000},"ideas":25,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T20:28:15.263Z","checked":"2026-10-29T20:28:15.256Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":134,"replies":36,"reposts":17,"follows":46},"earned":58234,"spent":43897,"balance":14337,"goal":null,"stores":[],"kindsV":"mnz77n","next":{"room":40000},"ideas":25,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -382,6 +382,7 @@
 {"id":"e331","t":"2026-10-29T19:09:52.119Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e332","t":"2026-10-29T19:24:38.159Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e333","t":"2026-10-29T19:38:34.534Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e334","t":"2026-10-29T19:59:12.474Z","type":"earn","text":"+$1 · 1 new like","amount":1}
+{"id":"e334","t":"2026-10-29T19:59:12.474Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e335","t":"2026-10-29T20:28:15.263Z","type":"earn","text":"+$1 · 1 new like","amount":1}
 ]
 }
