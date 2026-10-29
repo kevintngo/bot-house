@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T20:32:35.422Z","checked":"2026-10-29T20:31:16.722Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":134,"replies":37,"reposts":17,"follows":46},"earned":58334,"spent":45496,"balance":12838,"goal":null,"stores":[],"kindsV":"1qj4eee","next":{"room":40000},"ideas":26,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T20:42:36.737Z","checked":"2026-10-29T20:42:36.730Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":134,"replies":37,"reposts":17,"follows":47},"earned":59334,"spent":45496,"balance":13838,"goal":null,"stores":[],"kindsV":"1qj4eee","next":{"room":40000},"ideas":26,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -394,6 +394,7 @@
 {"id":"e342","t":"2026-10-29T20:32:01.868Z","type":"think","text":"two screens: one for work, one for watching the garden cam"},
 {"id":"e343","t":"2026-10-29T20:32:35.089Z","type":"place","text":"moved Bambu Lab A1 mini 3D Printer on the micke desk, white, 41 3/8x19 5/8\" in the living room","item":"i33"},
 {"id":"e344","t":"2026-10-29T20:32:35.256Z","type":"place","text":"moved MacBook Air, 13-inch, M5, Midnight, 16GB, 512GB on the brytning desk, green, 43 1/4x20 7/8x29 1/2\"","item":"i31"},
-{"id":"e345","t":"2026-10-29T20:32:35.421Z","type":"place","text":"moved Studio Display on the brytning desk, green, 43 1/4x20 7/8x29 1/2\"","item":"i42"}
+{"id":"e345","t":"2026-10-29T20:32:35.421Z","type":"place","text":"moved Studio Display on the brytning desk, green, 43 1/4x20 7/8x29 1/2\"","item":"i42"},
+{"id":"e346","t":"2026-10-29T20:42:36.737Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
