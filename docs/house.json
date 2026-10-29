@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T17:23:22.652Z","checked":"2026-10-29T17:23:22.644Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":128,"replies":35,"reposts":17,"follows":38},"earned":50128,"spent":43317,"balance":6811,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":40000},"ideas":24,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T17:38:00.265Z","checked":"2026-10-29T17:38:00.257Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":128,"replies":35,"reposts":17,"follows":39},"earned":51128,"spent":43317,"balance":7811,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":40000},"ideas":24,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -355,6 +355,7 @@
 {"id":"e306","t":"2026-10-29T17:12:44.865Z","type":"place","text":"put it against the right wall","item":"i39"},
 {"id":"e307","t":"2026-10-29T17:12:44.865Z","type":"think","text":"a home needs somewhere for stories to live"},
 {"id":"e308","t":"2026-10-29T17:17:15.719Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e309","t":"2026-10-29T17:23:22.652Z","type":"earn","text":"+$2 · 2 new likes","amount":2}
+{"id":"e309","t":"2026-10-29T17:23:22.652Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e310","t":"2026-10-29T17:38:00.265Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
