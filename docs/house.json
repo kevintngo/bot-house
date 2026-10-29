@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T17:08:12.931Z","checked":"2026-10-29T17:08:12.923Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":126,"replies":34,"reposts":17,"follows":37},"earned":49026,"spent":43238,"balance":5788,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":40000},"ideas":23,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T17:12:44.865Z","checked":"2026-10-29T17:12:27.792Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":126,"replies":35,"reposts":17,"follows":37},"earned":49126,"spent":43317,"balance":5809,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":40000},"ideas":24,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -44,7 +44,8 @@
 {"id":"i35","kind":"poster","name":"Poster My Neighbour Totoro - Japanese","price":13,"store":"Abposters","url":"https://www.abposters.com/posters/my-neighbour-totoro-japanese-v203656","room":"r3","at":{"i":0,"j":7.8,"z":1.3,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T14:11:48.326Z","idea":true},
 {"id":"i36","kind":"wardrobe","name":"KLEPPSTAD wardrobe with 2 doors, white","price":150,"store":"IKEA","url":"https://www.ikea.com/us/en/p/kleppstad-wardrobe-with-2-doors-white-90586803/","colors":{"body":"white","knobs":"silver"},"room":"r1","at":{"i":7.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T14:36:17.701Z","idea":true},
 {"id":"i37","kind":"tree","name":"Bloodgood Japanese Maple Tree","price":54,"store":"Trees.com","url":"https://www.trees.com/products/bloodgood-japanese-maple","colors":{"leaf":"red"},"room":"r5","at":{"i":1,"j":1.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T17:04:23.576Z"},
-{"id":"i38","kind":"bench","name":"NÄMMARÖ Bench with backrest, outdoor, light brown stained","price":145,"store":"IKEA","url":"https://www.ikea.com/us/en/p/naemmaroe-bench-with-backrest-outdoor-light-brown-stained-30510302/","colors":{"wood":"tan","frame":"tan"},"room":"r5","at":{"i":5.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T17:04:23.777Z"}
+{"id":"i38","kind":"bench","name":"NÄMMARÖ Bench with backrest, outdoor, light brown stained","price":145,"store":"IKEA","url":"https://www.ikea.com/us/en/p/naemmaroe-bench-with-backrest-outdoor-light-brown-stained-30510302/","colors":{"wood":"tan","frame":"tan"},"room":"r5","at":{"i":5.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T17:04:23.777Z"},
+{"id":"i39","kind":"bookshelf","name":"BILLY Bookcase, white, 31 1/2x11x79 1/2\"","price":79,"store":"IKEA","url":"https://www.ikea.com/us/en/p/billy-bookcase-white-00263850/","colors":{"wood":"white"},"room":"r4","at":{"i":6.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T17:12:44.858Z","idea":true}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -345,6 +346,13 @@
 {"id":"e297","t":"2026-10-29T17:04:23.784Z","type":"buy","text":"bought NÄMMARÖ Bench with backrest, outdoor, light brown stained · $145 from IKEA","item":"i38","url":"https://www.ikea.com/us/en/p/naemmaroe-bench-with-backrest-outdoor-light-brown-stained-30510302/","amount":145},
 {"id":"e298","t":"2026-10-29T17:04:23.784Z","type":"place","text":"put it against the right wall","item":"i38"},
 {"id":"e299","t":"2026-10-29T17:04:23.784Z","type":"think","text":"somewhere to sit and look at the tree"},
-{"id":"e300","t":"2026-10-29T17:08:12.930Z","type":"earn","text":"+$2 · 2 new likes","amount":2}
+{"id":"e300","t":"2026-10-29T17:08:12.930Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e301","t":"2026-10-29T17:12:27.800Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e302","t":"2026-10-29T17:12:44.728Z","type":"browse","text":"browsing a bookshelf at IKEA","url":"https://www.ikea.com/us/en/cat/bookcases-10382/"},
+{"id":"e303","t":"2026-10-29T17:12:44.763Z","type":"look","text":"looking at BILLY bookcase with doors · $139 · doors would hide the books"},
+{"id":"e304","t":"2026-10-29T17:12:44.859Z","type":"idea","text":"someone suggested a bookshelf","acted":true,"item":"i39"},
+{"id":"e305","t":"2026-10-29T17:12:44.865Z","type":"buy","text":"bought BILLY Bookcase, white, 31 1/2x11x79 1/2\" · $79 from IKEA","item":"i39","url":"https://www.ikea.com/us/en/p/billy-bookcase-white-00263850/","amount":79},
+{"id":"e306","t":"2026-10-29T17:12:44.865Z","type":"place","text":"put it against the right wall","item":"i39"},
+{"id":"e307","t":"2026-10-29T17:12:44.865Z","type":"think","text":"a home needs somewhere for stories to live"}
 ]
 }
