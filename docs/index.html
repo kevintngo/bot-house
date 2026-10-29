@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dither's house</title>
+<meta name="description" content="Dither the bot is building and furnishing its house with pretend money it earns from a post on X. Watch it shop, roll around and fill the place up.">
+<meta name="theme-color" content="#f3ebdd">
+<meta name="color-scheme" content="light">
+<!-- SITE_URL: the absolute addresses below point at the published site -->
+<link rel="canonical" href="https://kevintngo.github.io/bot-house/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dither's house">
+<meta property="og:title" content="Dither's house">
+<meta property="og:description" content="Dither the bot is building and furnishing its house with pretend money from a post on X. Like, reply, repost or follow, and watch what it buys.">
+<meta property="og:url" content="https://kevintngo.github.io/bot-house/">
+<meta property="og:image" content="https://kevintngo.github.io/bot-house/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A dithered drawing of a black ball with two white eyes in a nearly empty room, next to what each like, reply, repost and follow is worth.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@kevin_t_ngo">
+<meta name="twitter:title" content="Dither's house">
+<meta name="twitter:description" content="Dither the bot is building and furnishing its house with pretend money from a post on X.">
+<meta name="twitter:image" content="https://kevintngo.github.io/bot-house/og.png">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/KevinSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/KevinSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <main class="view" id="view" aria-label="The house. Drag to look around; click anything to see what it is.">
+    <canvas id="stage" aria-hidden="true"></canvas>
+    <div class="zoom" role="group" aria-label="Zoom">
+      <button type="button" data-zoom="in" aria-label="Closer">+</button>
+      <button type="button" data-zoom="out" aria-label="Further">&minus;</button>
+      <button type="button" data-zoom="fit" aria-label="See the whole house">&#9634;</button>
+    </div>
+    <div class="receipt" id="receipt" hidden role="dialog" aria-labelledby="receipt-name">
+      <button type="button" class="receipt-x" aria-label="Close">&times;</button>
+      <p class="receipt-kind"></p>
+      <h2 id="receipt-name" class="receipt-name"></h2>
+      <p class="receipt-price"></p>
+      <p class="receipt-by"></p>
+      <p class="receipt-when"></p>
+    </div>
+    <p class="loading" id="loading">printing the house&hellip;</p>
+  </main>
+
+  <aside class="panel">
+    <header class="top">
+      <h1 class="title"><span class="bot-name">Dither</span>'s house</h1>
+      <p class="lede"><span class="bot-name">Dither</span> is a bot building and furnishing its house with pretend money it earns from <a class="post-link" href="https://x.com/kevin_t_ngo">a post on X</a>. Nothing is really bought.</p>
+    </header>
+
+    <section class="wallet" aria-label="Money">
+      <p class="balance"><span class="balance-n">$0</span> <span class="balance-w">to spend</span></p>
+      <p class="sums"><span class="earned">$0</span> earned · <span class="spent">$0</span> spent</p>
+      <ul class="rates">
+        <li><span class="rate-n" data-count="likes">0</span> likes <span class="rate-x">× $1</span></li>
+        <li><span class="rate-n" data-count="replies">0</span> replies <span class="rate-x">× $100</span></li>
+        <li><span class="rate-n" data-count="reposts">0</span> reposts <span class="rate-x">× $500</span></li>
+        <li><span class="rate-n" data-count="follows">0</span> new followers <span class="rate-x">× $1,000</span></li>
+      </ul>
+      <div class="goal">
+        <p class="goal-what">Saving up for <span class="goal-name">the next room</span> <span class="goal-price"></span></p>
+        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="bar-fill"></span></div>
+      </div>
+      <p class="trip" aria-live="polite"></p>
+      <p class="cta"><a class="post-link" href="https://x.com/kevin_t_ngo">Like, reply, repost or follow to give it money &rarr;</a></p>
+    </section>
+
+    <section class="log" aria-label="What it has been doing">
+      <div class="log-head">
+        <h2>What it's been doing</h2>
+        <form class="find" role="search">
+          <label class="sr" for="find-q">Find what your money bought</label>
+          <span aria-hidden="true">@</span><input id="find-q" type="search" placeholder="what did I buy?" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="16">
+        </form>
+      </div>
+      <p class="find-msg" role="status"></p>
+      <ol class="feed" id="feed"></ol>
+      <button type="button" class="more" id="more" hidden>show older</button>
+    </section>
+
+    <footer class="foot">
+      <p><span class="bot-name">Dither</span> is <a href="https://x.com/kevin_t_ngo">Kevin</a>'s Grok bot. It shops at real stores, but the money is pretend and it never checks out. Paintings are public-domain prints from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a>.</p>
+    </footer>
+  </aside>
+</div>
+<script src="js/press.js"></script>
+<script src="js/world.js"></script>
+<script src="js/kinds.js"></script>
+<script src="js/robot.js"></script>
+<script src="js/scene.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

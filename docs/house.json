@@ -1,0 +1,11 @@
+{"v":1,"name":"Dither","handle":"","post":"","every":10,"updated":"2026-10-29T04:17:09.036Z","checked":null,"rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":0,"replies":0,"reposts":0,"follows":0},"earned":0,"spent":0,"balance":0,"goal":null,"stores":[],"kindsV":"932gno","next":{"room":2500},
+"rooms": [
+{"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"}
+],
+"items": [
+{"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true}
+],
+"feed": [
+{"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"}
+]
+}
