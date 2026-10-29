@@ -9,6 +9,7 @@ const ZOOMS = [0.25, 0.33, 0.42, 0.5, 0.56, 0.62, 0.75, 0.875, 1, 1.25, 1.5, 2, 
 const MAX_RATIO = 3;                    // caches are never printed finer than this; closer up, the dots just get bigger
 const SPEED = 2.2;                      // tiles a second
 const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const COARSE = matchMedia('(pointer: coarse)').matches; // a finger, not a mouse
 const SEEN_KEY = 'dither-house.seen';
 const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch { /* fine */ } } };
 
@@ -18,7 +19,7 @@ const sprites = new Map();               // item id -> {ratio, key, cv, x0, y0}
 const hidden = new Set();                // items and rooms the bot hasn't acted out yet
 const appearing = new Map();             // item or room id -> when its dither-in started
 const cam = { x: 0, y: 0, z: 1 };
-let tween = null, userCam = false, hover = null, found = new Set(), receiptFor = null;
+let fitZi = 0, tween = null, userCam = false, hover = null, found = new Set(), receiptFor = null;
 
 // ---------------- data ----------------
 const num = (id) => Number(String(id || '').replace(/^\D+/, '')) || 0;
@@ -102,10 +103,14 @@ function worldBounds(onlyShown) {
 function fitTo(b, animate) {
   const pad = vw < 600 ? 14 : 40, room = (z) => (b.x1 - b.x0) * z <= vw - pad * 2 && (b.y1 - b.y0) * z <= vh - pad * 2 - (vw < 600 ? 40 : 30);
   let k = 0; for (let n = 0; n < ZOOMS.length - 3; n++) if (room(ZOOMS[n])) k = n;
-  moveTo({ x: (b.x0 + b.x1) / 2, y: (b.y0 + b.y1) / 2 + 8, zi: k }, animate);
+  fitZi = k; moveTo({ x: (b.x0 + b.x1) / 2, y: (b.y0 + b.y1) / 2 + 8, zi: k }, animate);
 }
+// on a phone, a swipe over the whole house scrolls the page; once you've zoomed in, it moves the house instead
+const atFit = () => zi <= fitZi;
+function touchMode() { stage.style.touchAction = COARSE && atFit() ? 'pan-y' : 'none'; }
 function moveTo(to, animate) {
   if (to.zi !== undefined && to.zi !== zi) { zi = to.zi; cam.z = ZOOMS[zi]; forgetOtherSizes(); }
+  touchMode();
   if (!animate || REDUCE) { cam.x = to.x; cam.y = to.y; tween = null; return; }
   tween = { x0: cam.x, y0: cam.y, x1: to.x, y1: to.y, t0: clock, d: 0.9 };
 }
@@ -115,7 +120,7 @@ function zoomBy(step, px, py) {
   const [wx, wy] = px === undefined ? [cam.x, cam.y] : toWorld(px, py);
   const z0 = cam.z; zi = n; cam.z = ZOOMS[n]; tween = null; userCam = true;
   cam.x = wx - (wx - cam.x) * z0 / cam.z; cam.y = wy - (wy - cam.y) * z0 / cam.z;
-  forgetOtherSizes();
+  forgetOtherSizes(); touchMode();
 }
 function roomInView(R) { const w = stage.width / zr() / 2, h = stage.height / zr() / 2; return R.ox + R.b.x1 > cam.x - w && R.ox + R.b.x0 < cam.x + w && R.oy + R.b.y1 > cam.y - h && R.oy + R.b.y0 < cam.y + h; }
 function follow(R) { if (userCam || !R || roomInView(R) && rooms.size > 1) return; const b = worldBounds(false); fitTo(b, true); }
@@ -270,19 +275,24 @@ function wallet() {
   document.title = `${h.name || 'Dither'}'s house`;
   if (h.post) for (const a of document.querySelectorAll('.post-link')) a.href = h.post;
   $('.earned').textContent = money(h.earned); $('.spent').textContent = money(h.spent);
-  for (const el of document.querySelectorAll('.rate-n')) el.textContent = (h.counts[el.dataset.count] || 0).toLocaleString('en-US');
-  const r = h.rates, xs = document.querySelectorAll('.rate-x'); [r.like, r.reply, r.repost, r.follow].forEach((v, n) => { xs[n].textContent = '× ' + money(v); });
+  for (const el of document.querySelectorAll('.rate-n')) {
+    const n = h.counts[el.dataset.count] || 0, l = el.parentNode.querySelector('.rate-l');
+    el.textContent = n.toLocaleString('en-US'); l.textContent = n === 1 ? l.dataset.one : l.dataset.many;
+  }
+  const r = h.rates, xs = document.querySelectorAll('.rate-x'); [r.like, r.reply, r.repost, r.follow].forEach((v, n) => { xs[n].textContent = `${money(v)} each`; });
   const goal = h.goal || { name: 'the next room', price: h.next.room }, pct = Math.max(0, Math.min(100, h.balance / goal.price * 100));
-  $('.goal-name').textContent = goal.name; $('.goal-price').textContent = `(${money(goal.price)})`;
+  $('.goal-name').textContent = goal.name; $('.goal-n').textContent = `${money(Math.min(h.balance, goal.price))} of ${money(goal.price)}`;
   $('.bar-fill').style.width = pct.toFixed(1) + '%'; $('.bar').setAttribute('aria-valuenow', String(Math.round(pct)));
-  const n = h.ideas || 0; $('.ideas').textContent = n ? `${n.toLocaleString('en-US')} ${n === 1 ? 'idea' : 'ideas'} from the replies so far.` : '';
+  const n = h.ideas || 0, el = $('.ideas'); el.replaceChildren();
+  if (n) { el.innerHTML = `<svg viewBox="0 0 20 20" aria-hidden="true">${ICON.idea}</svg>`; el.append(`${n.toLocaleString('en-US')} ${n === 1 ? 'idea' : 'ideas'} from the replies so far`); }
   trip();
 }
 function trip() {
-  const el = $('.trip'); if (!house) return;
-  if (!house.checked) { el.textContent = `It checks the post every ${house.every} minutes.`; return; }
+  const el = $('.trip'), t = $('.trip-t'); if (!house || !t) return;
+  if (!house.checked) { t.textContent = `Checks the post every ${house.every} min`; el.classList.remove('is-now'); return; }
   const next = Date.parse(house.checked) + house.every * 60000 + 90000, left = Math.round((next - Date.now()) / 1000);
-  el.textContent = left > 0 ? `Next look at the post in ${Math.floor(left / 60)}:${String(left % 60).padStart(2, '0')}` : 'Counting the post now…';
+  t.textContent = left > 0 ? `Next check in ${Math.floor(left / 60)}:${String(left % 60).padStart(2, '0')}` : 'Checking the post now';
+  el.classList.toggle('is-now', left <= 0);
 }
 const ICON = {
   earn: '<circle cx="10" cy="10" r="7"/><path d="M10 6v8M7.5 8.5c0-1 1-1.6 2.5-1.6s2.5.6 2.5 1.6-1 1.4-2.5 1.5-2.5.6-2.5 1.6 1 1.6 2.5 1.6 2.5-.6 2.5-1.6"/>',
@@ -296,34 +306,108 @@ const ICON = {
   note: '<path d="M4 3h9l3 3v11H4z"/><path d="M7 9h6M7 12h6"/>',
   idea: '<path d="M7.2 13.2c-1.6-1.1-2.7-2.9-2.7-4.9a5.5 5.5 0 0 1 11 0c0 2-1.1 3.8-2.7 4.9V15H7.2z"/><path d="M7.8 17.5h4.4"/>',
 };
-const ago = (t) => { const s = (Date.now() - Date.parse(t)) / 1000; if (s < 60) return 'just now'; if (s < 3600) return `${Math.floor(s / 60)} min ago`; if (s < 86400) return `${Math.floor(s / 3600)} h ago`; return new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); };
-let feedShown = 40;
-function feedLine(e) {
-  const li = document.createElement('li'); li.className = 'ev-' + e.type; li.dataset.id = e.id;
-  li.innerHTML = `<svg viewBox="0 0 20 20" aria-hidden="true">${ICON[e.type] || ICON.note}</svg>`;
-  const tx = document.createElement('div'); tx.className = 'tx';
-  const it = e.item && house.items.find((x) => x.id === e.item);
-  // the words, with the thing's name a button that shows it
-  const p = String(e.text);
-  if (it && e.type === 'buy' && p.includes(it.name)) { const [x, y] = p.split(it.name); tx.append(x); const b = document.createElement('button'); b.type = 'button'; b.className = 'it'; b.textContent = it.name; b.addEventListener('click', () => focusItem(it)); tx.append(b, y); }
-  else tx.append(p);
-  if (e.url) { tx.append(' '); const a = document.createElement('a'); a.href = e.url; a.textContent = 'link'; a.rel = 'noopener nofollow'; a.target = '_blank'; tx.append(a); }
-  const tm = document.createElement('span'); tm.className = 'tm'; tm.textContent = ago(e.t); tx.append(tm);
-  li.append(tx); return li;
+const ago = (t) => { const s = (Date.now() - Date.parse(t)) / 1000; if (s < 60) return 'Just now'; if (s < 3600) return `${Math.floor(s / 60)} min ago`; if (s < 86400) return `${Math.floor(s / 3600)} h ago`; return new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); };
+
+// ---------------- the feed, told as short entries ----------------
+// the raw feed has a line for every little thing the bot did. here each visit to the post becomes one group: what it
+// earned in one line, each purchase as a card (what it went looking for, what it passed on, what it bought, its
+// thought, where it went), and short lines for the rest.
+const cap = (x) => (x ? x[0].toUpperCase() + x.slice(1) : x);
+// store names often shout (KLEPPSTAD bed frame): words of four or more capitals read as ordinary words; TV and LED stay
+const soft = (x) => String(x).replace(/(?<!\p{L})(\p{Lu})(\p{Lu}{3,})(?!\p{L})/gu, (m, a, b) => a + b.toLowerCase());
+// a product's short name: up to the first comma (or ' with ', ' - ', ' | ', ' ('), and no longer than about forty letters
+function splitName(name) {
+  const cuts = [',', ' with ', ' - ', ' | ', ' ('].map((c) => name.indexOf(c)).filter((k) => k > 0), k = cuts.length ? Math.min(...cuts) : -1;
+  let main = k > 0 ? name.slice(0, k) : name, rest = k > 0 ? name.slice(k).replace(/^,\s*/, '').trim() : '';
+  if (main.length > 42) { const w = main.lastIndexOf(' ', 38); rest = (main.slice(w + 1) + ' ' + rest).trim(); main = main.slice(0, w) + '…'; }
+  return [main, rest];
 }
+const shortOf = (name) => splitName(name)[0];
+const tail = (e) => String(e.text).split(' · ').slice(1);
+const and = (xs) => xs.length <= 1 ? xs.join('') : xs.slice(0, -1).join(', ') + ' and ' + xs[xs.length - 1];
+function groupsOf(feed) {
+  const groups = []; let g = null, last = 0;
+  for (const e of feed) { const t = Date.parse(e.t); if (!g || t - last > 150000) groups.push(g = { events: [] }); g.events.push(e); last = t; }
+  return groups.map((x) => ({ t: x.events[x.events.length - 1].t, entries: entriesOf(x.events) }));
+}
+function entriesOf(evs) {
+  const out = []; let pending = [], earn = null;
+  const flush = () => { if (earn) { out.push(earn); earn = null; } };
+  const takeIdea = (item) => { const k = pending.findIndex((p) => p.type === 'idea' && p.acted && p.item === item); return k < 0 ? null : pending.splice(k, 1)[0]; };
+  const loose = () => { for (const p of pending) out.push({ kind: p.type, ids: [p.id], e: p }); pending = []; };
+  for (let n = 0; n < evs.length; n++) {
+    const e = evs[n];
+    if (e.type === 'earn') { if (!earn) earn = { kind: 'earn', ids: [], amount: 0, bits: [] }; earn.ids.push(e.id); earn.amount += e.amount || 0; earn.bits.push(tail(e).join(' · ')); continue; }
+    flush();
+    if (e.type === 'browse' || e.type === 'look' || (e.type === 'idea' && e.acted && e.item)) { pending.push(e); continue; }
+    if (e.type === 'buy') {
+      const c = { kind: 'card', ids: [e.id], e, item: house.items.find((x) => x.id === e.item), browse: null, passed: [], idea: takeIdea(e.item), place: null, thought: null };
+      if (c.idea) c.ids.push(c.idea.id);
+      for (const p of pending) { c.ids.push(p.id); if (p.type === 'browse') c.browse = p; else if (p.type === 'look') c.passed.push(p); }
+      pending = pending.filter((p) => p.type === 'idea');
+      if (evs[n + 1] && evs[n + 1].type === 'place' && evs[n + 1].item === e.item) { c.place = evs[++n]; c.ids.push(c.place.id); }
+      if (evs[n + 1] && evs[n + 1].type === 'think') { c.thought = evs[++n]; c.ids.push(c.thought.id); }
+      out.push(c); continue;
+    }
+    if (e.type === 'place') { const idea = takeIdea(e.item); loose(); out.push({ kind: 'move', ids: idea ? [idea.id, e.id] : [e.id], e, idea }); continue; }
+    loose(); out.push({ kind: e.type, ids: [e.id], e });
+  }
+  flush(); loose();
+  return out;
+}
+const svgOf = (k) => `<svg viewBox="0 0 20 20" aria-hidden="true">${ICON[k] || ICON.note}</svg>`;
+const link = (href, text) => { const a = document.createElement('a'); a.href = href; a.textContent = text; a.rel = 'noopener nofollow'; a.target = '_blank'; return a; };
+const el = (tag, cls, ...kids) => { const x = document.createElement(tag); if (cls) x.className = cls; for (const k of kids) if (k !== null && k !== undefined && k !== '') x.append(k); return x; };
+function ideaTag() { const t = el('span', 'tag'); t.innerHTML = svgOf('idea'); t.append("someone's idea"); return t; }
+function lineEntry(kind, ...kids) { const li = el('li', 'en en-' + kind); li.innerHTML = svgOf(kind); li.append(el('p', '', ...kids)); return li; }
+function renderEntry(x) {
+  const e = x.e;
+  if (x.kind === 'earn') { const li = lineEntry('earn', el('span', 'amt', '+' + money(x.amount)), ' ', el('span', 'muted', 'from ' + and(x.bits))); return li; }
+  if (x.kind === 'card') {
+    const it = x.item, li = el('li', 'card'), name = soft(it ? it.name : String(e.text).replace(/^bought /, '').split(' · ')[0]);
+    const [main, rest] = splitName(name);
+    const kick = el('p', 'card-kicker');
+    const bm = x.browse && /^browsing (.+) at (.+)$/.exec(x.browse.text);
+    kick.append(bm ? el('span', '', `Shopping for ${bm[1]} at `, x.browse.url ? link(x.browse.url, bm[2]) : bm[2]) : el('span', '', 'Bought'));
+    if (x.idea) kick.append(ideaTag());
+    const title = el('h3', 'card-title');
+    if (it) { const b = el('button', 'it', main); b.type = 'button'; b.addEventListener('click', () => focusItem(it)); title.append(b); } else title.append(main);
+    if (rest) title.append(' ', el('span', 'card-sub', rest));
+    const meta = el('p', 'card-meta', el('span', 'price', money(it ? it.price : e.amount || 0)));
+    if (it && it.store) meta.append(' from ', it.url ? link(it.url, it.store) : it.store);
+    li.append(kick, title, meta);
+    if (x.thought) li.append(el('p', 'card-quote', `“${cap(x.thought.text)}”`));
+    if (x.place) li.append(el('p', 'card-note', cap(x.place.text) + '.'));
+    for (const p of x.passed) { const [nm, price, why] = [soft(String(p.text).replace(/^looking at /, '').split(' · ')[0]), ...tail(p)]; li.append(el('p', 'card-note', `Passed on ${nm}${price ? ` (${price})` : ''}${why ? `: ${why}` : ''}.`)); }
+    return li;
+  }
+  if (x.kind === 'move') { const it = house.items.find((y) => y.id === e.item), text = it ? String(e.text).replace(it.name, shortOf(it.name)) : String(e.text); const li = lineEntry('place', cap(soft(text)) + '.'); if (x.idea) li.querySelector('p').append(' ', ideaTag()); return li; }
+  if (x.kind === 'browse') { const m = /^browsing (.+) at (.+)$/.exec(e.text); return m ? lineEntry('browse', `Browsing ${m[1]} at `, e.url ? link(e.url, m[2]) : m[2]) : lineEntry('browse', cap(e.text)); }
+  if (x.kind === 'look') { const [nm, price, why] = [soft(String(e.text).replace(/^looking at /, '').split(' · ')[0]), ...tail(e)]; return lineEntry('look', `Looked at ${nm}${price ? ` (${price})` : ''}`, why ? el('span', 'muted', `: ${why}`) : ''); }
+  if (x.kind === 'goal') { const [what, price] = [String(e.text).split(' · ')[0], tail(e)[0]]; return lineEntry('goal', cap(what), price ? el('span', 'muted', ` (${price})`) : ''); }
+  if (x.kind === 'build') { const [what, price] = [String(e.text).split(' · ')[0], tail(e)[0]]; return lineEntry('build', cap(what), price ? el('span', 'muted', ` for ${price}`) : ''); }
+  if (x.kind === 'idea') { const [what, why] = [String(e.text).split(' · ')[0], tail(e)[0]]; return lineEntry('idea', cap(what) + (why ? '. ' : '.'), why ? el('span', 'muted', cap(why) + '.') : ''); }
+  if (x.kind === 'think') return lineEntry('think', `“${cap(e.text)}”`);
+  return lineEntry('note', cap(e.text) + '.');
+}
+let groupsShown = 6;
 function renderFeed() {
-  const ol = $('#feed'), list = house.feed.slice().reverse(), now = ol.querySelector('.is-now');
-  ol.replaceChildren(...list.slice(0, feedShown).map(feedLine));
-  if (now) markFeed(now.dataset.id, true);
-  $('#more').hidden = list.length <= feedShown;
+  const ol = $('#feed'), now = ol.querySelector('.is-now'), nowIds = now ? now.dataset.ids : '', groups = groupsOf(house.feed).reverse();
+  ol.replaceChildren(...groups.slice(0, groupsShown).map((g) => {
+    const li = el('li', 'grp', el('p', 'grp-t', ago(g.t)));
+    const list = el('ol', 'grp-l'); for (const x of g.entries) { const node = renderEntry(x); node.dataset.ids = ' ' + x.ids.join(' ') + ' '; list.append(node); }
+    li.append(list); return li;
+  }));
+  if (nowIds) { const id = nowIds.trim().split(' ')[0]; markFeed(id); }
+  $('#more').hidden = groups.length <= groupsShown;
 }
-function markFeed(id, quiet) { for (const li of document.querySelectorAll('.feed li.is-now')) li.classList.remove('is-now'); const li = document.querySelector(`.feed li[data-id="${id}"]`); if (li) li.classList.add('is-now'); }
+function markFeed(id) { for (const x of document.querySelectorAll('.feed .is-now')) x.classList.remove('is-now'); const x = document.querySelector(`.feed [data-ids~="${id}"]`); if (x) x.classList.add('is-now'); }
 
 // the receipt: what a thing is, what it cost, what paid for it (counts only, never who)
 function showReceipt(it) {
   const k = kindOf(it), el = $('#receipt'); receiptFor = it;
   $('.receipt-kind', el).textContent = it.artist ? `a print · ${it.artist}` : k.label;
-  $('.receipt-name', el).textContent = it.name;
+  $('.receipt-name', el).textContent = soft(it.name);
   const pr = $('.receipt-price', el); pr.replaceChildren(it.free ? 'it came with the room' : `${money(it.price)}`);
   if (it.store) { pr.append(it.url ? ' from ' : ` from ${it.store}`); if (it.url) { const a = document.createElement('a'); a.href = it.url; a.textContent = it.store; a.rel = 'noopener nofollow'; a.target = '_blank'; pr.append(a); } }
   const by = $('.receipt-by', el); by.replaceChildren();
@@ -335,7 +419,7 @@ function hideReceipt() { $('#receipt').hidden = true; receiptFor = null; }
 function focusItem(it) {
   const R = rooms.get(it.room); if (!R) return;
   const k = kindOf(it), b = K.screenBox(k, it); userCam = true;
-  if (zi < 8) { zi = 8; cam.z = ZOOMS[zi]; forgetOtherSizes(); }
+  if (zi < 8) { zi = 8; cam.z = ZOOMS[zi]; forgetOtherSizes(); touchMode(); }
   moveTo({ x: R.ox + (b.x0 + b.x1) / 2 + (vw > 820 ? 0 : 0), y: R.oy + (b.y0 + b.y1) / 2 }, true);
   found = new Set([it.id]); setTimeout(() => { found.delete(it.id); }, 3200); showReceipt(it);
 }
@@ -411,7 +495,7 @@ stage.addEventListener('pointerdown', (e) => { try { stage.setPointerCapture(e.p
 stage.addEventListener('pointermove', (e) => {
   if (pointers.has(e.pointerId)) pointers.set(e.pointerId, [...at(e)]);
   if (pinch && pointers.size === 2) { const [a, b] = [...pointers.values()], d = Math.hypot(a[0] - b[0], a[1] - b[1]); if (d / pinch.d > 1.22) { zoomBy(1, (a[0] + b[0]) / 2, (a[1] + b[1]) / 2); pinch.d = d; } else if (d / pinch.d < 0.82) { zoomBy(-1, (a[0] + b[0]) / 2, (a[1] + b[1]) / 2); pinch.d = d; } moved = 99; return; }
-  if (drag) { const [ex, ey] = at(e), dx = ex - drag.x, dy = ey - drag.y; moved += Math.abs(dx) + Math.abs(dy); if (moved > 4) { cam.x -= dx / cam.z; cam.y -= dy / cam.z; userCam = true; tween = null; stage.classList.add('is-drag'); } drag = { x: at(e)[0], y: at(e)[1] }; return; }
+  if (drag) { const [ex, ey] = at(e), dx = ex - drag.x, dy = ey - drag.y; moved += Math.abs(dx) + Math.abs(dy); if (moved > 4 && !(e.pointerType !== 'mouse' && atFit())) { cam.x -= dx / cam.z; cam.y -= dy / cam.z; userCam = true; tween = null; stage.classList.add('is-drag'); } drag = { x: at(e)[0], y: at(e)[1] }; return; }
   if (e.pointerType === 'mouse') { const it = thingAt(...at(e)); hover = it ? it.id : null; stage.classList.toggle('is-point', !!it); }
 });
 const up = (e) => {
@@ -420,7 +504,8 @@ const up = (e) => {
   if (drag && moved <= 4) { const it = thingAt(...at(e)); if (it) { showReceipt(it); found = new Set([it.id]); setTimeout(() => found.delete(it.id), 1800); } else hideReceipt(); }
   drag = null;
 };
-stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+stage.addEventListener('pointerup', up);
+stage.addEventListener('pointercancel', (e) => { pointers.delete(e.pointerId); stage.classList.remove('is-drag'); if (pointers.size < 2) pinch = null; drag = null; });
 stage.addEventListener('pointerleave', () => { hover = null; stage.classList.remove('is-point'); });
 let wheelAcc = 0;
 stage.addEventListener('wheel', (e) => { e.preventDefault(); wheelAcc += e.deltaY * (e.deltaMode ? 30 : 1); if (Math.abs(wheelAcc) > 60) { zoomBy(wheelAcc < 0 ? 1 : -1, ...at(e)); wheelAcc = 0; } }, { passive: false });
@@ -428,7 +513,7 @@ stage.addEventListener('dblclick', (e) => { const [wx, wy] = toWorld(...at(e)); 
 for (const b of document.querySelectorAll('[data-zoom]')) b.addEventListener('click', () => { const z = b.dataset.zoom; if (z === 'fit') { userCam = false; fitTo(worldBounds(true), true); } else zoomBy(z === 'in' ? 1 : -1); });
 $('.receipt-x').addEventListener('click', hideReceipt);
 addEventListener('keydown', (e) => { if (e.key === 'Escape') hideReceipt(); });
-$('#more').addEventListener('click', () => { feedShown += 60; renderFeed(); });
+$('#more').addEventListener('click', () => { groupsShown += 8; renderFeed(); });
 
 // ---------------- running ----------------
 function paperTile() {
@@ -469,9 +554,15 @@ async function refresh(first) {
 }
 
 globalThis.__house = { cam, bot, rooms, hidden, appearing, get house() { return house; }, pathTo }; // for poking at in the console
+function hint() {
+  const h = $('#hint'); if (!h) return;
+  h.textContent = COARSE ? 'Tap anything to see what it is. Pinch to look closer.' : 'Click anything to see what it is. Scroll to zoom.';
+  h.hidden = false; const gone = () => { h.classList.add('is-gone'); setTimeout(() => { h.hidden = true; }, 700); };
+  setTimeout(gone, 7000); stage.addEventListener('pointerdown', gone, { once: true }); stage.addEventListener('wheel', gone, { once: true, passive: true });
+}
 paperTile();
 new ResizeObserver(() => resize()).observe(view);
-refresh(true).then(() => { if (house) draw(clock); requestAnimationFrame(frame); }); // the first picture doesn't wait for the animation
+refresh(true).then(() => { if (house) { draw(clock); hint(); } requestAnimationFrame(frame); }); // the first picture doesn't wait for the animation
 setInterval(() => { if (!document.hidden) refresh(false); }, 60000);
 setInterval(trip, 1000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(false); });

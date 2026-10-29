@@ -28,16 +28,22 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" href="fonts/KevinSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/KevinSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <div class="app">
-  <main class="view" id="view" aria-label="The house. Drag to look around; click anything to see what it is.">
+  <header class="top">
+    <h1 class="title"><span class="bot-name">Dither</span>'s house</h1>
+    <p class="lede">A bot building its house with pretend money from <a class="post-link" href="https://x.com/kevin_t_ngo">a post on X</a>. Nothing is really bought.</p>
+  </header>
+
+  <main class="view" id="view" aria-label="The house. Tap or click anything to see what it is.">
     <canvas id="stage" aria-hidden="true"></canvas>
+    <p class="hint" id="hint" hidden></p>
     <div class="zoom" role="group" aria-label="Zoom">
       <button type="button" data-zoom="in" aria-label="Closer">+</button>
       <button type="button" data-zoom="out" aria-label="Further">&minus;</button>
-      <button type="button" data-zoom="fit" aria-label="See the whole house">&#9634;</button>
+      <button type="button" data-zoom="fit" aria-label="See the whole house"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 7V3h4M13 3h4v4M17 13v4h-4M7 17H3v-4"/></svg></button>
     </div>
     <div class="receipt" id="receipt" hidden role="dialog" aria-labelledby="receipt-name">
       <button type="button" class="receipt-x" aria-label="Close">&times;</button>
@@ -51,35 +57,35 @@
   </main>
 
   <aside class="panel">
-    <header class="top">
-      <h1 class="title"><span class="bot-name">Dither</span>'s house</h1>
-      <p class="lede"><span class="bot-name">Dither</span> is a bot building and furnishing its house with pretend money it earns from <a class="post-link" href="https://x.com/kevin_t_ngo">a post on X</a>. Nothing is really bought.</p>
-    </header>
-
     <section class="wallet" aria-label="Money">
-      <p class="balance"><span class="balance-n">$0</span> <span class="balance-w">to spend</span></p>
-      <p class="sums"><span class="earned">$0</span> earned · <span class="spent">$0</span> spent</p>
+      <div class="wallet-top">
+        <p class="balance"><span class="balance-n">$0</span> <span class="balance-w">to spend</span></p>
+        <p class="trip" aria-live="polite"><span class="trip-dot" aria-hidden="true"></span><span class="trip-t"></span></p>
+      </div>
+      <p class="sums"><span class="earned">$0</span> earned, <span class="spent">$0</span> spent</p>
       <ul class="rates">
-        <li><span class="rate-n" data-count="likes">0</span> likes <span class="rate-x">× $1</span></li>
-        <li><span class="rate-n" data-count="replies">0</span> replies <span class="rate-x">× $100</span></li>
-        <li><span class="rate-n" data-count="reposts">0</span> reposts <span class="rate-x">× $500</span></li>
-        <li><span class="rate-n" data-count="follows">0</span> new followers <span class="rate-x">× $1,000</span></li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 16.5S3.5 12.6 3.5 8A3.3 3.3 0 0 1 10 6.6 3.3 3.3 0 0 1 16.5 8c0 4.6-6.5 8.5-6.5 8.5z"/></svg><span class="rate-top"><span class="rate-n" data-count="likes">0</span> <span class="rate-l" data-one="like" data-many="likes">likes</span></span><span class="rate-x"></span></li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4.5h12v8.5H9l-4 3v-3H4z"/></svg><span class="rate-top"><span class="rate-n" data-count="replies">0</span> <span class="rate-l" data-one="reply" data-many="replies">replies</span></span><span class="rate-x"></span></li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 8V6.5h9.5L12 4M15 12v1.5H5.5L8 16"/></svg><span class="rate-top"><span class="rate-n" data-count="reposts">0</span> <span class="rate-l" data-one="repost" data-many="reposts">reposts</span></span><span class="rate-x"></span></li>
+        <li><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="7" r="3"/><path d="M2.5 16.5c.8-3 2.9-4.5 5.5-4.5s4.7 1.5 5.5 4.5M15.5 6v5M13 8.5h5"/></svg><span class="rate-top"><span class="rate-n" data-count="follows">0</span> <span class="rate-l" data-one="new follower" data-many="new followers">new followers</span></span><span class="rate-x"></span></li>
       </ul>
       <div class="goal">
-        <p class="goal-what">Saving up for <span class="goal-name">the next room</span> <span class="goal-price"></span></p>
+        <p class="goal-what">Saving up for <span class="goal-name">the next room</span></p>
         <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="bar-fill"></span></div>
+        <p class="goal-n"></p>
       </div>
-      <p class="trip" aria-live="polite"></p>
-      <p class="cta"><a class="post-link" href="https://x.com/kevin_t_ngo">Like, reply, repost or follow to give it money, and reply with ideas for what it should buy next &rarr;</a></p>
+    </section>
+
+    <section class="help" aria-label="How to help">
+      <a class="cta post-link" href="https://x.com/kevin_t_ngo">Give Dither money on X <span aria-hidden="true">&rarr;</span></a>
+      <p class="cta-sub">Like, reply, repost or follow. Replies can suggest what it buys next.</p>
       <p class="ideas" aria-live="polite"></p>
     </section>
 
     <section class="log" aria-label="What it has been doing">
-      <div class="log-head">
-        <h2>What it's been doing</h2>
-      </div>
+      <h2>What it's been doing</h2>
       <ol class="feed" id="feed"></ol>
-      <button type="button" class="more" id="more" hidden>show older</button>
+      <button type="button" class="more" id="more" hidden>Show earlier</button>
     </section>
 
     <footer class="foot">
@@ -92,6 +98,6 @@
 <script src="js/kinds.js"></script>
 <script src="js/robot.js"></script>
 <script src="js/scene.js"></script>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
