@@ -164,12 +164,12 @@ const roomOfItem = (it) => house.rooms.find((r) => r.id === it.room);
 function frontOf(it) {
   const k = kindOf(it), [w, d] = it.size || k.size, a = it.at, host = it.on && house.items.find((x) => x.id === it.on), rm = roomOfItem(it);
   if (host) return frontOf(host);
-  const l = k.place === 'wall' ? (a.face === 'ne' ? [a.i + w / 2, 1.2] : [1.2, a.j + w / 2]) : k.place === 'rug' ? (a.face === 'ne' ? [a.i + w / 2, a.j + d / 2] : [a.i + d / 2, a.j + w / 2]) : (a.face === 'ne' ? [a.i + w / 2, a.j + d + 0.6] : [a.i + d + 0.6, a.j + w / 2]);
+  const l = k.place === 'wall' ? (a.face === 'ne' ? [a.i + w / 2, 1.2] : [1.2, a.j + w / 2]) : k.place === 'rug' ? (a.face === 'ne' || a.face === 'sw' ? [a.i + w / 2, a.j + d / 2] : [a.i + d / 2, a.j + w / 2]) : a.face === 'ne' ? [a.i + w / 2, a.j + d + 0.6] : a.face === 'sw' ? [a.i + w / 2, a.j - 0.6] : a.face === 'se' ? [a.i - 0.6, a.j + w / 2] : [a.i + d + 0.6, a.j + w / 2];
   return global(rm, ...l);
 }
 function centerOf(it) {
   const k = kindOf(it), [w, d] = it.size || k.size, a = it.at, rm = roomOfItem(it);
-  return global(rm, ...(k.place === 'wall' ? (a.face === 'ne' ? [a.i + w / 2, 0] : [0, a.j + w / 2]) : a.face === 'ne' ? [a.i + w / 2, a.j + d / 2] : [a.i + d / 2, a.j + w / 2]));
+  return global(rm, ...(k.place === 'wall' ? (a.face === 'ne' ? [a.i + w / 2, 0] : [0, a.j + w / 2]) : a.face === 'ne' || a.face === 'sw' ? [a.i + w / 2, a.j + d / 2] : [a.i + d / 2, a.j + w / 2]));
 }
 // deliveries come in at the front door
 function frontDoor() { const rm = house.rooms[0], d = rm.door; if (!d) return global(rm, 1.5, N - 1.5); const p = Math.floor(d.pos) + 0.5; return global(rm, ...(d.side === 'nw' ? [0.5, p] : [p, 0.5])); }

@@ -31,10 +31,16 @@ const PATTERNS = ['plain', 'stripes', 'border', 'dots', 'check', 'fringe', 'roun
 const shapeType = (s) => SHAPES.find((k) => Array.isArray(s[k]));
 
 // from a thing's own space to the room's tiles
-function placer(at) {
-  const nw = at.face === 'nw', z0 = at.z || 0;
-  return { nw, W: (u, v, z) => nw ? [at.i + v, at.j + u, z0 + z] : [at.i + u, at.j + v, z0 + z], size: (w, d) => nw ? [d, w] : [w, d] };
+// 'sw' and 'se' turn a thing round to face the 'ne' or 'nw' wall (a chair at a desk, a sofa facing
+// the TV): its back is towards you. at.i, at.j stay the corner of the tiles it covers.
+function placer(at, size) {
+  const nw = at.face === 'nw' || at.face === 'se', flip = at.face === 'sw' || at.face === 'se', z0 = at.z || 0, [SW, SD] = size || [0, 0];
+  const W = (u, v, z) => { if (flip) { u = SW - u; v = SD - v; } return nw ? [at.i + v, at.j + u, z0 + z] : [at.i + u, at.j + v, z0 + z]; };
+  // a flat rectangle in its own space -> [i, j, wi, dj] in the room (its near corner and its size)
+  const rect = (u, v, w, d) => { const a = W(u, v, 0), b = W(u + w, v + d, 0); return [Math.min(a[0], b[0]), Math.min(a[1], b[1]), Math.abs(b[0] - a[0]), Math.abs(b[1] - a[1])]; };
+  return { nw, flip, W, rect, size: (w, d) => nw ? [d, w] : [w, d] };
 }
+const swapped = (face) => face === 'nw' || face === 'se';
 const R2 = Math.SQRT2;
 const RX = 32 * R2, RY = 16 * R2;   // a circle of radius 1 tile on the floor, on screen
 
@@ -43,7 +49,7 @@ const KEY = { tone: 0.9, amp: 0.15 };
 
 const PRIM = {
   box(H, R, s, c) {
-    const [u, v, z, w, d, h] = s.box, [i, j, zz] = c.pl.W(u, v, z), [wi, dj] = c.pl.size(w, d), col = c.col(s.color);
+    const [u, v, z, w, d, h] = s.box, [i, j, wi, dj] = c.pl.rect(u, v, w, d), zz = c.pl.W(u, v, z)[2], col = c.col(s.color);
     const o = { shadow: s.shadow ?? false, top: s.top ? c.col(s.top) : null, line: s.line !== false, fine: c.fine, lw: c.lw };
     if (!s.soft) return boxAt(H, R, i, j, wi, dj, zz, h, col, o);
     // a soft box: a cushion, a mattress, a bean bag: the same faces, the corners rounded off
@@ -57,7 +63,7 @@ const PRIM = {
   },
   legs(H, R, s, c) {
     const [u, v, z, w, d, h] = s.legs, t = s.thick ?? 0.07, n = s.inset ?? 0.05, col = c.col(s.color);
-    for (const [a, b] of [[n, n], [w - n - t, n], [n, d - n - t], [w - n - t, d - n - t]]) { const [i, j, zz] = c.pl.W(u + a, v + b, z), [wi, dj] = c.pl.size(t, t); boxAt(H, R, i, j, wi, dj, zz, h, col, { shadow: false, lw: 0.7, fine: true }); }
+    for (const [a, b] of [[n, n], [w - n - t, n], [n, d - n - t], [w - n - t, d - n - t]]) { const [i, j, wi, dj] = c.pl.rect(u + a, v + b, t, t), zz = c.pl.W(u, v, z)[2]; boxAt(H, R, i, j, wi, dj, zz, h, col, { shadow: false, lw: 0.7, fine: true }); }
   },
   cyl(H, R, s, c) { cone(H, R, c, s.cyl[0], s.cyl[1], s.cyl[2], s.cyl[3], s.cyl[3], s.cyl[4], c.col(s.color), s.top ? c.col(s.top) : null, s); },
   cone(H, R, s, c) { cone(H, R, c, s.cone[0], s.cone[1], s.cone[2], s.cone[3], s.cone[4], s.cone[5], c.col(s.color), s.top ? c.col(s.top) : null, s); },
@@ -98,13 +104,13 @@ const PRIM = {
     const [u, v, z, len, hh] = s.books, BR = streamOf('books', c.item.id || '', u, v, z), pal = ['coral', 'teal', 'blue', 'mustard', 'pink', 'navy', 'sage', 'cream', 'terracotta'];
     let p = u + 0.03;
     while (p < u + len - 0.08) {
-      const bw = rd(BR, 0.08, 0.16), bh = (hh ?? 0.45) * rd(BR, 0.62, 1), [i, j, zz] = c.pl.W(p, v, z), [wi, dj] = c.pl.size(bw, 0.32);
+      const bw = rd(BR, 0.08, 0.16), bh = (hh ?? 0.45) * rd(BR, 0.62, 1), [i, j, wi, dj] = c.pl.rect(p, v, bw, 0.32), zz = c.pl.W(p, v, z)[2];
       boxAt(H, BR, i, j, wi, dj, zz, bh, SWATCH[pk(BR, pal)], { shadow: false, lw: 0.6, fine: true });
       p += bw + (BR() < 0.15 ? rd(BR, 0.05, 0.15) : 0.01);
     }
   },
   flat(H, R, s, c) {
-    const [u, v, z, w, d] = s.flat, [i, j, zz] = c.pl.W(u, v, z + 0.01), [wi, dj] = c.pl.size(w, d), col = c.col(s.color), col2 = c.col(s.color2 || 'cream'), pat = s.pattern || 'plain';
+    const [u, v, z, w, d] = s.flat, [i, j, wi, dj] = c.pl.rect(u, v, w, d), zz = c.pl.W(u, v, z + 0.01)[2], col = c.col(s.color), col2 = c.col(s.color2 || 'cream'), pat = s.pattern || 'plain';
     let P = H.tile(i, j, wi, dj, zz);
     if (pat === 'round') { const ci = i + wi / 2, cj = j + dj / 2; P = []; for (let k = 0; k < 44; k++) { const t = k / 44 * TAU; P.push(H.p(ci + Math.cos(t) * wi / 2, cj + Math.sin(t) * dj / 2, zz)); } }
     // a pool has a stone edge round the water
@@ -112,9 +118,9 @@ const PRIM = {
     if (C) { H.fill(C, 'paper', 1); H.tint(C, 'blue', 0.06); H.outline(R, C, 'blue', 0.9, { tone: 0.8, amp: 0.1 }); }
     paint(H, P, col, 0, c);
     H.clip(P, () => {
-      if (pat === 'stripes') for (let a = 0.3; a < w; a += 0.45) { const [i2, j2] = c.pl.W(u + a, v, z), [ww, dd] = c.pl.size(0.18, d); H.tint(H.tile(i2, j2, ww, dd, zz), col2[0], col2[1]); }
-      if (pat === 'border') { const [i2, j2] = c.pl.W(u + 0.22, v + 0.22, z), [ww, dd] = c.pl.size(w - 0.44, d - 0.44); H.outline(R, H.tile(i2, j2, ww, dd, zz), col2[0], 2.2, { tone: Math.max(0.8, col2[1]) }); }
-      if (pat === 'check') for (let a = 0; a < w; a += 0.5) for (let b = 0; b < d; b += 0.5) if ((Math.round(a / 0.5) + Math.round(b / 0.5)) % 2) { const [i2, j2] = c.pl.W(u + a, v + b, z), [ww, dd] = c.pl.size(0.5, 0.5); H.tint(H.tile(i2, j2, ww, dd, zz), col2[0], col2[1]); }
+      if (pat === 'stripes') for (let a = 0.3; a < w; a += 0.45) { const [i2, j2, ww, dd] = c.pl.rect(u + a, v, 0.18, d); H.tint(H.tile(i2, j2, ww, dd, zz), col2[0], col2[1]); }
+      if (pat === 'border') { const [i2, j2, ww, dd] = c.pl.rect(u + 0.22, v + 0.22, w - 0.44, d - 0.44); H.outline(R, H.tile(i2, j2, ww, dd, zz), col2[0], 2.2, { tone: Math.max(0.8, col2[1]) }); }
+      if (pat === 'check') for (let a = 0; a < w; a += 0.5) for (let b = 0; b < d; b += 0.5) if ((Math.round(a / 0.5) + Math.round(b / 0.5)) % 2) { const [i2, j2, ww, dd] = c.pl.rect(u + a, v + b, 0.5, 0.5); H.tint(H.tile(i2, j2, ww, dd, zz), col2[0], col2[1]); }
       if (pat === 'dots') for (let a = 0.3; a < w; a += 0.5) for (let b = 0.3; b < d; b += 0.5) { const [x, y] = H.p(...c.pl.W(u + a, v + b, z)); H.dot(x, y, 2.2, col2[0], Math.max(0.6, col2[1])); }
       if (pat === 'water') {
         // the far walls of the pool, in shade, then ripples on the water
@@ -200,31 +206,65 @@ function resolve(s, kind, item) {
 }
 function sizeOf(kind, item) { return item.size || kind.size; }
 function drawThing(H, R, kind, item, images, o = {}) {
-  const c = { pl: placer(item.at), col: colOf(kind, item), item, kind, images, fine: o.fine ?? (kind.fine || false), lw: o.lw };
+  const c = { pl: placer(item.at, sizeOf(kind, item)), col: colOf(kind, item), item, kind, images, fine: o.fine ?? (kind.fine || false), lw: o.lw };
   if (kind.place !== 'wall' && kind.place !== 'rug' && kind.shadow !== false) { const [w, d] = c.pl.size(...sizeOf(kind, item)); shadowBox(H, item.at.i, item.at.j, w, d, item.at.z || 0, (kind.height ?? 1) * 0.7, 0.2); }
-  for (const s0 of kind.shapes || []) { const t = shapeType(s0); if (t && PRIM[t]) PRIM[t](H, R, resolve(s0, kind, item), c); }
+  let shapes = (kind.shapes || []).map((s0) => resolve(s0, kind, item));
+  if (c.pl.flip) shapes = backToFront(shapes);
+  for (const s of shapes) { const t = shapeType(s); if (t && PRIM[t]) PRIM[t](H, R, s, c); }
+}
+// a shape's box in the thing's own space: [u0, v0, z0, u1, v1, z1]
+function boundsOf(s) {
+  const t = shapeType(s), a = s[t];
+  if (t === 'box' || t === 'legs') return [a[0], a[1], a[2], a[0] + a[3], a[1] + a[4], a[2] + a[5]];
+  if (t === 'cyl') return [a[0] - a[3], a[1] - a[3], a[2], a[0] + a[3], a[1] + a[3], a[2] + a[4]];
+  if (t === 'cone') { const r = Math.max(a[3], a[4]); return [a[0] - r, a[1] - r, a[2], a[0] + r, a[1] + r, a[2] + a[5]]; }
+  if (t === 'ball') return [a[0] - a[3], a[1] - a[3], a[2] - a[3], a[0] + a[3], a[1] + a[3], a[2] + a[3]];
+  if (t === 'panel') return [a[0], a[1], a[2], a[0] + a[3], a[1] + 0.01, a[2] + a[4]];
+  if (t === 'books') return [a[0], a[1], a[2], a[0] + a[3], a[1] + 0.32, a[2] + (a[4] ?? 0.45)];
+  if (t === 'flat') return [a[0], a[1], a[2], a[0] + a[3], a[1] + a[4], a[2] + 0.01];
+  if (t === 'plant') { const k = s.size ?? 1; return [a[0] - 0.2 * k, a[1] - 0.2 * k, a[2], a[0] + 0.2 * k, a[1] + 0.2 * k, a[2] + 0.6 * k]; }
+  const pts = t === 'lines' ? a : t === 'pole' ? [a.slice(0, 3), a.slice(3, 6)] : [a];
+  const lo = [0, 1, 2].map((n) => Math.min(...pts.map((p) => p[n] || 0))), hi = [0, 1, 2].map((n) => Math.max(...pts.map((p) => p[n] || 0)));
+  return [lo[0], lo[1], lo[2], hi[0], hi[1], hi[2]];
+}
+// a thing turned round is seen from its back, so its shapes are painted far to near again:
+// A goes before B when it is further away (a larger u or v, now that it faces the wall) or under it
+function backToFront(shapes) {
+  const B = shapes.map(boundsOf), e = 1e-6;
+  const before = (x, y) => { const a = B[x], b = B[y];
+    if (a[0] >= b[3] - e || a[1] >= b[4] - e) return !(b[0] >= a[3] - e || b[1] >= a[4] - e) || a[0] + a[1] > b[0] + b[1];
+    if (b[0] >= a[3] - e || b[1] >= a[4] - e) return false;
+    return a[5] <= b[2] + e && !(b[5] <= a[2] + e);
+  };
+  const left = shapes.map((_, n) => n), out = [];
+  while (left.length) {
+    let k = left.findIndex((x) => !left.some((y) => y !== x && before(y, x)));
+    if (k < 0) k = 0;
+    out.push(shapes[left[k]]); left.splice(k, 1);
+  }
+  return out;
 }
 
 // where a thing stands: the floor tiles it covers (whole tiles), its depth for sorting, and the box on screen it can cover
 function footprint(kind, item) {
   if (kind.place === 'wall' || (kind.place === 'rug' && !kind.solid)) return [];
-  const [w, d] = placer(item.at).size(...sizeOf(kind, item)), out = [];
+  const [w, d] = placer(item.at, sizeOf(kind, item)).size(...sizeOf(kind, item)), out = [];
   for (let i = Math.floor(item.at.i + 1e-6); i < Math.ceil(item.at.i + w - 1e-6); i++) for (let j = Math.floor(item.at.j + 1e-6); j < Math.ceil(item.at.j + d - 1e-6); j++) out.push([i, j]);
   return out;
 }
 function depthOf(kind, item) {
   if (kind.place === 'wall') return -1;
   if (kind.place === 'rug') return -0.5;
-  const [w, d] = placer(item.at).size(...sizeOf(kind, item));
+  const [w, d] = placer(item.at, sizeOf(kind, item)).size(...sizeOf(kind, item));
   return item.at.i + w / 2 + item.at.j + d / 2 + (item.at.z || 0) * 0.01;
 }
 function screenBox(kind, item) {
-  const pl = placer(item.at), [w, d] = sizeOf(kind, item), h = kind.place === 'wall' ? 0 : (kind.height ?? 1), pts = [];
+  const [w, d] = sizeOf(kind, item), pl = placer(item.at, [w, d]), h = kind.place === 'wall' ? 0 : (kind.height ?? 1), pts = [];
   const hh = kind.place === 'wall' ? d : h, dd = kind.place === 'wall' ? 0.3 : d;
   for (const u of [0, w]) for (const v of [0, dd]) for (const z of [0, hh]) pts.push(HS.P.iso(...pl.W(u, v, z)));
   const [x0, y0, x1, y1] = bbox(pts), m = kind.reach || {}, pad = 10;
   return { x0: Math.floor(x0 - Math.max(pad, m.l || 0)), y0: Math.floor(y0 - Math.max(pad, m.t || 0)), x1: Math.ceil(x1 + Math.max(pad, m.r || 0)), y1: Math.ceil(y1 + Math.max(pad, m.b || 0)) };
 }
 
-HS.K = { SWATCH, SHAPES, PLANTS, PATTERNS, shapeType, placer, resolve, sizeOf, drawThing, footprint, depthOf, screenBox };
+HS.K = { SWATCH, SHAPES, PLANTS, PATTERNS, shapeType, placer, swapped, resolve, sizeOf, drawThing, footprint, depthOf, screenBox };
 })(globalThis.HOUSE || (globalThis.HOUSE = {}));
