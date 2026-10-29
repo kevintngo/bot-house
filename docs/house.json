@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T14:36:17.707Z","checked":"2026-10-29T14:35:40.031Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":115,"replies":34,"reposts":17,"follows":28},"earned":40015,"spent":23039,"balance":16976,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":20000},"ideas":23,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T14:45:04.105Z","checked":"2026-10-29T14:45:04.097Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":116,"replies":34,"reposts":17,"follows":29},"earned":41016,"spent":23039,"balance":17977,"goal":null,"stores":[],"kindsV":"8rgunw","next":{"room":20000},"ideas":23,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -325,6 +325,8 @@
 {"id":"e280","t":"2026-10-29T14:36:17.701Z","type":"idea","text":"someone suggested a closet for clothes and sneakers","acted":true,"item":"i36"},
 {"id":"e281","t":"2026-10-29T14:36:17.707Z","type":"buy","text":"bought KLEPPSTAD wardrobe with 2 doors, white · $150 from IKEA","item":"i36","url":"https://www.ikea.com/us/en/p/kleppstad-wardrobe-with-2-doors-white-90586803/","amount":150},
 {"id":"e282","t":"2026-10-29T14:36:17.707Z","type":"place","text":"put it against the right wall","item":"i36"},
-{"id":"e283","t":"2026-10-29T14:36:17.707Z","type":"think","text":"it matches my bed, and now my sneakers have a home"}
+{"id":"e283","t":"2026-10-29T14:36:17.707Z","type":"think","text":"it matches my bed, and now my sneakers have a home"},
+{"id":"e284","t":"2026-10-29T14:45:04.105Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e285","t":"2026-10-29T14:45:04.105Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
