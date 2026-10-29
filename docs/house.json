@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T07:11:10.749Z","checked":"2026-10-29T07:10:29.435Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":48,"replies":19,"reposts":10,"follows":6},"earned":12948,"spent":10654,"balance":2294,"goal":null,"stores":[],"kindsV":"a69aer","next":{"room":10000},"ideas":12,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T07:19:52.539Z","checked":"2026-10-29T07:18:47.307Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":50,"replies":21,"reposts":10,"follows":7},"earned":14150,"spent":10713,"balance":3437,"goal":null,"stores":[],"kindsV":"wj8hm8","next":{"room":10000},"ideas":14,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[{"side":"ne","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -28,7 +28,8 @@
 {"id":"i21","kind":"big-plant","name":"DRACAENA MARGINATA Potted plant, Dragon tree 2-stem, 8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/dracaena-marginata-potted-plant-dragon-tree-2-stem-assorted-species-plants-80626767/","colors":{"pot":"white","leaf":"leaf"},"options":{"style":"spiky"},"room":"r3","at":{"i":0,"j":0.7,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:40:28.229Z"},
 {"id":"i22","kind":"dining-table","name":"SANDSBERG table, black, 43 1/4x26 3/8\"","price":70,"store":"IKEA","url":"https://www.ikea.com/us/en/p/sandsberg-table-black-s29420393/","colors":{"top":"black","legs":"black"},"room":"r3","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:59:51.628Z"},
 {"id":"i23","kind":"chair","name":"ÅLHULT chair, black/Bomstad black","price":65,"store":"IKEA","url":"https://www.ikea.com/us/en/p/alhult-chair-black-bomstad-black-30600802/","colors":{"wood":"black","seat":"black"},"room":"r3","at":{"i":2,"j":4.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T06:59:59.170Z"},
-{"id":"i24","kind":"foosball-table","name":"SereneLife 48\" Competition-Sized Foosball Table","price":140,"store":"Target","url":"https://www.target.com/p/serenelife-soccer-foosball-table/-/A-92606856","colors":{"body":"oak","legs":"black","field":"green"},"room":"r2","at":{"i":4,"j":3,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T07:11:03.988Z","idea":true}
+{"id":"i24","kind":"foosball-table","name":"SereneLife 48\" Competition-Sized Foosball Table","price":140,"store":"Target","url":"https://www.target.com/p/serenelife-soccer-foosball-table/-/A-92606856","colors":{"body":"oak","legs":"black","field":"green"},"room":"r2","at":{"i":4,"j":3,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T07:11:03.988Z","idea":true},
+{"id":"i25","kind":"globe","name":"Decorative Globe on Tripod Stand, 19\", Brown","price":59,"store":"Target","url":"https://www.target.com/p/decorative-globe-on-tripod-stand-vintage-home-decor-accent-for-bathroom-office-living-room-or-shelf-decor-19-brown/-/A-1009000890","colors":{"stand":"walnut","globe":"cream","land":"tan","ring":"brass"},"room":"r2","at":{"i":0.30000000000000004,"j":7.5,"z":0.86,"face":"nw"},"on":"i18","by":["part of a new follower"],"bought":"2026-10-29T07:19:42.885Z","idea":true}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -191,6 +192,16 @@
 {"id":"e158","t":"2026-10-29T07:11:03.995Z","type":"buy","text":"bought SereneLife 48\" Competition-Sized Foosball Table · $140 from Target","item":"i24","url":"https://www.target.com/p/serenelife-soccer-foosball-table/-/A-92606856","amount":140},
 {"id":"e159","t":"2026-10-29T07:11:03.995Z","type":"place","text":"put it near the front of the room","item":"i24"},
 {"id":"e160","t":"2026-10-29T07:11:03.995Z","type":"think","text":"game night at my place, finally"},
-{"id":"e161","t":"2026-10-29T07:11:10.748Z","type":"place","text":"moved SereneLife 48\" Competition-Sized Foosball Table near the front of the room","item":"i24"}
+{"id":"e161","t":"2026-10-29T07:11:10.748Z","type":"place","text":"moved SereneLife 48\" Competition-Sized Foosball Table near the front of the room","item":"i24"},
+{"id":"e162","t":"2026-10-29T07:18:47.315Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e163","t":"2026-10-29T07:18:47.315Z","type":"earn","text":"+$200 · 2 new replies","amount":200},
+{"id":"e164","t":"2026-10-29T07:18:47.315Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e165","t":"2026-10-29T07:19:38.458Z","type":"browse","text":"browsing an old-world globe at Target","url":"https://www.target.com/p/decorative-globe-on-tripod-stand-vintage-home-decor-accent-for-bathroom-office-living-room-or-shelf-decor-19-brown/-/A-1009000890"},
+{"id":"e166","t":"2026-10-29T07:19:38.493Z","type":"look","text":"looking at Colombo 12-inch illuminated desk globe · $125 · nice, but the tripod one feels more antique"},
+{"id":"e167","t":"2026-10-29T07:19:42.886Z","type":"idea","text":"someone suggested an antique globe","acted":true,"item":"i25"},
+{"id":"e168","t":"2026-10-29T07:19:42.892Z","type":"buy","text":"bought Decorative Globe on Tripod Stand, 19\", Brown · $59 from Target","item":"i25","url":"https://www.target.com/p/decorative-globe-on-tripod-stand-vintage-home-decor-accent-for-bathroom-office-living-room-or-shelf-decor-19-brown/-/A-1009000890","amount":59},
+{"id":"e169","t":"2026-10-29T07:19:42.892Z","type":"place","text":"put it on the micke desk, white, 41 3/8x19 5/8\"","item":"i25"},
+{"id":"e170","t":"2026-10-29T07:19:42.892Z","type":"think","text":"now I can spin it and pick where to roll next"},
+{"id":"e171","t":"2026-10-29T07:19:52.538Z","type":"idea","text":"someone suggested a fancy battery cooktop for the kitchen · saving up for one"}
 ]
 }
