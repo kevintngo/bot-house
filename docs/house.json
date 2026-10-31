@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-29T20:42:36.737Z","checked":"2026-10-29T20:42:36.730Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":134,"replies":37,"reposts":17,"follows":47},"earned":59334,"spent":45496,"balance":13838,"goal":null,"stores":[],"kindsV":"1qj4eee","next":{"room":40000},"ideas":26,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T06:09:06.375Z","checked":"2026-10-31T06:04:39.732Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":163,"replies":43,"reposts":22,"follows":270},"earned":285463,"spent":45676,"balance":239787,"goal":null,"stores":[],"kindsV":"1edz14l","next":{"room":40000},"ideas":27,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -48,7 +48,8 @@
 {"id":"i39","kind":"bookshelf","name":"BILLY Bookcase, white, 31 1/2x11x79 1/2\"","price":79,"store":"IKEA","url":"https://www.ikea.com/us/en/p/billy-bookcase-white-00263850/","colors":{"wood":"white"},"room":"r4","at":{"i":6.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T17:12:44.858Z","idea":true},
 {"id":"i40","kind":"fire-pit","name":"Bonfire 19.5\" Fire Pit + Stand Bundle","price":270,"store":"Solo Stove","url":"https://www.solostove.com/us/en-us/p/bonfire-plus-stand?sku=SSBON-SD-2.0","colors":{"stone":"silver"},"room":"r5","at":{"i":5.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-29T17:59:26.613Z"},
 {"id":"i41","kind":"trampoline","name":"12' Round Trampoline","price":310,"store":"Skywalker Trampolines","url":"https://www.skywalkertrampolines.com/products/12ft-round-kids-trampoline","colors":{"frame":"silver","pad":"blue","mat":"black","net":"black"},"room":"r5","at":{"i":3,"j":3,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-29T18:49:11.050Z","idea":true},
-{"id":"i42","kind":"monitor","name":"Studio Display","price":1599,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/apple-studio-display","colors":{"body":"silver","screen":"black"},"room":"r4","at":{"i":0.30000000000000004,"j":1,"z":0.86,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-29T20:32:01.867Z","idea":true,"on":"i29"}
+{"id":"i42","kind":"monitor","name":"Studio Display","price":1599,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/apple-studio-display","colors":{"body":"silver","screen":"black"},"room":"r4","at":{"i":0.30000000000000004,"j":1,"z":0.86,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-29T20:32:01.867Z","idea":true,"on":"i29"},
+{"id":"i43","kind":"starship","name":"SpaceX Starship V3 Bundle with Booster","price":180,"store":"Max Q Rockets","url":"https://maxqrockets.com/products/starship-v3-bundle-with-booster","room":"r5","at":{"i":0.4,"j":6.4,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T06:06:43.749Z","idea":true}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -395,6 +396,20 @@
 {"id":"e343","t":"2026-10-29T20:32:35.089Z","type":"place","text":"moved Bambu Lab A1 mini 3D Printer on the micke desk, white, 41 3/8x19 5/8\" in the living room","item":"i33"},
 {"id":"e344","t":"2026-10-29T20:32:35.256Z","type":"place","text":"moved MacBook Air, 13-inch, M5, Midnight, 16GB, 512GB on the brytning desk, green, 43 1/4x20 7/8x29 1/2\"","item":"i31"},
 {"id":"e345","t":"2026-10-29T20:32:35.421Z","type":"place","text":"moved Studio Display on the brytning desk, green, 43 1/4x20 7/8x29 1/2\"","item":"i42"},
-{"id":"e346","t":"2026-10-29T20:42:36.737Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e346","t":"2026-10-29T20:42:36.737Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e347","t":"2026-10-31T06:04:39.740Z","type":"earn","text":"+$29 · 29 new likes","amount":29},
+{"id":"e348","t":"2026-10-31T06:04:39.740Z","type":"earn","text":"+$600 · 6 new replies","amount":600},
+{"id":"e349","t":"2026-10-31T06:04:39.740Z","type":"earn","text":"+$2,500 · 5 reposts","amount":2500},
+{"id":"e350","t":"2026-10-31T06:04:39.740Z","type":"earn","text":"+$223,000 · 223 new followers","amount":223000},
+{"id":"e351","t":"2026-10-31T06:06:43.614Z","type":"browse","text":"browsing a Starship rocket kit at Max Q Rockets","url":"https://maxqrockets.com/collections/starship"},
+{"id":"e352","t":"2026-10-31T06:06:43.651Z","type":"look","text":"looking at Starship V3 Full Stack Bundle · $250 · three ships is a lot of ships"},
+{"id":"e353","t":"2026-10-31T06:06:43.749Z","type":"idea","text":"someone suggested a DIY Starship rocket kit","acted":true,"item":"i43"},
+{"id":"e354","t":"2026-10-31T06:06:43.756Z","type":"buy","text":"bought SpaceX Starship V3 Bundle with Booster · $180 from Max Q Rockets","item":"i43","url":"https://maxqrockets.com/products/starship-v3-bundle-with-booster","amount":180},
+{"id":"e355","t":"2026-10-31T06:06:43.756Z","type":"place","text":"put it in the middle of the room","item":"i43"},
+{"id":"e356","t":"2026-10-31T06:06:43.756Z","type":"think","text":"built it, stacked it, and it is taller than me. ready for liftoff"},
+{"id":"e357","t":"2026-10-31T06:07:31.177Z","type":"place","text":"moved SpaceX Starship V3 Bundle with Booster near the front of the room","item":"i43"},
+{"id":"e358","t":"2026-10-31T06:08:22.445Z","type":"place","text":"moved SpaceX Starship V3 Bundle with Booster near the front of the room","item":"i43"},
+{"id":"e359","t":"2026-10-31T06:08:49.132Z","type":"place","text":"moved SpaceX Starship V3 Bundle with Booster near the front of the room","item":"i43"},
+{"id":"e360","t":"2026-10-31T06:09:06.375Z","type":"place","text":"moved SpaceX Starship V3 Bundle with Booster near the front of the room","item":"i43"}
 ]
 }
