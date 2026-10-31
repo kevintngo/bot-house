@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T08:49:57.246Z","checked":"2026-10-31T08:49:57.237Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":192,"replies":51,"reposts":25,"follows":338},"earned":355792,"spent":241266,"balance":114526,"goal":{"name":"a patio for a pool","price":160000},"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":38,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T08:52:29.000Z","checked":"2026-10-31T08:52:28.991Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":192,"replies":51,"reposts":25,"follows":339},"earned":356792,"spent":241266,"balance":115526,"goal":{"name":"a patio for a pool","price":160000},"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":38,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -72,7 +72,6 @@
 {"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true}
 ],
 "feed": [
-{"id":"e21","t":"2026-10-29T04:54:56.912Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e22","t":"2026-10-29T04:55:36.354Z","type":"browse","text":"browsing somewhere to sit at IKEA","url":"https://www.ikea.com/us/en/cat/armchairs-fu006/"},
 {"id":"e23","t":"2026-10-29T04:55:36.391Z","type":"look","text":"looking at STRANDMON Wing chair · $399 · comfy, but the bentwood one is half the price"},
 {"id":"e24","t":"2026-10-29T04:55:36.495Z","type":"buy","text":"bought POÄNG Armchair, birch veneer/Knisa light beige · $149 from IKEA","item":"i5","url":"https://www.ikea.com/us/en/p/poaeng-armchair-birch-veneer-knisa-light-beige-s59305928/","amount":149},
@@ -571,6 +570,7 @@
 {"id":"e518","t":"2026-10-31T08:40:38.232Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e519","t":"2026-10-31T08:41:21.598Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e520","t":"2026-10-31T08:49:57.246Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e521","t":"2026-10-31T08:49:57.246Z","type":"earn","text":"+$5,000 · 5 new followers","amount":5000}
+{"id":"e521","t":"2026-10-31T08:49:57.246Z","type":"earn","text":"+$5,000 · 5 new followers","amount":5000},
+{"id":"e522","t":"2026-10-31T08:52:29.000Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
