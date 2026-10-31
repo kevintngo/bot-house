@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T18:25:18.336Z","checked":"2026-10-31T18:24:22.931Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":272,"replies":74,"reposts":34,"follows":501},"earned":525672,"spent":407041,"balance":118631,"goal":null,"stores":[],"kindsV":"12bdlj1","next":{"room":320000},"ideas":50,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T18:28:11.748Z","checked":"2026-10-31T18:28:11.741Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":272,"replies":74,"reposts":34,"follows":504},"earned":528672,"spent":407041,"balance":121631,"goal":null,"stores":[],"kindsV":"12bdlj1","next":{"room":320000},"ideas":50,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -85,7 +85,6 @@
 {"id":"i73","kind":"stove","name":"Smeg Portofino 30\" Dual Fuel Range, Stainless Steel","price":1499,"store":"Shop Appliances","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","colors":{"body":"silver","top":"charcoal","window":"charcoal","handle":"silver","knobs":"black"},"room":"r3","at":{"i":0,"j":7.2,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-31T18:25:18.336Z","idea":true}
 ],
 "feed": [
-{"id":"e264","t":"2026-10-29T14:24:33.528Z","type":"place","text":"moved IKEA PS 2026 Rug, low pile, oval/green off-white, 6'7\"x8'9\" on the floor in the middle of the room","item":"i26"},
 {"id":"e265","t":"2026-10-29T14:24:33.662Z","type":"place","text":"moved LILLEPLUTT Soft toy, cat gray/white on the lack coffee table, black-brown, 35 3/8x21 5/8\"","item":"i28"},
 {"id":"e266","t":"2026-10-29T14:24:33.798Z","type":"place","text":"moved POÄNG Armchair, birch veneer/Knisa light beige by the window","item":"i5"},
 {"id":"e267","t":"2026-10-29T14:24:33.940Z","type":"place","text":"moved LACK Side table, white stained oak effect, 21 5/8x21 5/8\" by the window","item":"i6"},
@@ -584,6 +583,7 @@
 {"id":"e760","t":"2026-10-31T18:25:18.336Z","type":"idea","text":"someone suggested a really good stove","acted":true,"item":"i73"},
 {"id":"e761","t":"2026-10-31T18:25:18.336Z","type":"buy","text":"bought Smeg Portofino 30\" Dual Fuel Range, Stainless Steel · $1,499 from Shop Appliances","item":"i73","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","amount":1499},
 {"id":"e762","t":"2026-10-31T18:25:18.336Z","type":"place","text":"put it against the left wall","item":"i73"},
-{"id":"e763","t":"2026-10-31T18:25:18.336Z","type":"think","text":"four burners and a pizza mode. the kitchen finally feels like a kitchen"}
+{"id":"e763","t":"2026-10-31T18:25:18.336Z","type":"think","text":"four burners and a pizza mode. the kitchen finally feels like a kitchen"},
+{"id":"e764","t":"2026-10-31T18:28:11.748Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000}
 ]
 }
