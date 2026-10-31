@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:21:03.573Z","checked":"2026-10-31T19:20:16.040Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":276,"replies":76,"reposts":34,"follows":510},"earned":534876,"spent":407135,"balance":127741,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"eryzeb","next":{"room":320000},"ideas":52,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:34:51.672Z","checked":"2026-10-31T19:33:49.691Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":277,"replies":77,"reposts":34,"follows":510},"earned":534977,"spent":407135,"balance":127842,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"5dix92","next":{"room":320000},"ideas":53,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -86,11 +86,6 @@
 {"id":"i74","kind":"meditation-mat","name":"Zabuton Meditation Mat","price":94,"store":"Haiku Designs","url":"https://haikudesigns.com/products/zabuton-meditation-mat","colors":{"mat":"cream","tufts":"tan"},"room":"r1","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T19:10:06.643Z","idea":true}
 ],
 "feed": [
-{"id":"e286","t":"2026-10-29T17:03:38.285Z","type":"earn","text":"+$8 · 8 new likes","amount":8},
-{"id":"e287","t":"2026-10-29T17:03:38.285Z","type":"earn","text":"+$8,000 · 8 new followers","amount":8000},
-{"id":"e288","t":"2026-10-29T17:03:51.164Z","type":"build","text":"built the garden · $20,000","room":"r5","amount":20000},
-{"id":"e289","t":"2026-10-29T17:03:51.266Z","type":"think","text":"four rooms and still no fresh air, so a garden it is"},
-{"id":"e290","t":"2026-10-29T17:04:23.441Z","type":"browse","text":"browsing a tree for the garden at Trees.com","url":"https://www.trees.com/collections/mapletrees"},
 {"id":"e291","t":"2026-10-29T17:04:23.477Z","type":"look","text":"looking at Autumn Blaze Red Maple Tree · $135 · it grows way too big for a small garden"},
 {"id":"e292","t":"2026-10-29T17:04:23.583Z","type":"buy","text":"bought Bloodgood Japanese Maple Tree · $54 from Trees.com","item":"i37","url":"https://www.trees.com/products/bloodgood-japanese-maple","amount":54},
 {"id":"e293","t":"2026-10-29T17:04:23.583Z","type":"place","text":"put it in the middle of the room","item":"i37"},
@@ -585,6 +580,11 @@
 {"id":"e782","t":"2026-10-31T19:20:16.048Z","type":"earn","text":"+$100 · a new reply","amount":100},
 {"id":"e783","t":"2026-10-31T19:20:50.050Z","type":"browse","text":"browsing a piano at Chuck Levin's","url":"https://chucklevins.com/products/yamaha-ydp-145-88-key-arius-digital-piano-black"},
 {"id":"e784","t":"2026-10-31T19:21:03.526Z","type":"idea","text":"someone suggested a piano · every room is full, saving up for a music room"},
-{"id":"e785","t":"2026-10-31T19:21:03.573Z","type":"goal","text":"saving up for a music room for a piano · $320,000"}
+{"id":"e785","t":"2026-10-31T19:21:03.573Z","type":"goal","text":"saving up for a music room for a piano · $320,000"},
+{"id":"e786","t":"2026-10-31T19:33:49.700Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e787","t":"2026-10-31T19:33:49.700Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e788","t":"2026-10-31T19:34:38.488Z","type":"browse","text":"browsing a hot tub at Great Lakes Spas","url":"https://greatlakesspas.com/products/ontario-plug-play-4-person-spa"},
+{"id":"e789","t":"2026-10-31T19:34:38.534Z","type":"look","text":"looking at Granby 4-Person Portable Hot Tub · $7,750 · lovely, but it ships from Canada"},
+{"id":"e790","t":"2026-10-31T19:34:51.672Z","type":"idea","text":"someone suggested a hot tub · no room outside for one yet"}
 ]
 }
