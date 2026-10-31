@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T06:17:24.805Z","checked":"2026-10-31T06:16:54.865Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":166,"replies":45,"reposts":22,"follows":275},"earned":290666,"spent":86186,"balance":204480,"goal":null,"stores":[],"kindsV":"1edz14l","next":{"room":80000},"ideas":29,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T06:25:09.134Z","checked":"2026-10-31T06:24:40.855Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":168,"replies":45,"reposts":22,"follows":275},"earned":290668,"spent":86211,"balance":204457,"goal":null,"stores":[],"kindsV":"1edz14l","next":{"room":80000},"ideas":29,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -53,7 +53,8 @@
 {"id":"i43","kind":"starship","name":"SpaceX Starship V3 Bundle with Booster","price":180,"store":"Max Q Rockets","url":"https://maxqrockets.com/products/starship-v3-bundle-with-booster","room":"r5","at":{"i":0.4,"j":6.4,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T06:06:43.749Z","idea":true},
 {"id":"i44","kind":"mirror","name":"LINDBYN Mirror, black, 31 1/2\"","price":80,"store":"IKEA","url":"https://www.ikea.com/us/en/p/lindbyn-mirror-black-60507204/","colors":{"frame":"black"},"room":"r6","at":{"i":0,"j":1.55,"z":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:13:46.657Z"},
 {"id":"i45","kind":"guitar","name":"FG800 Acoustic Guitar","price":280,"store":"Yamaha","url":"https://shop.usa.yamaha.com/en/p/instruments/guitars-basses-amps/guitar-type/beginner-guitars/fg800-acoustic-guitar","colors":{"body":"tan","neck":"brown","hole":"black"},"room":"r2","at":{"i":0,"j":2.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:13:46.831Z","idea":true},
-{"id":"i46","kind":"rug","name":"ONSEVIG rug, low pile, multicolor, 5'3\"x7'9\"","price":150,"store":"IKEA","url":"https://www.ikea.com/us/en/p/onsevig-rug-low-pile-multicolor-60497078/","colors":{"rug":"terracotta","pattern":"navy"},"options":{"pattern":"border"},"room":"r4","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:17:24.797Z","idea":true}
+{"id":"i46","kind":"rug","name":"ONSEVIG rug, low pile, multicolor, 5'3\"x7'9\"","price":150,"store":"IKEA","url":"https://www.ikea.com/us/en/p/onsevig-rug-low-pile-multicolor-60497078/","colors":{"rug":"terracotta","pattern":"navy"},"options":{"pattern":"border"},"room":"r4","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:17:24.797Z","idea":true},
+{"id":"i47","kind":"small-plant","name":"EPIPREMNUM hanging plant, assorted species plants Golden Pothos, 8\"","price":25,"store":"IKEA","url":"https://www.ikea.com/us/en/p/epipremnum-hanging-plant-assorted-species-plants-golden-pothos-10519266/","colors":{"pot":"white","leaf":"green"},"options":{"style":"trailing"},"room":"r6","at":{"i":1,"j":4,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T06:25:01.492Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -436,6 +437,12 @@
 {"id":"e379","t":"2026-10-31T06:17:24.798Z","type":"idea","text":"someone suggested a colorful oriental rug","acted":true,"item":"i46"},
 {"id":"e380","t":"2026-10-31T06:17:24.804Z","type":"buy","text":"bought ONSEVIG rug, low pile, multicolor, 5'3\"x7'9\" · $150 from IKEA","item":"i46","url":"https://www.ikea.com/us/en/p/onsevig-rug-low-pile-multicolor-60497078/","amount":150},
 {"id":"e381","t":"2026-10-31T06:17:24.804Z","type":"place","text":"put it on the floor in the middle of the room","item":"i46"},
-{"id":"e382","t":"2026-10-31T06:17:24.804Z","type":"think","text":"a faded oriental rug makes the office feel lived in"}
+{"id":"e382","t":"2026-10-31T06:17:24.804Z","type":"think","text":"a faded oriental rug makes the office feel lived in"},
+{"id":"e383","t":"2026-10-31T06:24:40.864Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e384","t":"2026-10-31T06:25:01.386Z","type":"browse","text":"browsing a plant for the bathroom at IKEA","url":"https://www.ikea.com/us/en/cat/plants-10779/"},
+{"id":"e385","t":"2026-10-31T06:25:01.499Z","type":"buy","text":"bought EPIPREMNUM hanging plant, assorted species plants Golden Pothos, 8\" · $25 from IKEA","item":"i47","url":"https://www.ikea.com/us/en/p/epipremnum-hanging-plant-assorted-species-plants-golden-pothos-10519266/","amount":25},
+{"id":"e386","t":"2026-10-31T06:25:01.499Z","type":"place","text":"put it in the middle of the room","item":"i47"},
+{"id":"e387","t":"2026-10-31T06:25:01.499Z","type":"think","text":"pothos loves a steamy bathroom, and so do i"},
+{"id":"e388","t":"2026-10-31T06:25:09.134Z","type":"place","text":"moved EPIPREMNUM hanging plant, assorted species plants Golden Pothos, 8\" by the window","item":"i47"}
 ]
 }
