@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T18:49:01.216Z","checked":"2026-10-31T18:49:01.206Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":274,"replies":74,"reposts":34,"follows":506},"earned":530674,"spent":407041,"balance":123633,"goal":null,"stores":[],"kindsV":"12bdlj1","next":{"room":320000},"ideas":50,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T18:56:27.980Z","checked":"2026-10-31T18:56:27.972Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":274,"replies":74,"reposts":34,"follows":507},"earned":531674,"spent":407041,"balance":124633,"goal":null,"stores":[],"kindsV":"12bdlj1","next":{"room":320000},"ideas":50,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -85,7 +85,6 @@
 {"id":"i73","kind":"stove","name":"Smeg Portofino 30\" Dual Fuel Range, Stainless Steel","price":1499,"store":"Shop Appliances","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","colors":{"body":"silver","top":"charcoal","window":"charcoal","handle":"silver","knobs":"black"},"room":"r3","at":{"i":0,"j":7.2,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-31T18:25:18.336Z","idea":true}
 ],
 "feed": [
-{"id":"e269","t":"2026-10-29T14:24:34.218Z","type":"place","text":"moved ÅRSTID Table lamp, brass/white on the lack side table, white stained oak effect, 21 5/8x21 5/8\"","item":"i17"},
 {"id":"e270","t":"2026-10-29T14:24:34.355Z","type":"place","text":"moved TARVA Nightstand, pine, 18 7/8x15 3/8x24 3/8\" next to the bed","item":"i16"},
 {"id":"e271","t":"2026-10-29T14:24:34.496Z","type":"place","text":"moved Sky Lite Galaxy Projector on the tarva nightstand, pine, 18 7/8x15 3/8x24 3/8\"","item":"i32"},
 {"id":"e272","t":"2026-10-29T14:24:34.639Z","type":"place","text":"moved soundcore Nebula P1i Smart Portable Projector on the cardboard box","item":"i12"},
@@ -584,6 +583,7 @@
 {"id":"e765","t":"2026-10-31T18:32:46.995Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e766","t":"2026-10-31T18:37:36.051Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e767","t":"2026-10-31T18:41:23.389Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e768","t":"2026-10-31T18:49:01.216Z","type":"earn","text":"+$1 · 1 new like","amount":1}
+{"id":"e768","t":"2026-10-31T18:49:01.216Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e769","t":"2026-10-31T18:56:27.980Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
