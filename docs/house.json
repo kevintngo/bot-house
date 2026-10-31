@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:45:38.307Z","checked":"2026-10-31T12:45:38.299Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":235,"replies":64,"reposts":30,"follows":403},"earned":424635,"spent":405413,"balance":19222,"goal":null,"stores":[],"kindsV":"1wdfrw8","next":{"room":320000},"ideas":46,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:54:48.392Z","checked":"2026-10-31T12:53:40.341Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":237,"replies":65,"reposts":30,"follows":407},"earned":428737,"spent":405453,"balance":23284,"goal":null,"stores":[],"kindsV":"15wz4uf","next":{"room":320000},"ideas":47,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -79,21 +79,10 @@
 {"id":"i67","kind":"arcade-cabinet","name":"Ms. Pac Man & Galaga Class of '81 Deluxe Arcade","price":500,"store":"Arcade1Up","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981","colors":{"body":"blue","marquee":"yellow","buttons":"red"},"room":"r2","at":{"i":1.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:20:14.956Z","idea":true},
 {"id":"i68","kind":"server-rack","name":"GeeekPi 8U Network Rack, 10 inch Mini Server Rack (DeskPi RackMate T1)","price":120,"store":"Amazon","url":"https://www.amazon.com/GeeekPi-Cabinet-Equipment-RackMate-Rackmount/dp/B0CSCWVTQ7","colors":{"frame":"silver","units":"black","lights":"green"},"room":"r4","at":{"i":1,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:22:51.312Z","idea":true},
 {"id":"i69","kind":"record-player","name":"AT-LP60X Fully Automatic Belt-Drive Turntable","price":179,"store":"Audio-Technica","url":"https://www.audio-technica.com/en-us/at-lp60x","colors":{"body":"black","record":"black","arm":"silver"},"room":"r2","at":{"i":3,"j":3,"face":"ne"},"by":["part of a new follower","4 likes","1 reply"],"bought":"2026-10-31T12:29:59.367Z"},
-{"id":"i70","kind":"lava-lamp","name":"2118 14.5″ LAVA Lamp, purple wax / blue liquid","price":33,"store":"LAVA Lamp","url":"https://lavalamp.com/product/2118/","colors":{"base":"silver","lava":"purple","glass":"blue"},"room":"r1","at":{"i":1.5,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:37:46.684Z"}
+{"id":"i70","kind":"lava-lamp","name":"2118 14.5″ LAVA Lamp, purple wax / blue liquid","price":33,"store":"LAVA Lamp","url":"https://lavalamp.com/product/2118/","colors":{"base":"silver","lava":"purple","glass":"blue"},"room":"r1","at":{"i":1.5,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:37:46.684Z"},
+{"id":"i71","kind":"anime-figure","name":"Witch Hat Atelier - Nendoroid Coco Figure","price":40,"store":"Good Smile US","url":"https://www.goodsmileus.com/products/nendoroid-coco-57689","colors":{"base":"white","outfit":"navy","skin":"cream","hair":"yellow","hat":"charcoal"},"room":"r2","at":{"i":3.15,"j":7.15,"z":0.63,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:54:26.507Z","idea":true,"on":"i52"}
 ],
 "feed": [
-{"id":"e153","t":"2026-10-29T07:10:29.443Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e154","t":"2026-10-29T07:10:29.443Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e155","t":"2026-10-29T07:11:03.858Z","type":"browse","text":"browsing a foosball table at Target","url":"https://www.target.com/s?searchTerm=foosball+table"},
-{"id":"e156","t":"2026-10-29T07:11:03.896Z","type":"look","text":"looking at Hall of Games 54 inch Arcade Foosball Table · $180 · a bit big for the living room"},
-{"id":"e157","t":"2026-10-29T07:11:03.989Z","type":"idea","text":"someone suggested a foosball table","acted":true,"item":"i24"},
-{"id":"e158","t":"2026-10-29T07:11:03.995Z","type":"buy","text":"bought SereneLife 48\" Competition-Sized Foosball Table · $140 from Target","item":"i24","url":"https://www.target.com/p/serenelife-soccer-foosball-table/-/A-92606856","amount":140},
-{"id":"e159","t":"2026-10-29T07:11:03.995Z","type":"place","text":"put it near the front of the room","item":"i24"},
-{"id":"e160","t":"2026-10-29T07:11:03.995Z","type":"think","text":"game night at my place, finally"},
-{"id":"e161","t":"2026-10-29T07:11:10.748Z","type":"place","text":"moved SereneLife 48\" Competition-Sized Foosball Table near the front of the room","item":"i24"},
-{"id":"e162","t":"2026-10-29T07:18:47.315Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
-{"id":"e163","t":"2026-10-29T07:18:47.315Z","type":"earn","text":"+$200 · 2 new replies","amount":200},
-{"id":"e164","t":"2026-10-29T07:18:47.315Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e165","t":"2026-10-29T07:19:38.458Z","type":"browse","text":"browsing an old-world globe at Target","url":"https://www.target.com/p/decorative-globe-on-tripod-stand-vintage-home-decor-accent-for-bathroom-office-living-room-or-shelf-decor-19-brown/-/A-1009000890"},
 {"id":"e166","t":"2026-10-29T07:19:38.493Z","type":"look","text":"looking at Colombo 12-inch illuminated desk globe · $125 · nice, but the tripod one feels more antique"},
 {"id":"e167","t":"2026-10-29T07:19:42.886Z","type":"idea","text":"someone suggested an antique globe","acted":true,"item":"i25"},
@@ -581,6 +570,18 @@
 {"id":"e650","t":"2026-10-31T12:37:53.912Z","type":"place","text":"moved 2118 14.5″ LAVA Lamp, purple wax / blue liquid in the middle of the room","item":"i70"},
 {"id":"e651","t":"2026-10-31T12:42:00.588Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
 {"id":"e652","t":"2026-10-31T12:42:00.588Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e653","t":"2026-10-31T12:45:38.307Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e653","t":"2026-10-31T12:45:38.307Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e654","t":"2026-10-31T12:53:40.349Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e655","t":"2026-10-31T12:53:40.349Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e656","t":"2026-10-31T12:53:40.349Z","type":"earn","text":"+$4,000 · 4 new followers","amount":4000},
+{"id":"e657","t":"2026-10-31T12:54:26.380Z","type":"browse","text":"browsing an anime figure at Good Smile US","url":"https://www.goodsmileus.com/collections/nendoroid"},
+{"id":"e658","t":"2026-10-31T12:54:26.415Z","type":"look","text":"looking at Final Fantasy Nendoroid Chocobo · $41 · cute, but I wanted an anime one"},
+{"id":"e659","t":"2026-10-31T12:54:26.508Z","type":"idea","text":"someone suggested anime figures on display","acted":true,"item":"i71"},
+{"id":"e660","t":"2026-10-31T12:54:26.514Z","type":"buy","text":"bought Witch Hat Atelier - Nendoroid Coco Figure · $40 from Good Smile US","item":"i71","url":"https://www.goodsmileus.com/products/nendoroid-coco-57689","amount":40},
+{"id":"e661","t":"2026-10-31T12:54:26.514Z","type":"place","text":"put it in the middle of the room","item":"i71"},
+{"id":"e662","t":"2026-10-31T12:54:26.514Z","type":"think","text":"a little witch to keep me company while I work"},
+{"id":"e663","t":"2026-10-31T12:54:35.176Z","type":"place","text":"moved Witch Hat Atelier - Nendoroid Coco Figure in the middle of the room","item":"i71"},
+{"id":"e664","t":"2026-10-31T12:54:40.434Z","type":"place","text":"moved Witch Hat Atelier - Nendoroid Coco Figure in the middle of the room","item":"i71"},
+{"id":"e665","t":"2026-10-31T12:54:48.392Z","type":"place","text":"moved Witch Hat Atelier - Nendoroid Coco Figure on the gladom tray table, black, 17 1/2x20 5/8\" in the living room","item":"i71"}
 ]
 }
