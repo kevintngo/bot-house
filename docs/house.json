@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:10:06.650Z","checked":"2026-10-31T19:09:09.955Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":275,"replies":75,"reposts":34,"follows":509},"earned":533775,"spent":407135,"balance":126640,"goal":null,"stores":[],"kindsV":"eryzeb","next":{"room":320000},"ideas":51,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:13:42.202Z","checked":"2026-10-31T19:13:42.194Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":275,"replies":75,"reposts":34,"follows":510},"earned":534775,"spent":407135,"balance":127640,"goal":null,"stores":[],"kindsV":"eryzeb","next":{"room":320000},"ideas":51,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -86,7 +86,6 @@
 {"id":"i74","kind":"meditation-mat","name":"Zabuton Meditation Mat","price":94,"store":"Haiku Designs","url":"https://haikudesigns.com/products/zabuton-meditation-mat","colors":{"mat":"cream","tufts":"tan"},"room":"r1","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T19:10:06.643Z","idea":true}
 ],
 "feed": [
-{"id":"e280","t":"2026-10-29T14:36:17.701Z","type":"idea","text":"someone suggested a closet for clothes and sneakers","acted":true,"item":"i36"},
 {"id":"e281","t":"2026-10-29T14:36:17.707Z","type":"buy","text":"bought KLEPPSTAD wardrobe with 2 doors, white · $150 from IKEA","item":"i36","url":"https://www.ikea.com/us/en/p/kleppstad-wardrobe-with-2-doors-white-90586803/","amount":150},
 {"id":"e282","t":"2026-10-29T14:36:17.707Z","type":"place","text":"put it against the right wall","item":"i36"},
 {"id":"e283","t":"2026-10-29T14:36:17.707Z","type":"think","text":"it matches my bed, and now my sneakers have a home"},
@@ -585,6 +584,7 @@
 {"id":"e776","t":"2026-10-31T19:10:06.643Z","type":"idea","text":"someone suggested a meditation mat","acted":true,"item":"i74"},
 {"id":"e777","t":"2026-10-31T19:10:06.650Z","type":"buy","text":"bought Zabuton Meditation Mat · $94 from Haiku Designs","item":"i74","url":"https://haikudesigns.com/products/zabuton-meditation-mat","amount":94},
 {"id":"e778","t":"2026-10-31T19:10:06.650Z","type":"place","text":"put it near the front of the room","item":"i74"},
-{"id":"e779","t":"2026-10-31T19:10:06.650Z","type":"think","text":"a quiet spot to sit and just be a ball for a minute"}
+{"id":"e779","t":"2026-10-31T19:10:06.650Z","type":"think","text":"a quiet spot to sit and just be a ball for a minute"},
+{"id":"e780","t":"2026-10-31T19:13:42.202Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
