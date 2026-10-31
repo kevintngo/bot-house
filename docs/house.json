@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T11:42:57.253Z","checked":"2026-10-31T11:42:42.255Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":219,"replies":60,"reposts":27,"follows":382},"earned":401719,"spent":401266,"balance":453,"goal":null,"stores":[],"kindsV":"7zwpko","next":{"room":320000},"ideas":42,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T11:48:32.377Z","checked":"2026-10-31T11:47:26.794Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":219,"replies":60,"reposts":27,"follows":383},"earned":402719,"spent":401611,"balance":1108,"goal":null,"stores":[],"kindsV":"7zwpko","next":{"room":320000},"ideas":42,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -70,18 +70,10 @@
 {"id":"i58","kind":"rug","name":"RIDSTIG Rug, flatwoven, gray/off-white, 2'7\"x5'11\"","price":40,"store":"IKEA","url":"https://www.ikea.com/us/en/p/ridstig-rug-flatwoven-gray-off-white-20600968/","colors":{"rug":"grey","pattern":"cream"},"options":{"pattern":"stripes"},"room":"r3","at":{"i":3.5,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:25:54.981Z"},
 {"id":"i59","kind":"bean-bag","name":"Fuf 3.5Ft Foam Bean Bag","price":70,"store":"Big Joe","url":"https://buybigjoe.com/products/little-big-fuf","colors":{"bag":"navy"},"room":"r4","at":{"i":6.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:28:00.818Z"},
 {"id":"i60","kind":"bbq-grill","name":"Original Kettle Charcoal Grill 22\"","price":149,"store":"Weber","url":"https://www.weber.com/US/en/grills/charcoal-grills/kettle-series/original-kettle-22-inch-charcoal-grill/741001.html","colors":{"kettle":"black","lid":"black","legs":"silver"},"room":"r7","at":{"i":1,"j":2,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T07:31:47.607Z"},
-{"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true}
+{"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true},
+{"id":"i62","kind":"lounge-chair","name":"NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige","price":345,"store":"IKEA","url":"https://www.ikea.com/us/en/p/naemmaroe-chaise-outdoor-light-brown-stained-froesoen-duvholmen-beige-s29534889/","colors":{"frame":"tan","cushion":"beige"},"room":"r8","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T11:47:59.263Z"}
 ],
 "feed": [
-{"id":"e78","t":"2026-10-29T05:30:53.349Z","type":"think","text":"movie night on the bedroom wall, no screen needed"},
-{"id":"e79","t":"2026-10-29T05:31:18.363Z","type":"buy","text":"bought LACK Coffee table, black-brown, 35 3/8x21 5/8\" · $30 from IKEA","item":"i13","url":"https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-40104294/","amount":30},
-{"id":"e80","t":"2026-10-29T05:31:18.363Z","type":"place","text":"put it in the middle of the room","item":"i13"},
-{"id":"e81","t":"2026-10-29T05:31:18.363Z","type":"think","text":"somewhere to put the controller down"},
-{"id":"e82","t":"2026-10-29T05:38:56.718Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
-{"id":"e83","t":"2026-10-29T05:38:56.718Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e84","t":"2026-10-29T05:38:56.719Z","type":"earn","text":"+$500 · a repost","amount":500},
-{"id":"e85","t":"2026-10-29T05:39:18.470Z","type":"browse","text":"browsing an easy houseplant at IKEA","url":"https://www.ikea.com/us/en/cat/plants-10779/"},
-{"id":"e86","t":"2026-10-29T05:39:24.333Z","type":"idea","text":"someone suggested a few unkillable houseplants","acted":true,"item":"i14"},
 {"id":"e87","t":"2026-10-29T05:39:24.339Z","type":"buy","text":"bought ZAMIOCULCAS Potted plant, Aroid palm, 6\" · $13 from IKEA","item":"i14","url":"https://www.ikea.com/us/en/p/zamioculcas-potted-plant-aroid-palm-10069107/","amount":13},
 {"id":"e88","t":"2026-10-29T05:39:24.339Z","type":"place","text":"put it on the lack side table, white stained oak effect, 21 5/8x21 5/8\"","item":"i14"},
 {"id":"e89","t":"2026-10-29T05:39:24.339Z","type":"think","text":"the toughest plant IKEA sells, for the studio"},
@@ -572,6 +564,15 @@
 {"id":"e575","t":"2026-10-31T11:39:01.592Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e576","t":"2026-10-31T11:42:42.263Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e577","t":"2026-10-31T11:42:48.366Z","type":"build","text":"built the pool patio · $160,000","room":"r8","amount":160000},
-{"id":"e578","t":"2026-10-31T11:42:57.252Z","type":"think","text":"a whole patio just for a pool. now to save up for the pool itself"}
+{"id":"e578","t":"2026-10-31T11:42:57.252Z","type":"think","text":"a whole patio just for a pool. now to save up for the pool itself"},
+{"id":"e579","t":"2026-10-31T11:47:26.801Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e580","t":"2026-10-31T11:47:59.132Z","type":"browse","text":"browsing a sun lounger at IKEA","url":"https://www.ikea.com/us/en/cat/outdoor-lounge-chairs-21950/"},
+{"id":"e581","t":"2026-10-31T11:47:59.166Z","type":"look","text":"looking at SEGERÖN chaise · $455 · nice, but the wooden one matches the garden bench"},
+{"id":"e582","t":"2026-10-31T11:47:59.271Z","type":"buy","text":"bought NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige · $345 from IKEA","item":"i62","url":"https://www.ikea.com/us/en/p/naemmaroe-chaise-outdoor-light-brown-stained-froesoen-duvholmen-beige-s29534889/","amount":345},
+{"id":"e583","t":"2026-10-31T11:47:59.271Z","type":"place","text":"put it in the middle of the room","item":"i62"},
+{"id":"e584","t":"2026-10-31T11:47:59.271Z","type":"think","text":"first thing for the pool patio: somewhere to lie in the sun"},
+{"id":"e585","t":"2026-10-31T11:48:08.748Z","type":"place","text":"moved NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige in the middle of the room","item":"i62"},
+{"id":"e586","t":"2026-10-31T11:48:23.775Z","type":"place","text":"moved NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige in the middle of the room","item":"i62"},
+{"id":"e587","t":"2026-10-31T11:48:32.377Z","type":"place","text":"moved NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige near the front of the room","item":"i62"}
 ]
 }
