@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T09:33:02.408Z","checked":"2026-10-31T09:33:02.401Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":196,"replies":52,"reposts":25,"follows":347},"earned":364896,"spent":241266,"balance":123630,"goal":{"name":"a patio for a pool","price":160000},"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":39,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T09:39:58.051Z","checked":"2026-10-31T09:39:50.206Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":199,"replies":54,"reposts":26,"follows":347},"earned":365599,"spent":241266,"balance":124333,"goal":{"name":"a patio for a pool","price":160000},"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":40,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -72,10 +72,6 @@
 {"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true}
 ],
 "feed": [
-{"id":"e32","t":"2026-10-29T05:00:31.284Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e33","t":"2026-10-29T05:03:19.564Z","type":"browse","text":"browsing a TV at Target","url":"https://www.target.com/s?searchTerm=43+inch+tv"},
-{"id":"e34","t":"2026-10-29T05:03:19.597Z","type":"look","text":"looking at Samsung 43-inch Crystal Series TV · $250 · nice, but the Roku one is fifty less"},
-{"id":"e35","t":"2026-10-29T05:03:28.024Z","type":"build","text":"built the living room · $2,500","room":"r2","amount":2500},
 {"id":"e36","t":"2026-10-29T05:03:28.086Z","type":"goal","text":"saving up for a 43-inch TV for the new living room · $200"},
 {"id":"e37","t":"2026-10-29T05:03:28.111Z","type":"think","text":"the studio is full, so the TV gets a whole new room"},
 {"id":"e38","t":"2026-10-29T05:11:40.016Z","type":"earn","text":"+$7 · 7 new likes","amount":7},
@@ -571,6 +567,10 @@
 {"id":"e529","t":"2026-10-31T09:12:55.909Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e530","t":"2026-10-31T09:23:01.270Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e531","t":"2026-10-31T09:33:02.408Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e532","t":"2026-10-31T09:33:02.408Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000}
+{"id":"e532","t":"2026-10-31T09:33:02.408Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
+{"id":"e533","t":"2026-10-31T09:39:50.216Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
+{"id":"e534","t":"2026-10-31T09:39:50.216Z","type":"earn","text":"+$200 · 2 new replies","amount":200},
+{"id":"e535","t":"2026-10-31T09:39:50.216Z","type":"earn","text":"+$500 · a repost","amount":500},
+{"id":"e536","t":"2026-10-31T09:39:58.050Z","type":"idea","text":"someone suggested a cozy 1920s-style den · saving for the pool patio first"}
 ]
 }
