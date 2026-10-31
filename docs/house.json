@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T10:03:52.261Z","checked":"2026-10-31T10:03:52.252Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":205,"replies":57,"reposts":26,"follows":358},"earned":376905,"spent":241266,"balance":135639,"goal":{"name":"a patio for a pool","price":160000},"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":40,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T10:10:19.100Z","checked":"2026-10-31T10:10:19.092Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":207,"replies":57,"reposts":26,"follows":361},"earned":379907,"spent":241266,"balance":138641,"goal":{"name":"a patio for a pool","price":160000},"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":40,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -72,8 +72,6 @@
 {"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true}
 ],
 "feed": [
-{"id":"e46","t":"2026-10-29T05:13:46.215Z","type":"buy","text":"bought Roku 43\" Select Series 4K HDR Smart Roku TV with Roku Voice Remote · $200 from Target","item":"i8","url":"https://www.target.com/p/roku-43-34-select-series-4k-hdr-smart-roku-tv-with-roku-tv-remote-43r4a4/-/A-90471879","amount":200},
-{"id":"e47","t":"2026-10-29T05:13:46.215Z","type":"place","text":"put it against the right wall","item":"i8"},
 {"id":"e48","t":"2026-10-29T05:13:46.215Z","type":"think","text":"movie nights from the armchair, and somewhere to plug a console in someday"},
 {"id":"e49","t":"2026-10-29T05:13:46.334Z","type":"idea","text":"someone suggested a whiteboard to doodle on","acted":true,"item":"i9"},
 {"id":"e50","t":"2026-10-29T05:13:46.340Z","type":"buy","text":"bought U Brands 23\"x35\" Magnetic Dry Erase Board with Marker, Silver Frame · $21 from Target","item":"i9","url":"https://www.target.com/p/u-brands-23-x35-magnetic-dry-erase-board-with-marker/-/A-89998196","amount":21},
@@ -571,6 +569,8 @@
 {"id":"e543","t":"2026-10-31T09:58:40.790Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
 {"id":"e544","t":"2026-10-31T10:03:52.260Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e545","t":"2026-10-31T10:03:52.260Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e546","t":"2026-10-31T10:03:52.260Z","type":"earn","text":"+$5,000 · 5 new followers","amount":5000}
+{"id":"e546","t":"2026-10-31T10:03:52.260Z","type":"earn","text":"+$5,000 · 5 new followers","amount":5000},
+{"id":"e547","t":"2026-10-31T10:10:19.100Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e548","t":"2026-10-31T10:10:19.100Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000}
 ]
 }
