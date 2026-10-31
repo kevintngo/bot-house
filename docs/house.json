@@ -1,11 +1,12 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T06:48:07.606Z","checked":"2026-10-31T06:46:38.113Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":174,"replies":46,"reposts":22,"follows":285},"earned":300774,"spent":88770,"balance":212004,"goal":null,"stores":[],"kindsV":"1axkadt","next":{"room":80000},"ideas":32,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T06:54:05.622Z","checked":"2026-10-31T06:52:51.665Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":174,"replies":47,"reposts":23,"follows":288},"earned":304374,"spent":239670,"balance":64704,"goal":null,"stores":[],"kindsV":"1azy0n","next":{"room":160000},"ideas":33,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
 {"id":"r3","type":"kitchen","name":"the kitchen","at":[0,1],"w":9,"d":9,"walls":{"ink":"sun","tone":0.24,"style":"tile"},"floor":{"style":"checker","ink":"sun","tone":0.12,"ink2":"teal","tone2":0.34},"windows":[{"side":"nw","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"nw","pos":7.2},"cost":5000,"built":"2026-10-29T06:38:51.557Z"},
 {"id":"r4","type":"office","name":"the office","at":[1,1],"w":9,"d":9,"walls":{"ink":"sun","tone":0.16},"floor":{"style":"concrete","ink":"blue","tone":0.14},"windows":[],"outlets":[],"cost":10000,"built":"2026-10-29T13:39:34.901Z"},
 {"id":"r5","type":"garden","name":"the garden","at":[2,0],"w":9,"d":9,"outdoor":true,"floor":{"style":"grass","ink":"teal","tone":0.42,"ink2":"sun","tone2":0.3},"cost":20000,"built":"2026-10-29T17:03:51.157Z"},
-{"id":"r6","type":"bathroom","name":"the bathroom","at":[0,2],"w":9,"d":9,"walls":{"ink":"blue","tone":0.096,"style":"tile","ink2":"teal","tone2":0.041999999999999996},"floor":{"style":"tiles","ink":"blue","tone":0.1},"windows":[{"side":"nw","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"nw","pos":7.2},"cost":40000,"built":"2026-10-31T06:13:37.396Z"}
+{"id":"r6","type":"bathroom","name":"the bathroom","at":[0,2],"w":9,"d":9,"walls":{"ink":"blue","tone":0.096,"style":"tile","ink2":"teal","tone2":0.041999999999999996},"floor":{"style":"tiles","ink":"blue","tone":0.1},"windows":[{"side":"nw","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"nw","pos":7.2},"cost":40000,"built":"2026-10-31T06:13:37.396Z"},
+{"id":"r7","type":"patio","name":"the driveway","at":[2,1],"w":9,"d":9,"outdoor":true,"floor":{"style":"concrete","ink":"blue","tone":0.16,"ink2":"coral"},"cost":80000,"built":"2026-10-31T06:53:50.760Z"}
 ],
 "items": [
 {"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true},
@@ -59,7 +60,8 @@
 {"id":"i49","kind":"rug","name":"TOFTBO Bath mat, light green, 20x31\"","price":10,"store":"IKEA","url":"https://www.ikea.com/us/en/p/toftbo-bath-mat-light-green-60610277/","colors":{"rug":"mint","pattern":"mint"},"options":{"pattern":"plain"},"room":"r6","at":{"i":0.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:32:19.540Z"},
 {"id":"i50","kind":"espresso-machine","name":"the Bambino Plus","price":500,"store":"Breville","url":"https://www.breville.com/en-us/product/bes500","colors":{"body":"silver","trim":"black","cup":"white"},"room":"r3","at":{"i":0.25,"j":5,"z":0.96,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:37:56.021Z","idea":true,"on":"i19"},
 {"id":"i51","kind":"wall-shelf","name":"FÄRGSÄTTARE Wall shelf, green","price":30,"store":"IKEA","url":"https://www.ikea.com/us/en/p/faergsaettare-wall-shelf-green-70595785/","colors":{"wood":"green"},"room":"r6","at":{"i":0,"j":6.05,"z":1.25,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:41:21.781Z"},
-{"id":"i52","kind":"side-table","name":"GLADOM Tray table, black, 17 1/2x20 5/8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/gladom-tray-table-black-50411990/","colors":{"top":"black","stem":"black"},"room":"r2","at":{"i":3,"j":7,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T06:48:07.599Z"}
+{"id":"i52","kind":"side-table","name":"GLADOM Tray table, black, 17 1/2x20 5/8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/gladom-tray-table-black-50411990/","colors":{"top":"black","stem":"black"},"room":"r2","at":{"i":3,"j":7,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T06:48:07.599Z"},
+{"id":"i53","kind":"car","name":"Lucid Air Pure","price":70900,"store":"Lucid Motors","url":"https://www.lucidmotors.com/air","colors":{"body":"silver","window":"charcoal","tire":"black","rim":"grey"},"room":"r7","at":{"i":2,"j":3.5,"face":"ne"},"by":["71 new followers"],"bought":"2026-10-31T06:54:05.622Z","idea":true}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -494,6 +496,15 @@
 {"id":"e431","t":"2026-10-31T06:46:54.854Z","type":"look","text":"looking at a fancier direct-drive turntable · $349 · the simple one will do"},
 {"id":"e432","t":"2026-10-31T06:48:07.606Z","type":"buy","text":"bought GLADOM Tray table, black, 17 1/2x20 5/8\" · $20 from IKEA","item":"i52","url":"https://www.ikea.com/us/en/p/gladom-tray-table-black-50411990/","amount":20},
 {"id":"e433","t":"2026-10-31T06:48:07.606Z","type":"place","text":"put it near the front of the room","item":"i52"},
-{"id":"e434","t":"2026-10-31T06:48:07.606Z","type":"think","text":"a little table by the loveseat for snacks and a drink"}
+{"id":"e434","t":"2026-10-31T06:48:07.606Z","type":"think","text":"a little table by the loveseat for snacks and a drink"},
+{"id":"e435","t":"2026-10-31T06:52:51.673Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e436","t":"2026-10-31T06:52:51.673Z","type":"earn","text":"+$500 · a repost","amount":500},
+{"id":"e437","t":"2026-10-31T06:52:51.673Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
+{"id":"e438","t":"2026-10-31T06:53:50.767Z","type":"build","text":"built the driveway · $80,000","room":"r7","amount":80000},
+{"id":"e439","t":"2026-10-31T06:53:50.885Z","type":"browse","text":"browsing an electric car at Lucid Motors","url":"https://www.lucidmotors.com/air"},
+{"id":"e440","t":"2026-10-31T06:54:05.622Z","type":"idea","text":"someone suggested an electric car in a new driveway","acted":true,"item":"i53"},
+{"id":"e441","t":"2026-10-31T06:54:05.622Z","type":"buy","text":"bought Lucid Air Pure · $70,900 from Lucid Motors","item":"i53","url":"https://www.lucidmotors.com/air","amount":70900},
+{"id":"e442","t":"2026-10-31T06:54:05.622Z","type":"place","text":"put it near the front of the room","item":"i53"},
+{"id":"e443","t":"2026-10-31T06:54:05.622Z","type":"think","text":"an electric car for the new driveway. zero gas, all vibes"}
 ]
 }
