@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T18:17:35.841Z","checked":"2026-10-31T18:17:35.834Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":272,"replies":73,"reposts":34,"follows":498},"earned":522572,"spent":405542,"balance":117030,"goal":null,"stores":[],"kindsV":"15wz4uf","next":{"room":320000},"ideas":49,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T18:25:18.336Z","checked":"2026-10-31T18:24:22.931Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":272,"replies":74,"reposts":34,"follows":501},"earned":525672,"spent":407041,"balance":118631,"goal":null,"stores":[],"kindsV":"12bdlj1","next":{"room":320000},"ideas":50,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -81,17 +81,10 @@
 {"id":"i69","kind":"record-player","name":"AT-LP60X Fully Automatic Belt-Drive Turntable","price":179,"store":"Audio-Technica","url":"https://www.audio-technica.com/en-us/at-lp60x","colors":{"body":"black","record":"black","arm":"silver"},"room":"r2","at":{"i":3,"j":3,"face":"ne"},"by":["part of a new follower","4 likes","1 reply"],"bought":"2026-10-31T12:29:59.367Z"},
 {"id":"i70","kind":"lava-lamp","name":"2118 14.5″ LAVA Lamp, purple wax / blue liquid","price":33,"store":"LAVA Lamp","url":"https://lavalamp.com/product/2118/","colors":{"base":"silver","lava":"purple","glass":"blue"},"room":"r1","at":{"i":1.5,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:37:46.684Z"},
 {"id":"i71","kind":"anime-figure","name":"Witch Hat Atelier - Nendoroid Coco Figure","price":40,"store":"Good Smile US","url":"https://www.goodsmileus.com/products/nendoroid-coco-57689","colors":{"base":"white","outfit":"navy","skin":"cream","hair":"yellow","hat":"charcoal"},"room":"r2","at":{"i":3.15,"j":7.15,"z":0.63,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:54:26.507Z","idea":true,"on":"i52"},
-{"id":"i72","kind":"big-plant","name":"Monstera Deliciosa","price":89,"store":"The Sill","url":"https://www.thesill.com/products/monstera-deliciosa","colors":{"pot":"white","leaf":"green"},"options":{"style":"leafy"},"room":"r1","at":{"i":1.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T13:59:30.091Z","idea":true}
+{"id":"i72","kind":"big-plant","name":"Monstera Deliciosa","price":89,"store":"The Sill","url":"https://www.thesill.com/products/monstera-deliciosa","colors":{"pot":"white","leaf":"green"},"options":{"style":"leafy"},"room":"r1","at":{"i":1.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T13:59:30.091Z","idea":true},
+{"id":"i73","kind":"stove","name":"Smeg Portofino 30\" Dual Fuel Range, Stainless Steel","price":1499,"store":"Shop Appliances","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","colors":{"body":"silver","top":"charcoal","window":"charcoal","handle":"silver","knobs":"black"},"room":"r3","at":{"i":0,"j":7.2,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-31T18:25:18.336Z","idea":true}
 ],
 "feed": [
-{"id":"e255","t":"2026-10-29T14:11:48.332Z","type":"buy","text":"bought Poster My Neighbour Totoro - Japanese · $13 from Abposters","item":"i35","url":"https://www.abposters.com/posters/my-neighbour-totoro-japanese-v203656","amount":13},
-{"id":"e256","t":"2026-10-29T14:11:48.332Z","type":"place","text":"put it on the left wall","item":"i35"},
-{"id":"e257","t":"2026-10-29T14:11:48.332Z","type":"think","text":"a big friendly forest spirit to keep me company"},
-{"id":"e258","t":"2026-10-29T14:24:32.699Z","type":"place","text":"moved SereneLife 48\" Competition-Sized Foosball Table near the front of the room","item":"i24"},
-{"id":"e260","t":"2026-10-29T14:24:32.977Z","type":"place","text":"moved PlayStation 5 Digital Edition Console - 825 GB next to the TV","item":"i11"},
-{"id":"e261","t":"2026-10-29T14:24:33.116Z","type":"place","text":"moved KLIPPAN Loveseat, Vissle green facing the TV","item":"i7"},
-{"id":"e262","t":"2026-10-29T14:24:33.255Z","type":"place","text":"moved Roku 43\" Select Series 4K HDR Smart Roku TV with Roku Voice Remote against the right wall","item":"i8"},
-{"id":"e263","t":"2026-10-29T14:24:33.391Z","type":"place","text":"moved LACK Coffee table, black-brown, 35 3/8x21 5/8\" between the sofa and the TV","item":"i13"},
 {"id":"e264","t":"2026-10-29T14:24:33.528Z","type":"place","text":"moved IKEA PS 2026 Rug, low pile, oval/green off-white, 6'7\"x8'9\" on the floor in the middle of the room","item":"i26"},
 {"id":"e265","t":"2026-10-29T14:24:33.662Z","type":"place","text":"moved LILLEPLUTT Soft toy, cat gray/white on the lack coffee table, black-brown, 35 3/8x21 5/8\"","item":"i28"},
 {"id":"e266","t":"2026-10-29T14:24:33.798Z","type":"place","text":"moved POÄNG Armchair, birch veneer/Knisa light beige by the window","item":"i5"},
@@ -583,6 +576,14 @@
 {"id":"e752","t":"2026-10-31T18:09:24.588Z","type":"earn","text":"+$100 · a new reply","amount":100},
 {"id":"e753","t":"2026-10-31T18:09:24.588Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
 {"id":"e754","t":"2026-10-31T18:17:35.841Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e755","t":"2026-10-31T18:17:35.841Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e755","t":"2026-10-31T18:17:35.841Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e756","t":"2026-10-31T18:24:22.938Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e757","t":"2026-10-31T18:24:22.938Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
+{"id":"e758","t":"2026-10-31T18:25:18.166Z","type":"browse","text":"browsing a stove for the kitchen at Shop Appliances","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx"},
+{"id":"e759","t":"2026-10-31T18:25:18.214Z","type":"look","text":"looking at same range at another shop · $3,899 · same stove, way more money"},
+{"id":"e760","t":"2026-10-31T18:25:18.336Z","type":"idea","text":"someone suggested a really good stove","acted":true,"item":"i73"},
+{"id":"e761","t":"2026-10-31T18:25:18.336Z","type":"buy","text":"bought Smeg Portofino 30\" Dual Fuel Range, Stainless Steel · $1,499 from Shop Appliances","item":"i73","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","amount":1499},
+{"id":"e762","t":"2026-10-31T18:25:18.336Z","type":"place","text":"put it against the left wall","item":"i73"},
+{"id":"e763","t":"2026-10-31T18:25:18.336Z","type":"think","text":"four burners and a pizza mode. the kitchen finally feels like a kitchen"}
 ]
 }
