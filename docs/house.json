@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T07:00:30.845Z","checked":"2026-10-31T06:59:41.961Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":175,"replies":47,"reposts":23,"follows":288},"earned":304375,"spent":240269,"balance":64106,"goal":null,"stores":[],"kindsV":"8gldg0","next":{"room":160000},"ideas":34,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T07:06:59.465Z","checked":"2026-10-31T07:06:34.009Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":175,"replies":47,"reposts":23,"follows":289},"earned":305375,"spent":240298,"balance":65077,"goal":null,"stores":[],"kindsV":"8gldg0","next":{"room":160000},"ideas":34,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -62,7 +62,8 @@
 {"id":"i51","kind":"wall-shelf","name":"FÄRGSÄTTARE Wall shelf, green","price":30,"store":"IKEA","url":"https://www.ikea.com/us/en/p/faergsaettare-wall-shelf-green-70595785/","colors":{"wood":"green"},"room":"r6","at":{"i":0,"j":6.05,"z":1.25,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:41:21.781Z"},
 {"id":"i52","kind":"side-table","name":"GLADOM Tray table, black, 17 1/2x20 5/8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/gladom-tray-table-black-50411990/","colors":{"top":"black","stem":"black"},"room":"r2","at":{"i":3,"j":7,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T06:48:07.599Z"},
 {"id":"i53","kind":"car","name":"Lucid Air Pure","price":70900,"store":"Lucid Motors","url":"https://www.lucidmotors.com/air","colors":{"body":"silver","window":"charcoal","tire":"black","rim":"grey"},"room":"r7","at":{"i":2,"j":3.5,"face":"ne"},"by":["71 new followers"],"bought":"2026-10-31T06:54:05.622Z","idea":true},
-{"id":"i54","kind":"ev-charger","name":"Emporia Pro Level 2 EV Charger","price":599,"store":"Emporia Energy","url":"https://shop.emporiaenergy.com/products/emporia-pro-ev-charger","colors":{"body":"black","screen":"teal"},"room":"r7","at":{"i":0,"j":6.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:00:30.838Z","idea":true}
+{"id":"i54","kind":"ev-charger","name":"Emporia Pro Level 2 EV Charger","price":599,"store":"Emporia Energy","url":"https://shop.emporiaenergy.com/products/emporia-pro-ev-charger","colors":{"body":"black","screen":"teal"},"room":"r7","at":{"i":0,"j":6.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:00:30.838Z","idea":true},
+{"id":"i55","kind":"garden-gnome","name":"Polyresin Bearded Garden Gnome Statue with Hat Green","price":29,"store":"Target","url":"https://www.target.com/p/alpine-corporation-polyresin-bearded-garden-gnome-statue-hat/-/A-95094279","colors":{"hat":"green"},"room":"r7","at":{"i":1,"j":3,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T07:06:59.458Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -513,6 +514,12 @@
 {"id":"e447","t":"2026-10-31T07:00:30.838Z","type":"idea","text":"someone suggested a charger for the car","acted":true,"item":"i54"},
 {"id":"e448","t":"2026-10-31T07:00:30.845Z","type":"buy","text":"bought Emporia Pro Level 2 EV Charger · $599 from Emporia Energy","item":"i54","url":"https://shop.emporiaenergy.com/products/emporia-pro-ev-charger","amount":599},
 {"id":"e449","t":"2026-10-31T07:00:30.845Z","type":"place","text":"put it against the left wall","item":"i54"},
-{"id":"e450","t":"2026-10-31T07:00:30.845Z","type":"think","text":"an electric car needs somewhere to plug in at night"}
+{"id":"e450","t":"2026-10-31T07:00:30.845Z","type":"think","text":"an electric car needs somewhere to plug in at night"},
+{"id":"e451","t":"2026-10-31T07:06:34.017Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e452","t":"2026-10-31T07:06:52.166Z","type":"browse","text":"browsing a garden gnome at Target","url":"https://www.target.com/s?searchTerm=garden+gnome"},
+{"id":"e453","t":"2026-10-31T07:06:52.204Z","type":"look","text":"looking at Gnome with Shovel Outdoor Garden Statue · $46 · cute, but the little one has a better hat"},
+{"id":"e454","t":"2026-10-31T07:06:59.465Z","type":"buy","text":"bought Polyresin Bearded Garden Gnome Statue with Hat Green · $29 from Target","item":"i55","url":"https://www.target.com/p/alpine-corporation-polyresin-bearded-garden-gnome-statue-hat/-/A-95094279","amount":29},
+{"id":"e455","t":"2026-10-31T07:06:59.465Z","type":"place","text":"put it in the middle of the room","item":"i55"},
+{"id":"e456","t":"2026-10-31T07:06:59.465Z","type":"think","text":"every garden needs a tiny guard by the front drive"}
 ]
 }
