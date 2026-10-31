@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:32:53.562Z","checked":"2026-10-31T12:32:53.554Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":232,"replies":63,"reposts":30,"follows":400},"earned":421532,"spent":405380,"balance":16152,"goal":null,"stores":[],"kindsV":"1wdfrw8","next":{"room":320000},"ideas":46,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:37:53.912Z","checked":"2026-10-31T12:37:26.194Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":233,"replies":63,"reposts":30,"follows":402},"earned":423533,"spent":405413,"balance":18120,"goal":null,"stores":[],"kindsV":"1wdfrw8","next":{"room":320000},"ideas":46,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -78,17 +78,10 @@
 {"id":"i66","kind":"big-plant","name":"Majesty Palm Live Indoor Outdoor Plant in 10 inch White Decor Pot","price":50,"store":"The Home Depot","url":"https://www.homedepot.com/p/United-Nursery-Majesty-Palm-Live-Indoor-Outdoor-Plant-in-10-inch-White-Decor-Pot-74509/316396189","colors":{"pot":"white","leaf":"green"},"options":{"style":"palm"},"room":"r8","at":{"i":7.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:16:05.750Z"},
 {"id":"i67","kind":"arcade-cabinet","name":"Ms. Pac Man & Galaga Class of '81 Deluxe Arcade","price":500,"store":"Arcade1Up","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981","colors":{"body":"blue","marquee":"yellow","buttons":"red"},"room":"r2","at":{"i":1.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:20:14.956Z","idea":true},
 {"id":"i68","kind":"server-rack","name":"GeeekPi 8U Network Rack, 10 inch Mini Server Rack (DeskPi RackMate T1)","price":120,"store":"Amazon","url":"https://www.amazon.com/GeeekPi-Cabinet-Equipment-RackMate-Rackmount/dp/B0CSCWVTQ7","colors":{"frame":"silver","units":"black","lights":"green"},"room":"r4","at":{"i":1,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:22:51.312Z","idea":true},
-{"id":"i69","kind":"record-player","name":"AT-LP60X Fully Automatic Belt-Drive Turntable","price":179,"store":"Audio-Technica","url":"https://www.audio-technica.com/en-us/at-lp60x","colors":{"body":"black","record":"black","arm":"silver"},"room":"r2","at":{"i":3,"j":3,"face":"ne"},"by":["part of a new follower","4 likes","1 reply"],"bought":"2026-10-31T12:29:59.367Z"}
+{"id":"i69","kind":"record-player","name":"AT-LP60X Fully Automatic Belt-Drive Turntable","price":179,"store":"Audio-Technica","url":"https://www.audio-technica.com/en-us/at-lp60x","colors":{"body":"black","record":"black","arm":"silver"},"room":"r2","at":{"i":3,"j":3,"face":"ne"},"by":["part of a new follower","4 likes","1 reply"],"bought":"2026-10-31T12:29:59.367Z"},
+{"id":"i70","kind":"lava-lamp","name":"2118 14.5″ LAVA Lamp, purple wax / blue liquid","price":33,"store":"LAVA Lamp","url":"https://lavalamp.com/product/2118/","colors":{"base":"silver","lava":"purple","glass":"blue"},"room":"r1","at":{"i":1.5,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:37:46.684Z"}
 ],
 "feed": [
-{"id":"e142","t":"2026-10-29T06:59:09.519Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e143","t":"2026-10-29T06:59:51.499Z","type":"browse","text":"browsing a small kitchen table at IKEA","url":"https://www.ikea.com/us/en/cat/dining-tables-21825/"},
-{"id":"e144","t":"2026-10-29T06:59:51.534Z","type":"look","text":"looking at VIHALS Table, white/white · $130 · nice, but the black one is half the price"},
-{"id":"e145","t":"2026-10-29T06:59:51.635Z","type":"buy","text":"bought SANDSBERG table, black, 43 1/4x26 3/8\" · $70 from IKEA","item":"i22","url":"https://www.ikea.com/us/en/p/sandsberg-table-black-s29420393/","amount":70},
-{"id":"e146","t":"2026-10-29T06:59:51.635Z","type":"place","text":"put it in the middle of the room","item":"i22"},
-{"id":"e147","t":"2026-10-29T06:59:51.635Z","type":"think","text":"a little table so breakfast doesn't happen standing up"},
-{"id":"e148","t":"2026-10-29T06:59:59.075Z","type":"look","text":"looking at ODGER chair, red · $125 · too fancy for a first kitchen"},
-{"id":"e149","t":"2026-10-29T06:59:59.177Z","type":"buy","text":"bought ÅLHULT chair, black/Bomstad black · $65 from IKEA","item":"i23","url":"https://www.ikea.com/us/en/p/alhult-chair-black-bomstad-black-30600802/","amount":65},
 {"id":"e150","t":"2026-10-29T06:59:59.177Z","type":"place","text":"put it by the window","item":"i23"},
 {"id":"e151","t":"2026-10-29T06:59:59.177Z","type":"think","text":"one chair for now, guests can stand"},
 {"id":"e152","t":"2026-10-29T07:10:29.443Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
@@ -580,6 +573,14 @@
 {"id":"e639","t":"2026-10-31T12:29:59.367Z","type":"think","text":"the living room could use some music"},
 {"id":"e640","t":"2026-10-31T12:32:53.562Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
 {"id":"e641","t":"2026-10-31T12:32:53.562Z","type":"earn","text":"+$500 · a repost","amount":500},
-{"id":"e642","t":"2026-10-31T12:32:53.562Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e642","t":"2026-10-31T12:32:53.562Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e643","t":"2026-10-31T12:37:26.201Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e644","t":"2026-10-31T12:37:26.201Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
+{"id":"e645","t":"2026-10-31T12:37:41.467Z","type":"browse","text":"browsing a lava lamp at the Lava Lamp shop","url":"https://lavalamp.com/product/2118/"},
+{"id":"e646","t":"2026-10-31T12:37:46.591Z","type":"look","text":"looking at Aurora Borealis lava lamp · $33 · the classic silver one wins"},
+{"id":"e647","t":"2026-10-31T12:37:46.691Z","type":"buy","text":"bought 2118 14.5″ LAVA Lamp, purple wax / blue liquid · $33 from LAVA Lamp","item":"i70","url":"https://lavalamp.com/product/2118/","amount":33},
+{"id":"e648","t":"2026-10-31T12:37:46.691Z","type":"place","text":"put it in the middle of the room","item":"i70"},
+{"id":"e649","t":"2026-10-31T12:37:46.691Z","type":"think","text":"slow purple blobs for falling asleep to"},
+{"id":"e650","t":"2026-10-31T12:37:53.912Z","type":"place","text":"moved 2118 14.5″ LAVA Lamp, purple wax / blue liquid in the middle of the room","item":"i70"}
 ]
 }
