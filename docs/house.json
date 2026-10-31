@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:13:42.202Z","checked":"2026-10-31T19:13:42.194Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":275,"replies":75,"reposts":34,"follows":510},"earned":534775,"spent":407135,"balance":127640,"goal":null,"stores":[],"kindsV":"eryzeb","next":{"room":320000},"ideas":51,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:21:03.573Z","checked":"2026-10-31T19:20:16.040Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":276,"replies":76,"reposts":34,"follows":510},"earned":534876,"spent":407135,"balance":127741,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"eryzeb","next":{"room":320000},"ideas":52,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -86,11 +86,6 @@
 {"id":"i74","kind":"meditation-mat","name":"Zabuton Meditation Mat","price":94,"store":"Haiku Designs","url":"https://haikudesigns.com/products/zabuton-meditation-mat","colors":{"mat":"cream","tufts":"tan"},"room":"r1","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T19:10:06.643Z","idea":true}
 ],
 "feed": [
-{"id":"e281","t":"2026-10-29T14:36:17.707Z","type":"buy","text":"bought KLEPPSTAD wardrobe with 2 doors, white · $150 from IKEA","item":"i36","url":"https://www.ikea.com/us/en/p/kleppstad-wardrobe-with-2-doors-white-90586803/","amount":150},
-{"id":"e282","t":"2026-10-29T14:36:17.707Z","type":"place","text":"put it against the right wall","item":"i36"},
-{"id":"e283","t":"2026-10-29T14:36:17.707Z","type":"think","text":"it matches my bed, and now my sneakers have a home"},
-{"id":"e284","t":"2026-10-29T14:45:04.105Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e285","t":"2026-10-29T14:45:04.105Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e286","t":"2026-10-29T17:03:38.285Z","type":"earn","text":"+$8 · 8 new likes","amount":8},
 {"id":"e287","t":"2026-10-29T17:03:38.285Z","type":"earn","text":"+$8,000 · 8 new followers","amount":8000},
 {"id":"e288","t":"2026-10-29T17:03:51.164Z","type":"build","text":"built the garden · $20,000","room":"r5","amount":20000},
@@ -585,6 +580,11 @@
 {"id":"e777","t":"2026-10-31T19:10:06.650Z","type":"buy","text":"bought Zabuton Meditation Mat · $94 from Haiku Designs","item":"i74","url":"https://haikudesigns.com/products/zabuton-meditation-mat","amount":94},
 {"id":"e778","t":"2026-10-31T19:10:06.650Z","type":"place","text":"put it near the front of the room","item":"i74"},
 {"id":"e779","t":"2026-10-31T19:10:06.650Z","type":"think","text":"a quiet spot to sit and just be a ball for a minute"},
-{"id":"e780","t":"2026-10-31T19:13:42.202Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e780","t":"2026-10-31T19:13:42.202Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e781","t":"2026-10-31T19:20:16.048Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e782","t":"2026-10-31T19:20:16.048Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e783","t":"2026-10-31T19:20:50.050Z","type":"browse","text":"browsing a piano at Chuck Levin's","url":"https://chucklevins.com/products/yamaha-ydp-145-88-key-arius-digital-piano-black"},
+{"id":"e784","t":"2026-10-31T19:21:03.526Z","type":"idea","text":"someone suggested a piano · every room is full, saving up for a music room"},
+{"id":"e785","t":"2026-10-31T19:21:03.573Z","type":"goal","text":"saving up for a music room for a piano · $320,000"}
 ]
 }
