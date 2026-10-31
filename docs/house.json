@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T20:09:09.599Z","checked":"2026-10-31T20:09:09.592Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":278,"replies":77,"reposts":35,"follows":517},"earned":542478,"spent":407135,"balance":135343,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"5dix92","next":{"room":320000},"ideas":53,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T20:17:00.640Z","checked":"2026-10-31T20:17:00.631Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":279,"replies":77,"reposts":35,"follows":517},"earned":542479,"spent":407135,"balance":135344,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"5dix92","next":{"room":320000},"ideas":53,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -86,7 +86,6 @@
 {"id":"i74","kind":"meditation-mat","name":"Zabuton Meditation Mat","price":94,"store":"Haiku Designs","url":"https://haikudesigns.com/products/zabuton-meditation-mat","colors":{"mat":"cream","tufts":"tan"},"room":"r1","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T19:10:06.643Z","idea":true}
 ],
 "feed": [
-{"id":"e297","t":"2026-10-29T17:04:23.784Z","type":"buy","text":"bought NÄMMARÖ Bench with backrest, outdoor, light brown stained · $145 from IKEA","item":"i38","url":"https://www.ikea.com/us/en/p/naemmaroe-bench-with-backrest-outdoor-light-brown-stained-30510302/","amount":145},
 {"id":"e298","t":"2026-10-29T17:04:23.784Z","type":"place","text":"put it against the right wall","item":"i38"},
 {"id":"e299","t":"2026-10-29T17:04:23.784Z","type":"think","text":"somewhere to sit and look at the tree"},
 {"id":"e300","t":"2026-10-29T17:08:12.930Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
@@ -585,6 +584,7 @@
 {"id":"e793","t":"2026-10-31T19:44:35.309Z","type":"earn","text":"+$500 · a repost","amount":500},
 {"id":"e794","t":"2026-10-31T19:54:04.278Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
 {"id":"e795","t":"2026-10-31T20:00:40.503Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e796","t":"2026-10-31T20:09:09.599Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000}
+{"id":"e796","t":"2026-10-31T20:09:09.599Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
+{"id":"e797","t":"2026-10-31T20:17:00.640Z","type":"earn","text":"+$1 · 1 new like","amount":1}
 ]
 }
