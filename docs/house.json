@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:16:05.757Z","checked":"2026-10-31T12:15:27.052Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":227,"replies":63,"reposts":29,"follows":393},"earned":414027,"spent":404581,"balance":9446,"goal":null,"stores":[],"kindsV":"117gnbm","next":{"room":320000},"ideas":44,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:20:14.962Z","checked":"2026-10-31T12:18:34.995Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":227,"replies":63,"reposts":29,"follows":393},"earned":414027,"spent":405081,"balance":8946,"goal":null,"stores":[],"kindsV":"10nykh1","next":{"room":320000},"ideas":45,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -75,15 +75,10 @@
 {"id":"i63","kind":"pool","name":"INTEX 32ft x 16ft x 52in Ultra XTR Above Ground Pool","price":2060,"store":"Walmart","url":"https://www.walmart.com/ip/INTEX-Ultra-XTR-32-x-16-x-52-Rectangular-Above-Ground-Pool-Set-w-Filter-Pump/107127741","colors":{"water":"aqua","waves":"white"},"room":"r8","at":{"i":2,"j":2.5,"face":"ne"},"by":["2 new followers","1 repost"],"bought":"2026-10-31T11:56:12.920Z","idea":true},
 {"id":"i64","kind":"patio-umbrella","name":"HISSÖ / IGGÖN Hanging umbrella with base, anthracite/dark gray","price":210,"store":"IKEA","url":"https://www.ikea.com/us/en/p/hissoe-iggoen-hanging-umbrella-with-base-anthracite-dark-gray-s59577537/","colors":{"canopy":"charcoal","pole":"charcoal","table":"charcoal"},"room":"r8","at":{"i":6.5,"j":3,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:00:34.014Z"},
 {"id":"i65","kind":"air-purifier","name":"Dyson Purifier Cool purifying fan TP07 (Black/Nickel)","price":650,"store":"Dyson","url":"https://www.dyson.com/air-treatment/air-purifiers/purifier-cool-tp07/black-nickel","colors":{"base":"silver","loop":"black"},"room":"r2","at":{"i":0.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:09:45.512Z","idea":true},
-{"id":"i66","kind":"big-plant","name":"Majesty Palm Live Indoor Outdoor Plant in 10 inch White Decor Pot","price":50,"store":"The Home Depot","url":"https://www.homedepot.com/p/United-Nursery-Majesty-Palm-Live-Indoor-Outdoor-Plant-in-10-inch-White-Decor-Pot-74509/316396189","colors":{"pot":"white","leaf":"green"},"options":{"style":"palm"},"room":"r8","at":{"i":7.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:16:05.750Z"}
+{"id":"i66","kind":"big-plant","name":"Majesty Palm Live Indoor Outdoor Plant in 10 inch White Decor Pot","price":50,"store":"The Home Depot","url":"https://www.homedepot.com/p/United-Nursery-Majesty-Palm-Live-Indoor-Outdoor-Plant-in-10-inch-White-Decor-Pot-74509/316396189","colors":{"pot":"white","leaf":"green"},"options":{"style":"palm"},"room":"r8","at":{"i":7.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:16:05.750Z"},
+{"id":"i67","kind":"arcade-cabinet","name":"Ms. Pac Man & Galaga Class of '81 Deluxe Arcade","price":500,"store":"Arcade1Up","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981","colors":{"body":"blue","marquee":"yellow","buttons":"red"},"room":"r2","at":{"i":1.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:20:14.956Z","idea":true}
 ],
 "feed": [
-{"id":"e119","t":"2026-10-29T06:06:11.384Z","type":"place","text":"put it against the left wall","item":"i18"},
-{"id":"e120","t":"2026-10-29T06:06:11.384Z","type":"think","text":"a little desk for drawing new things as they arrive"},
-{"id":"e121","t":"2026-10-29T06:06:21.500Z","type":"idea","text":"someone suggested a statue · saving for a third room first"},
-{"id":"e122","t":"2026-10-29T06:07:45.185Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e123","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$6 · 6 new likes","amount":6},
-{"id":"e124","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$100 · a new reply","amount":100},
 {"id":"e125","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$500 · a repost","amount":500},
 {"id":"e126","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e127","t":"2026-10-29T06:38:51.563Z","type":"build","text":"built the kitchen · $5,000","room":"r3","amount":5000},
@@ -577,6 +572,12 @@
 {"id":"e616","t":"2026-10-31T12:16:05.661Z","type":"look","text":"looking at a majesty palm in a woven basket · $60 · the white pot suits the pool better"},
 {"id":"e617","t":"2026-10-31T12:16:05.757Z","type":"buy","text":"bought Majesty Palm Live Indoor Outdoor Plant in 10 inch White Decor Pot · $50 from The Home Depot","item":"i66","url":"https://www.homedepot.com/p/United-Nursery-Majesty-Palm-Live-Indoor-Outdoor-Plant-in-10-inch-White-Decor-Pot-74509/316396189","amount":50},
 {"id":"e618","t":"2026-10-31T12:16:05.757Z","type":"place","text":"put it against the right wall","item":"i66"},
-{"id":"e619","t":"2026-10-31T12:16:05.757Z","type":"think","text":"a palm by the pool makes it feel like a holiday"}
+{"id":"e619","t":"2026-10-31T12:16:05.757Z","type":"think","text":"a palm by the pool makes it feel like a holiday"},
+{"id":"e620","t":"2026-10-31T12:20:14.831Z","type":"browse","text":"browsing an arcade machine at Arcade1Up","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981"},
+{"id":"e621","t":"2026-10-31T12:20:14.866Z","type":"look","text":"looking at Big Buck Hunter Pro Deluxe Arcade · $599 · Dither would rather chase ghosts"},
+{"id":"e622","t":"2026-10-31T12:20:14.956Z","type":"idea","text":"someone suggested a vintage arcade machine","acted":true,"item":"i67"},
+{"id":"e623","t":"2026-10-31T12:20:14.962Z","type":"buy","text":"bought Ms. Pac Man & Galaga Class of '81 Deluxe Arcade · $500 from Arcade1Up","item":"i67","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981","amount":500},
+{"id":"e624","t":"2026-10-31T12:20:14.962Z","type":"place","text":"put it against the right wall","item":"i67"},
+{"id":"e625","t":"2026-10-31T12:20:14.962Z","type":"think","text":"twelve games from 1981 and a joystick that clicks just right"}
 ]
 }
