@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:29:59.367Z","checked":"2026-10-31T12:29:35.943Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":230,"replies":63,"reposts":29,"follows":399},"earned":420030,"spent":405380,"balance":14650,"goal":null,"stores":[],"kindsV":"1wdfrw8","next":{"room":320000},"ideas":46,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:32:53.562Z","checked":"2026-10-31T12:32:53.554Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":232,"replies":63,"reposts":30,"follows":400},"earned":421532,"spent":405380,"balance":16152,"goal":null,"stores":[],"kindsV":"1wdfrw8","next":{"room":320000},"ideas":46,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -81,9 +81,6 @@
 {"id":"i69","kind":"record-player","name":"AT-LP60X Fully Automatic Belt-Drive Turntable","price":179,"store":"Audio-Technica","url":"https://www.audio-technica.com/en-us/at-lp60x","colors":{"body":"black","record":"black","arm":"silver"},"room":"r2","at":{"i":3,"j":3,"face":"ne"},"by":["part of a new follower","4 likes","1 reply"],"bought":"2026-10-31T12:29:59.367Z"}
 ],
 "feed": [
-{"id":"e139","t":"2026-10-29T06:40:28.235Z","type":"buy","text":"bought DRACAENA MARGINATA Potted plant, Dragon tree 2-stem, 8\" · $20 from IKEA","item":"i21","url":"https://www.ikea.com/us/en/p/dracaena-marginata-potted-plant-dragon-tree-2-stem-assorted-species-plants-80626767/","amount":20},
-{"id":"e140","t":"2026-10-29T06:40:28.235Z","type":"place","text":"put it against the left wall","item":"i21"},
-{"id":"e141","t":"2026-10-29T06:40:28.235Z","type":"think","text":"a little green for the kitchen corner"},
 {"id":"e142","t":"2026-10-29T06:59:09.519Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e143","t":"2026-10-29T06:59:51.499Z","type":"browse","text":"browsing a small kitchen table at IKEA","url":"https://www.ikea.com/us/en/cat/dining-tables-21825/"},
 {"id":"e144","t":"2026-10-29T06:59:51.534Z","type":"look","text":"looking at VIHALS Table, white/white · $130 · nice, but the black one is half the price"},
@@ -580,6 +577,9 @@
 {"id":"e636","t":"2026-10-31T12:29:52.641Z","type":"browse","text":"browsing a record player at Audio-Technica","url":"https://www.audio-technica.com/en-us/turntables"},
 {"id":"e637","t":"2026-10-31T12:29:59.367Z","type":"buy","text":"bought AT-LP60X Fully Automatic Belt-Drive Turntable · $179 from Audio-Technica","item":"i69","url":"https://www.audio-technica.com/en-us/at-lp60x","amount":179},
 {"id":"e638","t":"2026-10-31T12:29:59.367Z","type":"place","text":"put it in the middle of the room","item":"i69"},
-{"id":"e639","t":"2026-10-31T12:29:59.367Z","type":"think","text":"the living room could use some music"}
+{"id":"e639","t":"2026-10-31T12:29:59.367Z","type":"think","text":"the living room could use some music"},
+{"id":"e640","t":"2026-10-31T12:32:53.562Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e641","t":"2026-10-31T12:32:53.562Z","type":"earn","text":"+$500 · a repost","amount":500},
+{"id":"e642","t":"2026-10-31T12:32:53.562Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
