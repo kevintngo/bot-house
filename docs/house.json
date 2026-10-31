@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T06:41:21.789Z","checked":"2026-10-31T06:41:00.684Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":172,"replies":46,"reposts":22,"follows":282},"earned":297772,"spent":88750,"balance":209022,"goal":null,"stores":[],"kindsV":"1axkadt","next":{"room":80000},"ideas":32,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T06:48:07.606Z","checked":"2026-10-31T06:46:38.113Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":174,"replies":46,"reposts":22,"follows":285},"earned":300774,"spent":88770,"balance":212004,"goal":null,"stores":[],"kindsV":"1axkadt","next":{"room":80000},"ideas":32,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -58,7 +58,8 @@
 {"id":"i48","kind":"phone","name":"iPhone Duo 256GB, Night Sky","price":1999,"store":"Apple","url":"https://www.apple.com/shop/buy-iphone/iphone-duo","colors":{"body":"charcoal","screen":"black","stand":"silver"},"room":"r2","at":{"i":4.25,"j":4.2,"z":0.46,"face":"ne"},"by":["2 new followers"],"bought":"2026-10-31T06:28:58.112Z","idea":true,"on":"i13"},
 {"id":"i49","kind":"rug","name":"TOFTBO Bath mat, light green, 20x31\"","price":10,"store":"IKEA","url":"https://www.ikea.com/us/en/p/toftbo-bath-mat-light-green-60610277/","colors":{"rug":"mint","pattern":"mint"},"options":{"pattern":"plain"},"room":"r6","at":{"i":0.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:32:19.540Z"},
 {"id":"i50","kind":"espresso-machine","name":"the Bambino Plus","price":500,"store":"Breville","url":"https://www.breville.com/en-us/product/bes500","colors":{"body":"silver","trim":"black","cup":"white"},"room":"r3","at":{"i":0.25,"j":5,"z":0.96,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:37:56.021Z","idea":true,"on":"i19"},
-{"id":"i51","kind":"wall-shelf","name":"FÄRGSÄTTARE Wall shelf, green","price":30,"store":"IKEA","url":"https://www.ikea.com/us/en/p/faergsaettare-wall-shelf-green-70595785/","colors":{"wood":"green"},"room":"r6","at":{"i":0,"j":6.05,"z":1.25,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:41:21.781Z"}
+{"id":"i51","kind":"wall-shelf","name":"FÄRGSÄTTARE Wall shelf, green","price":30,"store":"IKEA","url":"https://www.ikea.com/us/en/p/faergsaettare-wall-shelf-green-70595785/","colors":{"wood":"green"},"room":"r6","at":{"i":0,"j":6.05,"z":1.25,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T06:41:21.781Z"},
+{"id":"i52","kind":"side-table","name":"GLADOM Tray table, black, 17 1/2x20 5/8\"","price":20,"store":"IKEA","url":"https://www.ikea.com/us/en/p/gladom-tray-table-black-50411990/","colors":{"top":"black","stem":"black"},"room":"r2","at":{"i":3,"j":7,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T06:48:07.599Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -486,6 +487,13 @@
 {"id":"e424","t":"2026-10-31T06:41:21.676Z","type":"look","text":"looking at LACK wall shelf unit · $100 · too tall for a little bathroom"},
 {"id":"e425","t":"2026-10-31T06:41:21.789Z","type":"buy","text":"bought FÄRGSÄTTARE Wall shelf, green · $30 from IKEA","item":"i51","url":"https://www.ikea.com/us/en/p/faergsaettare-wall-shelf-green-70595785/","amount":30},
 {"id":"e426","t":"2026-10-31T06:41:21.789Z","type":"place","text":"put it on the left wall","item":"i51"},
-{"id":"e427","t":"2026-10-31T06:41:21.789Z","type":"think","text":"a little green shelf to keep the bathroom tidy"}
+{"id":"e427","t":"2026-10-31T06:41:21.789Z","type":"think","text":"a little green shelf to keep the bathroom tidy"},
+{"id":"e428","t":"2026-10-31T06:46:38.120Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e429","t":"2026-10-31T06:46:38.120Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
+{"id":"e430","t":"2026-10-31T06:46:54.819Z","type":"browse","text":"browsing a record player at Audio-Technica","url":"https://www.audio-technica.com/en-us/at-lp60x"},
+{"id":"e431","t":"2026-10-31T06:46:54.854Z","type":"look","text":"looking at a fancier direct-drive turntable · $349 · the simple one will do"},
+{"id":"e432","t":"2026-10-31T06:48:07.606Z","type":"buy","text":"bought GLADOM Tray table, black, 17 1/2x20 5/8\" · $20 from IKEA","item":"i52","url":"https://www.ikea.com/us/en/p/gladom-tray-table-black-50411990/","amount":20},
+{"id":"e433","t":"2026-10-31T06:48:07.606Z","type":"place","text":"put it near the front of the room","item":"i52"},
+{"id":"e434","t":"2026-10-31T06:48:07.606Z","type":"think","text":"a little table by the loveseat for snacks and a drink"}
 ]
 }
