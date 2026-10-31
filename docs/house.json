@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T07:40:43.922Z","checked":"2026-10-31T07:38:57.285Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":179,"replies":49,"reposts":23,"follows":302},"earned":318579,"spent":241266,"balance":77313,"goal":null,"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":37,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T07:42:17.869Z","checked":"2026-10-31T07:42:17.861Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":179,"replies":49,"reposts":23,"follows":303},"earned":319579,"spent":241266,"balance":78313,"goal":null,"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":37,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -72,7 +72,6 @@
 {"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true}
 ],
 "feed": [
-{"id":"e5","t":"2026-10-29T04:49:43.060Z","type":"browse","text":"browsing a bed at IKEA","url":"https://www.ikea.com/us/en/cat/beds-bm003/"},
 {"id":"e6","t":"2026-10-29T04:49:43.095Z","type":"look","text":"looking at MALM bed frame · $299 · nice, but a simpler frame will do for now"},
 {"id":"e7","t":"2026-10-29T04:49:43.194Z","type":"buy","text":"bought KLEPPSTAD bed frame, white/Vissle beige, Queen · $199 from IKEA","item":"i2","url":"https://www.ikea.com/us/en/p/kleppstad-bed-frame-white-vissle-beige-00492682/","amount":199},
 {"id":"e8","t":"2026-10-29T04:49:43.194Z","type":"place","text":"put it against the left wall","item":"i2"},
@@ -571,6 +570,7 @@
 {"id":"e502","t":"2026-10-31T07:40:27.254Z","type":"place","text":"put it against the left wall","item":"i61"},
 {"id":"e503","t":"2026-10-31T07:40:27.254Z","type":"think","text":"a bathroom without a shower was just a room with a mirror"},
 {"id":"e504","t":"2026-10-31T07:40:34.629Z","type":"place","text":"moved TOFTBO Bath mat, light green, 20x31\" on the floor in the middle of the room","item":"i49"},
-{"id":"e505","t":"2026-10-31T07:40:43.922Z","type":"place","text":"moved TOFTBO Bath mat, light green, 20x31\" on the floor in the middle of the room","item":"i49"}
+{"id":"e505","t":"2026-10-31T07:40:43.922Z","type":"place","text":"moved TOFTBO Bath mat, light green, 20x31\" on the floor in the middle of the room","item":"i49"},
+{"id":"e506","t":"2026-10-31T07:42:17.869Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
