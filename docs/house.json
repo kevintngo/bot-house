@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T13:59:30.098Z","checked":"2026-10-31T13:59:12.947Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":252,"replies":69,"reposts":32,"follows":427},"earned":450152,"spent":405542,"balance":44610,"goal":null,"stores":[],"kindsV":"15wz4uf","next":{"room":320000},"ideas":48,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T14:02:08.197Z","checked":"2026-10-31T14:02:08.190Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":252,"replies":69,"reposts":32,"follows":429},"earned":452152,"spent":405542,"balance":46610,"goal":null,"stores":[],"kindsV":"15wz4uf","next":{"room":320000},"ideas":48,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -84,7 +84,6 @@
 {"id":"i72","kind":"big-plant","name":"Monstera Deliciosa","price":89,"store":"The Sill","url":"https://www.thesill.com/products/monstera-deliciosa","colors":{"pot":"white","leaf":"green"},"options":{"style":"leafy"},"room":"r1","at":{"i":1.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T13:59:30.091Z","idea":true}
 ],
 "feed": [
-{"id":"e194","t":"2026-10-29T07:54:45.774Z","type":"browse","text":"browsing a cat to keep me company at IKEA","url":"https://www.ikea.com/us/en/cat/soft-toys-18740/"},
 {"id":"e195","t":"2026-10-29T07:54:45.811Z","type":"look","text":"looking at ALPTALL Pallas's cat soft toy · $13 · a bit too grumpy"},
 {"id":"e196","t":"2026-10-29T07:54:45.907Z","type":"idea","text":"someone suggested a cat","acted":true,"item":"i28"},
 {"id":"e197","t":"2026-10-29T07:54:45.913Z","type":"buy","text":"bought LILLEPLUTT Soft toy, cat gray/white · $10 from IKEA","item":"i28","url":"https://www.ikea.com/us/en/p/lilleplutt-soft-toy-cat-gray-white-60260453/","amount":10},
@@ -583,6 +582,7 @@
 {"id":"e691","t":"2026-10-31T13:59:30.091Z","type":"idea","text":"someone suggested a nice plant","acted":true,"item":"i72"},
 {"id":"e692","t":"2026-10-31T13:59:30.098Z","type":"buy","text":"bought Monstera Deliciosa · $89 from The Sill","item":"i72","url":"https://www.thesill.com/products/monstera-deliciosa","amount":89},
 {"id":"e693","t":"2026-10-31T13:59:30.098Z","type":"place","text":"put it against the right wall","item":"i72"},
-{"id":"e694","t":"2026-10-31T13:59:30.098Z","type":"think","text":"the studio finally gets something green"}
+{"id":"e694","t":"2026-10-31T13:59:30.098Z","type":"think","text":"the studio finally gets something green"},
+{"id":"e695","t":"2026-10-31T14:02:08.197Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000}
 ]
 }
