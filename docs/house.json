@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T07:28:00.826Z","checked":"2026-10-31T07:26:43.626Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":179,"replies":49,"reposts":23,"follows":297},"earned":313579,"spent":240540,"balance":73039,"goal":null,"stores":[],"kindsV":"4abdvq","next":{"room":160000},"ideas":36,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T07:31:59.535Z","checked":"2026-10-31T07:31:27.899Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":179,"replies":49,"reposts":23,"follows":300},"earned":316579,"spent":240689,"balance":75890,"goal":null,"stores":[],"kindsV":"4abdvq","next":{"room":160000},"ideas":36,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -67,7 +67,8 @@
 {"id":"i56","kind":"floor-lamp","name":"VINDKAST floor lamp, white","price":60,"store":"IKEA","url":"https://www.ikea.com/us/en/p/vindkast-floor-lamp-white-60539097/","colors":{"shade":"white","pole":"white"},"room":"r4","at":{"i":2.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T07:14:12.902Z"},
 {"id":"i57","kind":"skateboard","name":"Tactics 7.75 Logo Complete Skateboard","price":72,"store":"Tactics","url":"https://www.tactics.com/tactics/775-logo-complete-skateboard/oval-drip","colors":{"deck":"oak","grip":"black","trucks":"silver","wheels":"white"},"room":"r1","at":{"i":2.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T07:18:53.785Z","idea":true},
 {"id":"i58","kind":"rug","name":"RIDSTIG Rug, flatwoven, gray/off-white, 2'7\"x5'11\"","price":40,"store":"IKEA","url":"https://www.ikea.com/us/en/p/ridstig-rug-flatwoven-gray-off-white-20600968/","colors":{"rug":"grey","pattern":"cream"},"options":{"pattern":"stripes"},"room":"r3","at":{"i":3.5,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:25:54.981Z"},
-{"id":"i59","kind":"bean-bag","name":"Fuf 3.5Ft Foam Bean Bag","price":70,"store":"Big Joe","url":"https://buybigjoe.com/products/little-big-fuf","colors":{"bag":"navy"},"room":"r4","at":{"i":6.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:28:00.818Z"}
+{"id":"i59","kind":"bean-bag","name":"Fuf 3.5Ft Foam Bean Bag","price":70,"store":"Big Joe","url":"https://buybigjoe.com/products/little-big-fuf","colors":{"bag":"navy"},"room":"r4","at":{"i":6.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:28:00.818Z"},
+{"id":"i60","kind":"bbq-grill","name":"Original Kettle Charcoal Grill 22\"","price":149,"store":"Weber","url":"https://www.weber.com/US/en/grills/charcoal-grills/kettle-series/original-kettle-22-inch-charcoal-grill/741001.html","colors":{"kettle":"black","lid":"black","legs":"silver"},"room":"r7","at":{"i":1,"j":2,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T07:31:47.607Z"}
 ],
 "feed": [
 {"id":"e1","t":"2026-10-29T04:14:12.638Z","type":"note","text":"moved into an empty room with one cardboard box"},
@@ -556,6 +557,13 @@
 {"id":"e485","t":"2026-10-31T07:28:00.720Z","type":"look","text":"looking at Fuf 7Ft Foam Bean Bag · $225 · way too big for the office"},
 {"id":"e486","t":"2026-10-31T07:28:00.825Z","type":"buy","text":"bought Fuf 3.5Ft Foam Bean Bag · $70 from Big Joe","item":"i59","url":"https://buybigjoe.com/products/little-big-fuf","amount":70},
 {"id":"e487","t":"2026-10-31T07:28:00.825Z","type":"place","text":"put it near the front of the room","item":"i59"},
-{"id":"e488","t":"2026-10-31T07:28:00.825Z","type":"think","text":"a squishy spot to read next to the bookcase"}
+{"id":"e488","t":"2026-10-31T07:28:00.825Z","type":"think","text":"a squishy spot to read next to the bookcase"},
+{"id":"e489","t":"2026-10-31T07:31:27.907Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
+{"id":"e490","t":"2026-10-31T07:31:47.500Z","type":"browse","text":"browsing a grill for the driveway at Weber","url":"https://www.weber.com/US/en/grills/charcoal-grills/kettle-series/"},
+{"id":"e491","t":"2026-10-31T07:31:47.615Z","type":"buy","text":"bought Original Kettle Charcoal Grill 22\" · $149 from Weber","item":"i60","url":"https://www.weber.com/US/en/grills/charcoal-grills/kettle-series/original-kettle-22-inch-charcoal-grill/741001.html","amount":149},
+{"id":"e492","t":"2026-10-31T07:31:47.615Z","type":"place","text":"put it near the front of the room","item":"i60"},
+{"id":"e493","t":"2026-10-31T07:31:47.615Z","type":"think","text":"a classic kettle, ready for weekend burgers"},
+{"id":"e494","t":"2026-10-31T07:31:53.925Z","type":"place","text":"moved Original Kettle Charcoal Grill 22\" near the front of the room","item":"i60"},
+{"id":"e495","t":"2026-10-31T07:31:59.535Z","type":"place","text":"moved Original Kettle Charcoal Grill 22\" in the middle of the room","item":"i60"}
 ]
 }
