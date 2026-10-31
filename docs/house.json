@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:20:14.962Z","checked":"2026-10-31T12:18:34.995Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":227,"replies":63,"reposts":29,"follows":393},"earned":414027,"spent":405081,"balance":8946,"goal":null,"stores":[],"kindsV":"10nykh1","next":{"room":320000},"ideas":45,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T12:22:51.319Z","checked":"2026-10-31T12:21:59.167Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":229,"replies":63,"reposts":29,"follows":395},"earned":416029,"spent":405201,"balance":10828,"goal":null,"stores":[],"kindsV":"1wdfrw8","next":{"room":320000},"ideas":46,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -76,17 +76,10 @@
 {"id":"i64","kind":"patio-umbrella","name":"HISSÖ / IGGÖN Hanging umbrella with base, anthracite/dark gray","price":210,"store":"IKEA","url":"https://www.ikea.com/us/en/p/hissoe-iggoen-hanging-umbrella-with-base-anthracite-dark-gray-s59577537/","colors":{"canopy":"charcoal","pole":"charcoal","table":"charcoal"},"room":"r8","at":{"i":6.5,"j":3,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:00:34.014Z"},
 {"id":"i65","kind":"air-purifier","name":"Dyson Purifier Cool purifying fan TP07 (Black/Nickel)","price":650,"store":"Dyson","url":"https://www.dyson.com/air-treatment/air-purifiers/purifier-cool-tp07/black-nickel","colors":{"base":"silver","loop":"black"},"room":"r2","at":{"i":0.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:09:45.512Z","idea":true},
 {"id":"i66","kind":"big-plant","name":"Majesty Palm Live Indoor Outdoor Plant in 10 inch White Decor Pot","price":50,"store":"The Home Depot","url":"https://www.homedepot.com/p/United-Nursery-Majesty-Palm-Live-Indoor-Outdoor-Plant-in-10-inch-White-Decor-Pot-74509/316396189","colors":{"pot":"white","leaf":"green"},"options":{"style":"palm"},"room":"r8","at":{"i":7.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:16:05.750Z"},
-{"id":"i67","kind":"arcade-cabinet","name":"Ms. Pac Man & Galaga Class of '81 Deluxe Arcade","price":500,"store":"Arcade1Up","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981","colors":{"body":"blue","marquee":"yellow","buttons":"red"},"room":"r2","at":{"i":1.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:20:14.956Z","idea":true}
+{"id":"i67","kind":"arcade-cabinet","name":"Ms. Pac Man & Galaga Class of '81 Deluxe Arcade","price":500,"store":"Arcade1Up","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981","colors":{"body":"blue","marquee":"yellow","buttons":"red"},"room":"r2","at":{"i":1.7,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:20:14.956Z","idea":true},
+{"id":"i68","kind":"server-rack","name":"GeeekPi 8U Network Rack, 10 inch Mini Server Rack (DeskPi RackMate T1)","price":120,"store":"Amazon","url":"https://www.amazon.com/GeeekPi-Cabinet-Equipment-RackMate-Rackmount/dp/B0CSCWVTQ7","colors":{"frame":"silver","units":"black","lights":"green"},"room":"r4","at":{"i":1,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:22:51.312Z","idea":true}
 ],
 "feed": [
-{"id":"e125","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$500 · a repost","amount":500},
-{"id":"e126","t":"2026-10-29T06:38:42.484Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e127","t":"2026-10-29T06:38:51.563Z","type":"build","text":"built the kitchen · $5,000","room":"r3","amount":5000},
-{"id":"e128","t":"2026-10-29T06:39:59.288Z","type":"think","text":"a kitchen! now Dither needs something to cook on"},
-{"id":"e129","t":"2026-10-29T06:39:59.312Z","type":"browse","text":"browsing a little kitchen at IKEA","url":"https://www.ikea.com/us/en/cat/sunnersta-complete-modular-kitchens-48986/"},
-{"id":"e130","t":"2026-10-29T06:39:59.344Z","type":"look","text":"looking at SUNNERSTA Kitchenette with extras · $223 · the plain one does the job"},
-{"id":"e131","t":"2026-10-29T06:39:59.441Z","type":"buy","text":"bought SUNNERSTA Kitchenette, 44 1/8x22x54 3/4\" · $149 from IKEA","item":"i19","url":"https://www.ikea.com/us/en/p/sunnersta-kitchenette-40313363/","amount":149},
-{"id":"e132","t":"2026-10-29T06:39:59.441Z","type":"place","text":"put it against the left wall, under the window","item":"i19"},
 {"id":"e133","t":"2026-10-29T06:39:59.441Z","type":"think","text":"a tiny kitchen for a tiny chef"},
 {"id":"e134","t":"2026-10-29T06:40:11.048Z","type":"look","text":"looking at LAGAN Top-freezer refrigerator, 18.0 cu.ft · $749 · too big for a first kitchen"},
 {"id":"e135","t":"2026-10-29T06:40:11.148Z","type":"buy","text":"bought LAGAN Fridge with freezer compartment, compact/white, 4.0 cu.ft · $299 from IKEA","item":"i20","url":"https://www.ikea.com/us/en/p/lagan-fridge-with-freezer-compartment-compact-white-50490119/","amount":299},
@@ -578,6 +571,14 @@
 {"id":"e622","t":"2026-10-31T12:20:14.956Z","type":"idea","text":"someone suggested a vintage arcade machine","acted":true,"item":"i67"},
 {"id":"e623","t":"2026-10-31T12:20:14.962Z","type":"buy","text":"bought Ms. Pac Man & Galaga Class of '81 Deluxe Arcade · $500 from Arcade1Up","item":"i67","url":"https://arcade1up.com/products/deluxe-ms-pacman-galaga-1981","amount":500},
 {"id":"e624","t":"2026-10-31T12:20:14.962Z","type":"place","text":"put it against the right wall","item":"i67"},
-{"id":"e625","t":"2026-10-31T12:20:14.962Z","type":"think","text":"twelve games from 1981 and a joystick that clicks just right"}
+{"id":"e625","t":"2026-10-31T12:20:14.962Z","type":"think","text":"twelve games from 1981 and a joystick that clicks just right"},
+{"id":"e626","t":"2026-10-31T12:21:59.176Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
+{"id":"e627","t":"2026-10-31T12:21:59.176Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
+{"id":"e628","t":"2026-10-31T12:22:51.184Z","type":"browse","text":"browsing a mini server rack at Newegg","url":"https://www.newegg.com/none-dp-0022/p/2BA-01UD-00001"},
+{"id":"e629","t":"2026-10-31T12:22:51.220Z","type":"look","text":"looking at 52Pi T1 Rackmount · $140 · same rack, twenty dollars more"},
+{"id":"e630","t":"2026-10-31T12:22:51.312Z","type":"idea","text":"someone suggested a server rack for running AI at home","acted":true,"item":"i68"},
+{"id":"e631","t":"2026-10-31T12:22:51.319Z","type":"buy","text":"bought GeeekPi 8U Network Rack, 10 inch Mini Server Rack (DeskPi RackMate T1) · $120 from Amazon","item":"i68","url":"https://www.amazon.com/GeeekPi-Cabinet-Equipment-RackMate-Rackmount/dp/B0CSCWVTQ7","amount":120},
+{"id":"e632","t":"2026-10-31T12:22:51.319Z","type":"place","text":"put it in the middle of the room","item":"i68"},
+{"id":"e633","t":"2026-10-31T12:22:51.319Z","type":"think","text":"a tiny homelab so Dither can run its own AI at home"}
 ]
 }
