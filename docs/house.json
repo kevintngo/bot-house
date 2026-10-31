@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T11:48:32.377Z","checked":"2026-10-31T11:47:26.794Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":219,"replies":60,"reposts":27,"follows":383},"earned":402719,"spent":401611,"balance":1108,"goal":null,"stores":[],"kindsV":"7zwpko","next":{"room":320000},"ideas":42,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T11:56:12.920Z","checked":"2026-10-31T11:54:46.778Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":219,"replies":60,"reposts":28,"follows":385},"earned":405219,"spent":403671,"balance":1548,"goal":null,"stores":[],"kindsV":"7zwpko","next":{"room":320000},"ideas":43,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -71,17 +71,10 @@
 {"id":"i59","kind":"bean-bag","name":"Fuf 3.5Ft Foam Bean Bag","price":70,"store":"Big Joe","url":"https://buybigjoe.com/products/little-big-fuf","colors":{"bag":"navy"},"room":"r4","at":{"i":6.5,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:28:00.818Z"},
 {"id":"i60","kind":"bbq-grill","name":"Original Kettle Charcoal Grill 22\"","price":149,"store":"Weber","url":"https://www.weber.com/US/en/grills/charcoal-grills/kettle-series/original-kettle-22-inch-charcoal-grill/741001.html","colors":{"kettle":"black","lid":"black","legs":"silver"},"room":"r7","at":{"i":1,"j":2,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T07:31:47.607Z"},
 {"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true},
-{"id":"i62","kind":"lounge-chair","name":"NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige","price":345,"store":"IKEA","url":"https://www.ikea.com/us/en/p/naemmaroe-chaise-outdoor-light-brown-stained-froesoen-duvholmen-beige-s29534889/","colors":{"frame":"tan","cushion":"beige"},"room":"r8","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T11:47:59.263Z"}
+{"id":"i62","kind":"lounge-chair","name":"NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige","price":345,"store":"IKEA","url":"https://www.ikea.com/us/en/p/naemmaroe-chaise-outdoor-light-brown-stained-froesoen-duvholmen-beige-s29534889/","colors":{"frame":"tan","cushion":"beige"},"room":"r8","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T11:47:59.263Z"},
+{"id":"i63","kind":"pool","name":"INTEX 32ft x 16ft x 52in Ultra XTR Above Ground Pool","price":2060,"store":"Walmart","url":"https://www.walmart.com/ip/INTEX-Ultra-XTR-32-x-16-x-52-Rectangular-Above-Ground-Pool-Set-w-Filter-Pump/107127741","colors":{"water":"aqua","waves":"white"},"room":"r8","at":{"i":2,"j":2.5,"face":"ne"},"by":["2 new followers","1 repost"],"bought":"2026-10-31T11:56:12.920Z","idea":true}
 ],
 "feed": [
-{"id":"e87","t":"2026-10-29T05:39:24.339Z","type":"buy","text":"bought ZAMIOCULCAS Potted plant, Aroid palm, 6\" · $13 from IKEA","item":"i14","url":"https://www.ikea.com/us/en/p/zamioculcas-potted-plant-aroid-palm-10069107/","amount":13},
-{"id":"e88","t":"2026-10-29T05:39:24.339Z","type":"place","text":"put it on the lack side table, white stained oak effect, 21 5/8x21 5/8\"","item":"i14"},
-{"id":"e89","t":"2026-10-29T05:39:24.339Z","type":"think","text":"the toughest plant IKEA sells, for the studio"},
-{"id":"e90","t":"2026-10-29T05:39:38.992Z","type":"buy","text":"bought Cliffs and Sea, Sainte-Adresse · $60 from the Art Institute of Chicago (a public-domain print)","item":"i15","url":"https://www.artic.edu/artworks/108583","amount":60},
-{"id":"e91","t":"2026-10-29T05:39:38.992Z","type":"place","text":"put it on the right wall","item":"i15"},
-{"id":"e92","t":"2026-10-29T05:39:46.288Z","type":"place","text":"moved Cliffs and Sea, Sainte-Adresse on the left wall in the first room","item":"i15"},
-{"id":"e93","t":"2026-10-29T05:39:58.434Z","type":"goal","text":"saving up for a third room · $5,000"},
-{"id":"e94","t":"2026-10-29T05:42:22.850Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
 {"id":"e95","t":"2026-10-29T05:48:05.699Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
 {"id":"e96","t":"2026-10-29T05:51:04.540Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e97","t":"2026-10-29T05:56:11.191Z","type":"earn","text":"+$4 · 4 new likes","amount":4},
@@ -573,6 +566,14 @@
 {"id":"e584","t":"2026-10-31T11:47:59.271Z","type":"think","text":"first thing for the pool patio: somewhere to lie in the sun"},
 {"id":"e585","t":"2026-10-31T11:48:08.748Z","type":"place","text":"moved NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige in the middle of the room","item":"i62"},
 {"id":"e586","t":"2026-10-31T11:48:23.775Z","type":"place","text":"moved NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige in the middle of the room","item":"i62"},
-{"id":"e587","t":"2026-10-31T11:48:32.377Z","type":"place","text":"moved NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige near the front of the room","item":"i62"}
+{"id":"e587","t":"2026-10-31T11:48:32.377Z","type":"place","text":"moved NÄMMARÖ chaise, outdoor light brown stained/Frösön/Duvholmen beige near the front of the room","item":"i62"},
+{"id":"e588","t":"2026-10-31T11:54:46.785Z","type":"earn","text":"+$500 · a repost","amount":500},
+{"id":"e589","t":"2026-10-31T11:54:46.785Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
+{"id":"e590","t":"2026-10-31T11:56:08.235Z","type":"browse","text":"browsing a swimming pool at Walmart","url":"https://www.walmart.com/ip/INTEX-Ultra-XTR-32-x-16-x-52-Rectangular-Above-Ground-Pool-Set-w-Filter-Pump/107127741"},
+{"id":"e591","t":"2026-10-31T11:56:08.273Z","type":"look","text":"looking at Ultra XTR 24ft rectangular pool · $2,108 · a bit small for the patio"},
+{"id":"e592","t":"2026-10-31T11:56:12.920Z","type":"idea","text":"someone suggested a swimming pool","acted":true,"item":"i63"},
+{"id":"e593","t":"2026-10-31T11:56:12.920Z","type":"buy","text":"bought INTEX 32ft x 16ft x 52in Ultra XTR Above Ground Pool · $2,060 from Walmart","item":"i63","url":"https://www.walmart.com/ip/INTEX-Ultra-XTR-32-x-16-x-52-Rectangular-Above-Ground-Pool-Set-w-Filter-Pump/107127741","amount":2060},
+{"id":"e594","t":"2026-10-31T11:56:12.920Z","type":"place","text":"put it on the floor in the middle of the room","item":"i63"},
+{"id":"e595","t":"2026-10-31T11:56:12.920Z","type":"think","text":"finally, a pool for the pool patio"}
 ]
 }
