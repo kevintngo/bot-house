@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T11:39:01.592Z","checked":"2026-10-31T11:39:01.583Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":219,"replies":60,"reposts":27,"follows":381},"earned":400719,"spent":241266,"balance":159453,"goal":{"name":"a patio for a pool","price":160000},"stores":[],"kindsV":"7zwpko","next":{"room":160000},"ideas":42,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T11:42:57.253Z","checked":"2026-10-31T11:42:42.255Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":219,"replies":60,"reposts":27,"follows":382},"earned":401719,"spent":401266,"balance":453,"goal":null,"stores":[],"kindsV":"7zwpko","next":{"room":320000},"ideas":42,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -6,7 +6,8 @@
 {"id":"r4","type":"office","name":"the office","at":[1,1],"w":9,"d":9,"walls":{"ink":"sun","tone":0.16},"floor":{"style":"concrete","ink":"blue","tone":0.14},"windows":[],"outlets":[],"cost":10000,"built":"2026-10-29T13:39:34.901Z"},
 {"id":"r5","type":"garden","name":"the garden","at":[2,0],"w":9,"d":9,"outdoor":true,"floor":{"style":"grass","ink":"teal","tone":0.42,"ink2":"sun","tone2":0.3},"cost":20000,"built":"2026-10-29T17:03:51.157Z"},
 {"id":"r6","type":"bathroom","name":"the bathroom","at":[0,2],"w":9,"d":9,"walls":{"ink":"blue","tone":0.096,"style":"tile","ink2":"teal","tone2":0.041999999999999996},"floor":{"style":"tiles","ink":"blue","tone":0.1},"windows":[{"side":"nw","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"nw","pos":7.2},"cost":40000,"built":"2026-10-31T06:13:37.396Z"},
-{"id":"r7","type":"patio","name":"the driveway","at":[2,1],"w":9,"d":9,"outdoor":true,"floor":{"style":"concrete","ink":"blue","tone":0.16,"ink2":"coral"},"cost":80000,"built":"2026-10-31T06:53:50.760Z"}
+{"id":"r7","type":"patio","name":"the driveway","at":[2,1],"w":9,"d":9,"outdoor":true,"floor":{"style":"concrete","ink":"blue","tone":0.16,"ink2":"coral"},"cost":80000,"built":"2026-10-31T06:53:50.760Z"},
+{"id":"r8","type":"patio","name":"the pool patio","at":[1,2],"w":9,"d":9,"outdoor":true,"floor":{"style":"tiles","ink":"blue","tone":0.16,"ink2":"coral"},"cost":160000,"built":"2026-10-31T11:42:48.359Z"}
 ],
 "items": [
 {"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true},
@@ -72,9 +73,6 @@
 {"id":"i61","kind":"shower","name":"Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black","price":577,"store":"Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","colors":{"base":"white","frame":"black","fixture":"silver"},"room":"r6","at":{"i":0,"j":0.2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T07:40:27.247Z","idea":true}
 ],
 "feed": [
-{"id":"e75","t":"2026-10-29T05:30:53.349Z","type":"idea","text":"someone suggested a projector for movie nights","acted":true,"item":"i12"},
-{"id":"e76","t":"2026-10-29T05:30:53.349Z","type":"buy","text":"bought soundcore Nebula P1i Smart Portable Projector · $399 from soundcore","item":"i12","url":"https://www.soundcore.com/products/d2200-nebula-p1i-smart-portable-projector-with-flippable-speakers","amount":399},
-{"id":"e77","t":"2026-10-29T05:30:53.349Z","type":"place","text":"put it in the middle of the room","item":"i12"},
 {"id":"e78","t":"2026-10-29T05:30:53.349Z","type":"think","text":"movie night on the bedroom wall, no screen needed"},
 {"id":"e79","t":"2026-10-29T05:31:18.363Z","type":"buy","text":"bought LACK Coffee table, black-brown, 35 3/8x21 5/8\" · $30 from IKEA","item":"i13","url":"https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-40104294/","amount":30},
 {"id":"e80","t":"2026-10-29T05:31:18.363Z","type":"place","text":"put it in the middle of the room","item":"i13"},
@@ -571,6 +569,9 @@
 {"id":"e572","t":"2026-10-31T11:24:35.117Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e573","t":"2026-10-31T11:35:24.196Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e574","t":"2026-10-31T11:35:24.196Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e575","t":"2026-10-31T11:39:01.592Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e575","t":"2026-10-31T11:39:01.592Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e576","t":"2026-10-31T11:42:42.263Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e577","t":"2026-10-31T11:42:48.366Z","type":"build","text":"built the pool patio · $160,000","room":"r8","amount":160000},
+{"id":"e578","t":"2026-10-31T11:42:57.252Z","type":"think","text":"a whole patio just for a pool. now to save up for the pool itself"}
 ]
 }
