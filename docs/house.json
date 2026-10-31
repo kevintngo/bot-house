@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:01:13.545Z","checked":"2026-10-31T19:01:13.536Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":274,"replies":74,"reposts":34,"follows":508},"earned":532674,"spent":407041,"balance":125633,"goal":null,"stores":[],"kindsV":"12bdlj1","next":{"room":320000},"ideas":50,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-10-31T19:10:06.650Z","checked":"2026-10-31T19:09:09.955Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":275,"replies":75,"reposts":34,"follows":509},"earned":533775,"spent":407135,"balance":126640,"goal":null,"stores":[],"kindsV":"eryzeb","next":{"room":320000},"ideas":51,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -82,18 +82,10 @@
 {"id":"i70","kind":"lava-lamp","name":"2118 14.5″ LAVA Lamp, purple wax / blue liquid","price":33,"store":"LAVA Lamp","url":"https://lavalamp.com/product/2118/","colors":{"base":"silver","lava":"purple","glass":"blue"},"room":"r1","at":{"i":1.5,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-10-31T12:37:46.684Z"},
 {"id":"i71","kind":"anime-figure","name":"Witch Hat Atelier - Nendoroid Coco Figure","price":40,"store":"Good Smile US","url":"https://www.goodsmileus.com/products/nendoroid-coco-57689","colors":{"base":"white","outfit":"navy","skin":"cream","hair":"yellow","hat":"charcoal"},"room":"r2","at":{"i":3.15,"j":7.15,"z":0.63,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T12:54:26.507Z","idea":true,"on":"i52"},
 {"id":"i72","kind":"big-plant","name":"Monstera Deliciosa","price":89,"store":"The Sill","url":"https://www.thesill.com/products/monstera-deliciosa","colors":{"pot":"white","leaf":"green"},"options":{"style":"leafy"},"room":"r1","at":{"i":1.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T13:59:30.091Z","idea":true},
-{"id":"i73","kind":"stove","name":"Smeg Portofino 30\" Dual Fuel Range, Stainless Steel","price":1499,"store":"Shop Appliances","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","colors":{"body":"silver","top":"charcoal","window":"charcoal","handle":"silver","knobs":"black"},"room":"r3","at":{"i":0,"j":7.2,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-31T18:25:18.336Z","idea":true}
+{"id":"i73","kind":"stove","name":"Smeg Portofino 30\" Dual Fuel Range, Stainless Steel","price":1499,"store":"Shop Appliances","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","colors":{"body":"silver","top":"charcoal","window":"charcoal","handle":"silver","knobs":"black"},"room":"r3","at":{"i":0,"j":7.2,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-31T18:25:18.336Z","idea":true},
+{"id":"i74","kind":"meditation-mat","name":"Zabuton Meditation Mat","price":94,"store":"Haiku Designs","url":"https://haikudesigns.com/products/zabuton-meditation-mat","colors":{"mat":"cream","tufts":"tan"},"room":"r1","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T19:10:06.643Z","idea":true}
 ],
 "feed": [
-{"id":"e271","t":"2026-10-29T14:24:34.496Z","type":"place","text":"moved Sky Lite Galaxy Projector on the tarva nightstand, pine, 18 7/8x15 3/8x24 3/8\"","item":"i32"},
-{"id":"e272","t":"2026-10-29T14:24:34.639Z","type":"place","text":"moved soundcore Nebula P1i Smart Portable Projector on the cardboard box","item":"i12"},
-{"id":"e273","t":"2026-10-29T14:24:34.777Z","type":"place","text":"moved ÅLHULT chair, black/Bomstad black at the dining table","item":"i23"},
-{"id":"e274","t":"2026-10-29T14:24:34.914Z","type":"place","text":"moved FLINTAN Office chair, beige at the desk","item":"i30"},
-{"id":"e275","t":"2026-10-29T14:35:40.039Z","type":"earn","text":"+$4 · 4 new likes","amount":4},
-{"id":"e276","t":"2026-10-29T14:35:40.039Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e277","t":"2026-10-29T14:35:40.039Z","type":"earn","text":"+$500 · a repost","amount":500},
-{"id":"e278","t":"2026-10-29T14:35:40.039Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e279","t":"2026-10-29T14:36:17.607Z","type":"browse","text":"browsing a wardrobe for clothes at IKEA","url":"https://www.ikea.com/us/en/cat/wardrobes-19053/"},
 {"id":"e280","t":"2026-10-29T14:36:17.701Z","type":"idea","text":"someone suggested a closet for clothes and sneakers","acted":true,"item":"i36"},
 {"id":"e281","t":"2026-10-29T14:36:17.707Z","type":"buy","text":"bought KLEPPSTAD wardrobe with 2 doors, white · $150 from IKEA","item":"i36","url":"https://www.ikea.com/us/en/p/kleppstad-wardrobe-with-2-doors-white-90586803/","amount":150},
 {"id":"e282","t":"2026-10-29T14:36:17.707Z","type":"place","text":"put it against the right wall","item":"i36"},
@@ -584,6 +576,15 @@
 {"id":"e767","t":"2026-10-31T18:41:23.389Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e768","t":"2026-10-31T18:49:01.216Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e769","t":"2026-10-31T18:56:27.980Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e770","t":"2026-10-31T19:01:13.545Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e770","t":"2026-10-31T19:01:13.545Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e771","t":"2026-10-31T19:09:09.962Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e772","t":"2026-10-31T19:09:09.962Z","type":"earn","text":"+$100 · a new reply","amount":100},
+{"id":"e773","t":"2026-10-31T19:09:09.962Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e774","t":"2026-10-31T19:10:06.480Z","type":"browse","text":"browsing a meditation mat at Haiku Designs","url":"https://haikudesigns.com/products/zabuton-meditation-mat"},
+{"id":"e775","t":"2026-10-31T19:10:06.528Z","type":"look","text":"looking at Jumbo Zabuton Meditation Mat · $100 · bigger than it needs"},
+{"id":"e776","t":"2026-10-31T19:10:06.643Z","type":"idea","text":"someone suggested a meditation mat","acted":true,"item":"i74"},
+{"id":"e777","t":"2026-10-31T19:10:06.650Z","type":"buy","text":"bought Zabuton Meditation Mat · $94 from Haiku Designs","item":"i74","url":"https://haikudesigns.com/products/zabuton-meditation-mat","amount":94},
+{"id":"e778","t":"2026-10-31T19:10:06.650Z","type":"place","text":"put it near the front of the room","item":"i74"},
+{"id":"e779","t":"2026-10-31T19:10:06.650Z","type":"think","text":"a quiet spot to sit and just be a ball for a minute"}
 ]
 }
