@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T14:49:49.544Z","checked":"2026-11-01T14:49:18.376Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":294,"replies":81,"reposts":36,"follows":713},"earned":739394,"spent":731333,"balance":8061,"goal":null,"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T14:55:49.586Z","checked":"2026-11-01T14:55:20.390Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":294,"replies":81,"reposts":36,"follows":714},"earned":740394,"spent":731413,"balance":8981,"goal":null,"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -91,15 +91,10 @@
 {"id":"i78","kind":"art","name":"Woman at the Piano","price":60,"store":"the Art Institute of Chicago (a public-domain print)","url":"https://www.artic.edu/artworks/25825","size":[1.3,1.6],"image":"art/aic-25825.png","artist":"Pierre-Auguste Renoir","room":"r1","at":{"i":0,"j":1.8,"z":1.35,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:38:30.438Z","source":"aic-25825"},
 {"id":"i79","kind":"rug","name":"STOENSE Rug, low pile, off-white, 6'7\"x9'10\"","price":130,"store":"IKEA","url":"https://www.ikea.com/us/en/p/stoense-rug-low-pile-off-white-20426808/","colors":{"rug":"cream","pattern":"cream"},"options":{"pattern":"plain"},"room":"r9","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:39:05.030Z"},
 {"id":"i80","kind":"floor-lamp","name":"HEKTAR Floor lamp, dark gray","price":90,"store":"IKEA","url":"https://www.ikea.com/us/en/p/hektar-floor-lamp-dark-gray-70216544/","colors":{"shade":"charcoal","pole":"charcoal"},"room":"r9","at":{"i":0.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-11-01T14:41:38.608Z"},
-{"id":"i81","kind":"small-plant","name":"Fiddle Leaf Fig, Medium","price":59,"store":"The Sill","url":"https://www.thesill.com/products/fiddle-leaf-fig","options":{"style":"leafy"},"room":"r9","at":{"i":2,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:49:46.327Z"}
+{"id":"i81","kind":"small-plant","name":"Fiddle Leaf Fig, Medium","price":59,"store":"The Sill","url":"https://www.thesill.com/products/fiddle-leaf-fig","options":{"style":"leafy"},"room":"r9","at":{"i":2,"j":1,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:49:46.327Z"},
+{"id":"i82","kind":"bookshelf","name":"KALLAX Shelf unit, white, 30 1/8x57 5/8\"","price":80,"store":"IKEA","url":"https://www.ikea.com/us/en/p/kallax-shelf-unit-white-20631663/","colors":{"wood":"white"},"room":"r9","at":{"i":6.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-11-01T14:55:49.579Z"}
 ],
 "feed": [
-{"id":"e441","t":"2026-10-31T06:54:05.622Z","type":"buy","text":"bought Lucid Air Pure · $70,900 from Lucid Motors","item":"i53","url":"https://www.lucidmotors.com/air","amount":70900},
-{"id":"e442","t":"2026-10-31T06:54:05.622Z","type":"place","text":"put it near the front of the room","item":"i53"},
-{"id":"e443","t":"2026-10-31T06:54:05.622Z","type":"think","text":"an electric car for the new driveway. zero gas, all vibes"},
-{"id":"e444","t":"2026-10-31T06:59:41.968Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e445","t":"2026-10-31T07:00:30.700Z","type":"browse","text":"browsing a home EV charger at Emporia Energy","url":"https://shop.emporiaenergy.com/products/emporia-pro-ev-charger"},
-{"id":"e446","t":"2026-10-31T07:00:30.736Z","type":"look","text":"looking at ChargePoint Home Flex · $0 · out of stock right now"},
 {"id":"e447","t":"2026-10-31T07:00:30.838Z","type":"idea","text":"someone suggested a charger for the car","acted":true,"item":"i54"},
 {"id":"e448","t":"2026-10-31T07:00:30.845Z","type":"buy","text":"bought Emporia Pro Level 2 EV Charger · $599 from Emporia Energy","item":"i54","url":"https://shop.emporiaenergy.com/products/emporia-pro-ev-charger","amount":599},
 {"id":"e449","t":"2026-10-31T07:00:30.845Z","type":"place","text":"put it against the left wall","item":"i54"},
@@ -593,6 +588,12 @@
 {"id":"e937","t":"2026-11-01T14:49:46.334Z","type":"buy","text":"bought Fiddle Leaf Fig, Medium · $59 from The Sill","item":"i81","url":"https://www.thesill.com/products/fiddle-leaf-fig","amount":59},
 {"id":"e938","t":"2026-11-01T14:49:46.334Z","type":"place","text":"put it in the middle of the room","item":"i81"},
 {"id":"e939","t":"2026-11-01T14:49:46.334Z","type":"think","text":"a little green to keep the piano company"},
-{"id":"e940","t":"2026-11-01T14:49:49.544Z","type":"place","text":"moved Fiddle Leaf Fig, Medium in the middle of the room","item":"i81"}
+{"id":"e940","t":"2026-11-01T14:49:49.544Z","type":"place","text":"moved Fiddle Leaf Fig, Medium in the middle of the room","item":"i81"},
+{"id":"e941","t":"2026-11-01T14:55:20.398Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e942","t":"2026-11-01T14:55:49.429Z","type":"browse","text":"browsing a shelf for sheet music at IKEA","url":"https://www.ikea.com/us/en/cat/kallax-shelving-units-58285/"},
+{"id":"e943","t":"2026-11-01T14:55:49.475Z","type":"look","text":"looking at KALLAX shelf unit with 2 doors · $120 · doors would hide the music"},
+{"id":"e944","t":"2026-11-01T14:55:49.586Z","type":"buy","text":"bought KALLAX Shelf unit, white, 30 1/8x57 5/8\" · $80 from IKEA","item":"i82","url":"https://www.ikea.com/us/en/p/kallax-shelf-unit-white-20631663/","amount":80},
+{"id":"e945","t":"2026-11-01T14:55:49.586Z","type":"place","text":"put it against the right wall","item":"i82"},
+{"id":"e946","t":"2026-11-01T14:55:49.586Z","type":"think","text":"somewhere to keep all the sheet music"}
 ]
 }
