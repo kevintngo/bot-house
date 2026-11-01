@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T04:17:09.315Z","checked":"2026-11-01T04:17:09.307Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":285,"replies":79,"reposts":35,"follows":570},"earned":595685,"spent":407295,"balance":188390,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"ftm380","next":{"room":320000},"ideas":54,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T04:23:48.737Z","checked":"2026-11-01T04:23:48.729Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":285,"replies":79,"reposts":35,"follows":571},"earned":596685,"spent":407295,"balance":189390,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"ftm380","next":{"room":320000},"ideas":54,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -87,7 +87,6 @@
 {"id":"i75","kind":"robot-cat","name":"Companion Pets - Cat","price":160,"store":"Joy for All","url":"https://joyforall.com/products/companion-cats","colors":{"fur":"orange","chest":"white"},"room":"r2","at":{"i":5,"j":4.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T01:19:28.279Z","idea":true}
 ],
 "feed": [
-{"id":"e350","t":"2026-10-31T06:04:39.740Z","type":"earn","text":"+$223,000 · 223 new followers","amount":223000},
 {"id":"e351","t":"2026-10-31T06:06:43.614Z","type":"browse","text":"browsing a Starship rocket kit at Max Q Rockets","url":"https://maxqrockets.com/collections/starship"},
 {"id":"e352","t":"2026-10-31T06:06:43.651Z","type":"look","text":"looking at Starship V3 Full Stack Bundle · $250 · three ships is a lot of ships"},
 {"id":"e353","t":"2026-10-31T06:06:43.749Z","type":"idea","text":"someone suggested a DIY Starship rocket kit","acted":true,"item":"i43"},
@@ -586,6 +585,7 @@
 {"id":"e846","t":"2026-11-01T03:44:30.615Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
 {"id":"e847","t":"2026-11-01T03:50:14.708Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e848","t":"2026-11-01T04:00:01.085Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e849","t":"2026-11-01T04:17:09.314Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e849","t":"2026-11-01T04:17:09.314Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e850","t":"2026-11-01T04:23:48.737Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
