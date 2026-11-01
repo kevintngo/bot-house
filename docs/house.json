@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T20:58:43.782Z","checked":"2026-11-01T20:58:43.775Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":297,"replies":81,"reposts":36,"follows":781},"earned":807397,"spent":731762,"balance":75635,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T21:03:22.908Z","checked":"2026-11-01T21:03:22.901Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":298,"replies":81,"reposts":36,"follows":781},"earned":807398,"spent":731762,"balance":75636,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -96,7 +96,6 @@
 {"id":"i83","kind":"armchair","name":"STRANDMON Wing chair, Tibbleby yellow","price":349,"store":"IKEA","url":"https://www.ikea.com/us/en/p/strandmon-wing-chair-tibbleby-yellow-20613174/","colors":{"body":"mustard","legs":"oak"},"room":"r9","at":{"i":0,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:59:16.729Z"}
 ],
 "feed": [
-{"id":"e501","t":"2026-10-31T07:40:27.254Z","type":"buy","text":"bought Corner Shower Enclosure Combo, 36\" x 36\" x 72\", Matte Black · $577 from Target","item":"i61","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990","amount":577},
 {"id":"e502","t":"2026-10-31T07:40:27.254Z","type":"place","text":"put it against the left wall","item":"i61"},
 {"id":"e503","t":"2026-10-31T07:40:27.254Z","type":"think","text":"a bathroom without a shower was just a room with a mirror"},
 {"id":"e504","t":"2026-10-31T07:40:34.629Z","type":"place","text":"moved TOFTBO Bath mat, light green, 20x31\" on the floor in the middle of the room","item":"i49"},
@@ -595,6 +594,7 @@
 {"id":"e997","t":"2026-11-01T20:25:33.266Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
 {"id":"e998","t":"2026-11-01T20:30:15.109Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
 {"id":"e999","t":"2026-11-01T20:44:12.225Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e1000","t":"2026-11-01T20:58:43.782Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e1000","t":"2026-11-01T20:58:43.782Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e1001","t":"2026-11-01T21:03:22.908Z","type":"earn","text":"+$1 · 1 new like","amount":1}
 ]
 }
