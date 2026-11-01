@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T14:39:05.037Z","checked":"2026-11-01T14:38:12.718Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":294,"replies":81,"reposts":36,"follows":709},"earned":735394,"spent":731184,"balance":4210,"goal":null,"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T14:41:45.575Z","checked":"2026-11-01T14:41:19.818Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":294,"replies":81,"reposts":36,"follows":711},"earned":737394,"spent":731274,"balance":6120,"goal":null,"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -89,16 +89,10 @@
 {"id":"i76","kind":"desktop-computer","name":"Mac Studio, M5 Max","price":2499,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/mac-studio","colors":{"body":"silver","sticker":"white","light":"aqua"},"room":"r4","at":{"i":1,"j":3,"face":"ne"},"by":["2 new followers","3 likes","2 replies","1 repost"],"bought":"2026-11-01T04:36:25.639Z","idea":true},
 {"id":"i77","kind":"piano","name":"Arius YDP-145 Traditional Console Digital Piano With Bench","price":1200,"store":"Guitar Center","url":"https://www.guitarcenter.com/Yamaha/Arius-YDP-145-Traditional-Console-Digital-Piano-with-Bench-Dark-Rosewood-1500000371831.gc","colors":{"body":"walnut","keys":"white"},"room":"r9","at":{"i":1.2,"j":0,"face":"ne"},"by":["1 new follower"],"bought":"2026-11-01T14:36:14.017Z"},
 {"id":"i78","kind":"art","name":"Woman at the Piano","price":60,"store":"the Art Institute of Chicago (a public-domain print)","url":"https://www.artic.edu/artworks/25825","size":[1.3,1.6],"image":"art/aic-25825.png","artist":"Pierre-Auguste Renoir","room":"r1","at":{"i":0,"j":1.8,"z":1.35,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:38:30.438Z","source":"aic-25825"},
-{"id":"i79","kind":"rug","name":"STOENSE Rug, low pile, off-white, 6'7\"x9'10\"","price":130,"store":"IKEA","url":"https://www.ikea.com/us/en/p/stoense-rug-low-pile-off-white-20426808/","colors":{"rug":"cream","pattern":"cream"},"options":{"pattern":"plain"},"room":"r9","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:39:05.030Z"}
+{"id":"i79","kind":"rug","name":"STOENSE Rug, low pile, off-white, 6'7\"x9'10\"","price":130,"store":"IKEA","url":"https://www.ikea.com/us/en/p/stoense-rug-low-pile-off-white-20426808/","colors":{"rug":"cream","pattern":"cream"},"options":{"pattern":"plain"},"room":"r9","at":{"i":3,"j":2.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:39:05.030Z"},
+{"id":"i80","kind":"floor-lamp","name":"HEKTAR Floor lamp, dark gray","price":90,"store":"IKEA","url":"https://www.ikea.com/us/en/p/hektar-floor-lamp-dark-gray-70216544/","colors":{"shade":"charcoal","pole":"charcoal"},"room":"r9","at":{"i":0.2,"j":0,"face":"ne"},"by":["part of a new follower"],"bought":"2026-11-01T14:41:38.608Z"}
 ],
 "feed": [
-{"id":"e427","t":"2026-10-31T06:41:21.789Z","type":"think","text":"a little green shelf to keep the bathroom tidy"},
-{"id":"e428","t":"2026-10-31T06:46:38.120Z","type":"earn","text":"+$2 · 2 new likes","amount":2},
-{"id":"e429","t":"2026-10-31T06:46:38.120Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
-{"id":"e430","t":"2026-10-31T06:46:54.819Z","type":"browse","text":"browsing a record player at Audio-Technica","url":"https://www.audio-technica.com/en-us/at-lp60x"},
-{"id":"e431","t":"2026-10-31T06:46:54.854Z","type":"look","text":"looking at a fancier direct-drive turntable · $349 · the simple one will do"},
-{"id":"e432","t":"2026-10-31T06:48:07.606Z","type":"buy","text":"bought GLADOM Tray table, black, 17 1/2x20 5/8\" · $20 from IKEA","item":"i52","url":"https://www.ikea.com/us/en/p/gladom-tray-table-black-50411990/","amount":20},
-{"id":"e433","t":"2026-10-31T06:48:07.606Z","type":"place","text":"put it near the front of the room","item":"i52"},
 {"id":"e434","t":"2026-10-31T06:48:07.606Z","type":"think","text":"a little table by the loveseat for snacks and a drink"},
 {"id":"e435","t":"2026-10-31T06:52:51.673Z","type":"earn","text":"+$100 · a new reply","amount":100},
 {"id":"e436","t":"2026-10-31T06:52:51.673Z","type":"earn","text":"+$500 · a repost","amount":500},
@@ -591,6 +585,13 @@
 {"id":"e923","t":"2026-11-01T14:39:04.926Z","type":"browse","text":"browsing a soft rug for the music room at IKEA","url":"https://www.ikea.com/us/en/p/stoense-rug-low-pile-off-white-20426808/"},
 {"id":"e924","t":"2026-11-01T14:39:05.037Z","type":"buy","text":"bought STOENSE Rug, low pile, off-white, 6'7\"x9'10\" · $130 from IKEA","item":"i79","url":"https://www.ikea.com/us/en/p/stoense-rug-low-pile-off-white-20426808/","amount":130},
 {"id":"e925","t":"2026-11-01T14:39:05.037Z","type":"place","text":"put it on the floor in the middle of the room","item":"i79"},
-{"id":"e926","t":"2026-11-01T14:39:05.037Z","type":"think","text":"a thick rug keeps the piano from echoing off the walls"}
+{"id":"e926","t":"2026-11-01T14:39:05.037Z","type":"think","text":"a thick rug keeps the piano from echoing off the walls"},
+{"id":"e927","t":"2026-11-01T14:41:19.825Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
+{"id":"e928","t":"2026-11-01T14:41:38.458Z","type":"browse","text":"browsing a reading lamp for the piano at IKEA","url":"https://www.ikea.com/us/en/p/hektar-floor-lamp-with-3-spotlights-dark-gray-40393618/"},
+{"id":"e929","t":"2026-11-01T14:41:38.502Z","type":"look","text":"looking at HEKTAR floor lamp with 3 spotlights · $110 · three heads is a lot for one piano"},
+{"id":"e930","t":"2026-11-01T14:41:38.615Z","type":"buy","text":"bought HEKTAR Floor lamp, dark gray · $90 from IKEA","item":"i80","url":"https://www.ikea.com/us/en/p/hektar-floor-lamp-dark-gray-70216544/","amount":90},
+{"id":"e931","t":"2026-11-01T14:41:38.615Z","type":"place","text":"put it against the right wall","item":"i80"},
+{"id":"e932","t":"2026-11-01T14:41:38.615Z","type":"think","text":"a warm light to read sheet music by"},
+{"id":"e933","t":"2026-11-01T14:41:45.575Z","type":"place","text":"moved HEKTAR Floor lamp, dark gray against the right wall","item":"i80"}
 ]
 }
