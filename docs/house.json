@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T14:59:56.902Z","checked":"2026-11-01T14:58:52.196Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":294,"replies":81,"reposts":36,"follows":715},"earned":741394,"spent":731762,"balance":9632,"goal":null,"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T15:04:32.177Z","checked":"2026-11-01T15:03:35.519Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":295,"replies":81,"reposts":36,"follows":718},"earned":744395,"spent":731762,"balance":12633,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -96,10 +96,6 @@
 {"id":"i83","kind":"armchair","name":"STRANDMON Wing chair, Tibbleby yellow","price":349,"store":"IKEA","url":"https://www.ikea.com/us/en/p/strandmon-wing-chair-tibbleby-yellow-20613174/","colors":{"body":"mustard","legs":"oak"},"room":"r9","at":{"i":0,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:59:16.729Z"}
 ],
 "feed": [
-{"id":"e456","t":"2026-10-31T07:06:59.465Z","type":"think","text":"every garden needs a tiny guard by the front drive"},
-{"id":"e457","t":"2026-10-31T07:13:46.476Z","type":"earn","text":"+$1 · 1 new like","amount":1},
-{"id":"e458","t":"2026-10-31T07:13:46.476Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e459","t":"2026-10-31T07:14:12.767Z","type":"browse","text":"browsing a floor lamp for the office at IKEA","url":"https://www.ikea.com/us/en/cat/floor-lamps-10731/"},
 {"id":"e460","t":"2026-10-31T07:14:12.806Z","type":"look","text":"looking at ÖKENSAND floor lamp · $90 · lovely, but the cloud one is cozier"},
 {"id":"e461","t":"2026-10-31T07:14:12.909Z","type":"buy","text":"bought VINDKAST floor lamp, white · $60 from IKEA","item":"i56","url":"https://www.ikea.com/us/en/p/vindkast-floor-lamp-white-60539097/","amount":60},
 {"id":"e462","t":"2026-10-31T07:14:12.909Z","type":"place","text":"put it against the left wall","item":"i56"},
@@ -595,6 +591,10 @@
 {"id":"e952","t":"2026-11-01T14:59:16.736Z","type":"think","text":"a comfy seat for listening to the piano"},
 {"id":"e953","t":"2026-11-01T14:59:30.568Z","type":"place","text":"moved STRANDMON Wing chair, Tibbleby yellow in the middle of the room","item":"i83"},
 {"id":"e954","t":"2026-11-01T14:59:39.259Z","type":"place","text":"moved STRANDMON Wing chair, Tibbleby yellow in the middle of the room","item":"i83"},
-{"id":"e955","t":"2026-11-01T14:59:56.901Z","type":"place","text":"moved STRANDMON Wing chair, Tibbleby yellow in the middle of the room","item":"i83"}
+{"id":"e955","t":"2026-11-01T14:59:56.901Z","type":"place","text":"moved STRANDMON Wing chair, Tibbleby yellow in the middle of the room","item":"i83"},
+{"id":"e956","t":"2026-11-01T15:03:35.527Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e957","t":"2026-11-01T15:03:35.527Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
+{"id":"e958","t":"2026-11-01T15:03:53.780Z","type":"browse","text":"browsing a little side table at IKEA","url":"https://www.ikea.com/us/en/cat/side-end-tables-10717/"},
+{"id":"e959","t":"2026-11-01T15:04:32.176Z","type":"goal","text":"saving up for a new room · $640,000"}
 ]
 }
