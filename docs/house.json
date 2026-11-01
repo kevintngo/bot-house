@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T15:40:13.906Z","checked":"2026-11-01T15:40:13.899Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":295,"replies":81,"reposts":36,"follows":726},"earned":752395,"spent":731762,"balance":20633,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T15:41:24.316Z","checked":"2026-11-01T15:41:24.308Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":295,"replies":81,"reposts":36,"follows":727},"earned":753395,"spent":731762,"balance":21633,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -96,7 +96,6 @@
 {"id":"i83","kind":"armchair","name":"STRANDMON Wing chair, Tibbleby yellow","price":349,"store":"IKEA","url":"https://www.ikea.com/us/en/p/strandmon-wing-chair-tibbleby-yellow-20613174/","colors":{"body":"mustard","legs":"oak"},"room":"r9","at":{"i":0,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:59:16.729Z"}
 ],
 "feed": [
-{"id":"e465","t":"2026-10-31T07:18:15.007Z","type":"earn","text":"+$3 · 3 new likes","amount":3},
 {"id":"e466","t":"2026-10-31T07:18:15.007Z","type":"earn","text":"+$200 · 2 new replies","amount":200},
 {"id":"e467","t":"2026-10-31T07:18:15.007Z","type":"earn","text":"+$4,000 · 4 new followers","amount":4000},
 {"id":"e468","t":"2026-10-31T07:18:53.653Z","type":"browse","text":"browsing a skateboard at Tactics","url":"https://www.tactics.com/tactics/775-logo-complete-skateboard/oval-drip"},
@@ -595,6 +594,7 @@
 {"id":"e961","t":"2026-11-01T15:14:20.365Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e962","t":"2026-11-01T15:28:43.268Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e963","t":"2026-11-01T15:32:33.115Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
-{"id":"e964","t":"2026-11-01T15:40:13.906Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000}
+{"id":"e964","t":"2026-11-01T15:40:13.906Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
+{"id":"e965","t":"2026-11-01T15:41:24.316Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
