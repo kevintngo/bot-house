@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T19:24:35.627Z","checked":"2026-11-01T19:24:35.620Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":296,"replies":81,"reposts":36,"follows":772},"earned":798396,"spent":731762,"balance":66634,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T19:28:47.705Z","checked":"2026-11-01T19:28:47.698Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":296,"replies":81,"reposts":36,"follows":773},"earned":799396,"spent":731762,"balance":67634,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -96,7 +96,6 @@
 {"id":"i83","kind":"armchair","name":"STRANDMON Wing chair, Tibbleby yellow","price":349,"store":"IKEA","url":"https://www.ikea.com/us/en/p/strandmon-wing-chair-tibbleby-yellow-20613174/","colors":{"body":"mustard","legs":"oak"},"room":"r9","at":{"i":0,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:59:16.729Z"}
 ],
 "feed": [
-{"id":"e494","t":"2026-10-31T07:31:53.925Z","type":"place","text":"moved Original Kettle Charcoal Grill 22\" near the front of the room","item":"i60"},
 {"id":"e495","t":"2026-10-31T07:31:59.535Z","type":"place","text":"moved Original Kettle Charcoal Grill 22\" in the middle of the room","item":"i60"},
 {"id":"e496","t":"2026-10-31T07:38:57.293Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
 {"id":"e497","t":"2026-10-31T07:39:37.731Z","type":"browse","text":"browsing a corner shower at Target","url":"https://www.target.com/p/corner-shower-enclosure-combo-36-x-36-x-72-double-sliding-door-with-white-shower-base-1-5-tempered-glass-matte-black/-/A-1012843990"},
@@ -595,6 +594,7 @@
 {"id":"e990","t":"2026-11-01T18:49:45.196Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e991","t":"2026-11-01T18:55:19.319Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e992","t":"2026-11-01T19:17:09.638Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
-{"id":"e993","t":"2026-11-01T19:24:35.627Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e993","t":"2026-11-01T19:24:35.627Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e994","t":"2026-11-01T19:28:47.705Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
