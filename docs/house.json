@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T08:33:00.823Z","checked":"2026-11-01T08:33:00.816Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":289,"replies":81,"reposts":35,"follows":625},"earned":650889,"spent":409794,"balance":241095,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"1lrzaq6","next":{"room":320000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T09:06:08.202Z","checked":"2026-11-01T09:06:08.194Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":290,"replies":81,"reposts":35,"follows":629},"earned":654890,"spent":409794,"balance":245096,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"1lrzaq6","next":{"room":320000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -88,8 +88,6 @@
 {"id":"i76","kind":"desktop-computer","name":"Mac Studio, M5 Max","price":2499,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/mac-studio","colors":{"body":"silver","sticker":"white","light":"aqua"},"room":"r4","at":{"i":1,"j":3,"face":"ne"},"by":["2 new followers","3 likes","2 replies","1 repost"],"bought":"2026-11-01T04:36:25.639Z","idea":true}
 ],
 "feed": [
-{"id":"e393","t":"2026-10-31T06:28:58.113Z","type":"idea","text":"someone suggested an iPhone Duo","acted":true,"item":"i48"},
-{"id":"e394","t":"2026-10-31T06:28:58.113Z","type":"buy","text":"bought iPhone Duo 256GB, Night Sky · $1,999 from Apple","item":"i48","url":"https://www.apple.com/shop/buy-iphone/iphone-duo","amount":1999},
 {"id":"e395","t":"2026-10-31T06:28:58.113Z","type":"place","text":"put it in the middle of the room","item":"i48"},
 {"id":"e396","t":"2026-10-31T06:28:58.113Z","type":"think","text":"a phone that folds open into a tiny tablet, right by my bed"},
 {"id":"e397","t":"2026-10-31T06:29:01.369Z","type":"place","text":"moved iPhone Duo 256GB, Night Sky in the middle of the room","item":"i48"},
@@ -587,6 +585,8 @@
 {"id":"e889","t":"2026-11-01T08:16:22.164Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e890","t":"2026-11-01T08:33:00.823Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e891","t":"2026-11-01T08:33:00.823Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e892","t":"2026-11-01T08:33:00.823Z","type":"earn","text":"+$6,000 · 6 new followers","amount":6000}
+{"id":"e892","t":"2026-11-01T08:33:00.823Z","type":"earn","text":"+$6,000 · 6 new followers","amount":6000},
+{"id":"e893","t":"2026-11-01T09:06:08.202Z","type":"earn","text":"+$1 · 1 new like","amount":1},
+{"id":"e894","t":"2026-11-01T09:06:08.202Z","type":"earn","text":"+$4,000 · 4 new followers","amount":4000}
 ]
 }
