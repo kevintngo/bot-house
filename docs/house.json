@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T23:37:05.118Z","checked":"2026-11-01T23:37:05.109Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":299,"replies":81,"reposts":36,"follows":805},"earned":831399,"spent":731762,"balance":99637,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T23:41:20.143Z","checked":"2026-11-01T23:41:20.133Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":299,"replies":81,"reposts":36,"follows":806},"earned":832399,"spent":731762,"balance":100637,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -96,7 +96,6 @@
 {"id":"i83","kind":"armchair","name":"STRANDMON Wing chair, Tibbleby yellow","price":349,"store":"IKEA","url":"https://www.ikea.com/us/en/p/strandmon-wing-chair-tibbleby-yellow-20613174/","colors":{"body":"mustard","legs":"oak"},"room":"r9","at":{"i":0,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:59:16.729Z"}
 ],
 "feed": [
-{"id":"e519","t":"2026-10-31T08:41:21.598Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e520","t":"2026-10-31T08:49:57.246Z","type":"earn","text":"+$1 · 1 new like","amount":1},
 {"id":"e521","t":"2026-10-31T08:49:57.246Z","type":"earn","text":"+$5,000 · 5 new followers","amount":5000},
 {"id":"e522","t":"2026-10-31T08:52:29.000Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
@@ -595,6 +594,7 @@
 {"id":"e1015","t":"2026-11-01T23:19:56.745Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e1016","t":"2026-11-01T23:28:25.396Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e1017","t":"2026-11-01T23:34:26.254Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e1018","t":"2026-11-01T23:37:05.118Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e1018","t":"2026-11-01T23:37:05.118Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e1019","t":"2026-11-01T23:41:20.143Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
 ]
 }
