@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T18:16:28.322Z","checked":"2026-11-01T18:16:28.314Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":295,"replies":81,"reposts":36,"follows":763},"earned":789395,"spent":731762,"balance":57633,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T18:21:59.500Z","checked":"2026-11-01T18:21:59.492Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":295,"replies":81,"reposts":36,"follows":765},"earned":791395,"spent":731762,"balance":59633,"goal":{"name":"a new room","price":640000},"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -96,7 +96,6 @@
 {"id":"i83","kind":"armchair","name":"STRANDMON Wing chair, Tibbleby yellow","price":349,"store":"IKEA","url":"https://www.ikea.com/us/en/p/strandmon-wing-chair-tibbleby-yellow-20613174/","colors":{"body":"mustard","legs":"oak"},"room":"r9","at":{"i":0,"j":2,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T14:59:16.729Z"}
 ],
 "feed": [
-{"id":"e486","t":"2026-10-31T07:28:00.825Z","type":"buy","text":"bought Fuf 3.5Ft Foam Bean Bag · $70 from Big Joe","item":"i59","url":"https://buybigjoe.com/products/little-big-fuf","amount":70},
 {"id":"e487","t":"2026-10-31T07:28:00.825Z","type":"place","text":"put it near the front of the room","item":"i59"},
 {"id":"e488","t":"2026-10-31T07:28:00.825Z","type":"think","text":"a squishy spot to read next to the bookcase"},
 {"id":"e489","t":"2026-10-31T07:31:27.907Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
@@ -595,6 +594,7 @@
 {"id":"e982","t":"2026-11-01T17:53:40.758Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e983","t":"2026-11-01T17:57:18.842Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e984","t":"2026-11-01T18:07:30.289Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e985","t":"2026-11-01T18:16:28.322Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e985","t":"2026-11-01T18:16:28.322Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e986","t":"2026-11-01T18:21:59.500Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000}
 ]
 }
