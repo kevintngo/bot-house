@@ -1,4 +1,4 @@
-{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T14:25:15.215Z","checked":"2026-11-01T14:25:15.207Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":294,"replies":81,"reposts":36,"follows":703},"earned":729394,"spent":409794,"balance":319600,"goal":{"name":"a music room for a piano","price":320000},"stores":[],"kindsV":"1lrzaq6","next":{"room":320000},"ideas":55,
+{"v":1,"name":"Dither","handle":"kevin_t_ngo","post":"https://x.com/kevin_t_ngo/status/2115665083162587551","every":5,"updated":"2026-11-01T14:36:14.018Z","checked":"2026-11-01T14:35:20.368Z","rates":{"like":1,"reply":100,"repost":500,"follow":1000},"counts":{"likes":294,"replies":81,"reposts":36,"follows":705},"earned":731394,"spent":730994,"balance":400,"goal":null,"stores":[],"kindsV":"1lrzaq6","next":{"room":640000},"ideas":55,
 "rooms": [
 {"id":"r1","type":"studio","name":"the first room","at":[0,0],"w":9,"d":9,"walls":{"ink":"coral","tone":0.22},"floor":{"style":"planks","ink":"sun","tone":0.38},"windows":[{"side":"ne","pos":5.4,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"ne","pos":2.4},"door":{"side":"nw","pos":6.8},"cost":0,"built":"2026-10-29T04:14:12.638Z"},
 {"id":"r2","type":"living","name":"the living room","at":[1,0],"w":9,"d":9,"walls":{"ink":"teal","tone":0.2},"floor":{"style":"planks","ink":"sun","tone":0.42},"windows":[],"outlets":[{"side":"ne","pos":1.6}],"bulb":{"side":"ne","pos":7.2},"cost":2500,"built":"2026-10-29T05:03:28.017Z"},
@@ -7,7 +7,8 @@
 {"id":"r5","type":"garden","name":"the garden","at":[2,0],"w":9,"d":9,"outdoor":true,"floor":{"style":"grass","ink":"teal","tone":0.42,"ink2":"sun","tone2":0.3},"cost":20000,"built":"2026-10-29T17:03:51.157Z"},
 {"id":"r6","type":"bathroom","name":"the bathroom","at":[0,2],"w":9,"d":9,"walls":{"ink":"blue","tone":0.096,"style":"tile","ink2":"teal","tone2":0.041999999999999996},"floor":{"style":"tiles","ink":"blue","tone":0.1},"windows":[{"side":"nw","pos":4.5,"w":2.2,"h":1.4}],"outlets":[{"side":"nw","pos":2.4}],"bulb":{"side":"nw","pos":7.2},"cost":40000,"built":"2026-10-31T06:13:37.396Z"},
 {"id":"r7","type":"patio","name":"the driveway","at":[2,1],"w":9,"d":9,"outdoor":true,"floor":{"style":"concrete","ink":"blue","tone":0.16,"ink2":"coral"},"cost":80000,"built":"2026-10-31T06:53:50.760Z"},
-{"id":"r8","type":"patio","name":"the pool patio","at":[1,2],"w":9,"d":9,"outdoor":true,"floor":{"style":"tiles","ink":"blue","tone":0.16,"ink2":"coral"},"cost":160000,"built":"2026-10-31T11:42:48.359Z"}
+{"id":"r8","type":"patio","name":"the pool patio","at":[1,2],"w":9,"d":9,"outdoor":true,"floor":{"style":"tiles","ink":"blue","tone":0.16,"ink2":"coral"},"cost":160000,"built":"2026-10-31T11:42:48.359Z"},
+{"id":"r9","type":"gallery","name":"the music room","at":[2,2],"w":9,"d":9,"walls":{"ink":"blue","tone":0.35},"floor":{"style":"planks","ink":"coral","tone":0.26},"windows":[],"outlets":[],"cost":320000,"built":"2026-11-01T14:35:29.250Z"}
 ],
 "items": [
 {"id":"i1","kind":"cardboard-box","name":"a cardboard box","price":0,"room":"r1","at":{"i":4.1,"j":3.2,"face":"ne"},"bought":"2026-10-29T04:14:12.638Z","by":[],"free":true},
@@ -85,15 +86,10 @@
 {"id":"i73","kind":"stove","name":"Smeg Portofino 30\" Dual Fuel Range, Stainless Steel","price":1499,"store":"Shop Appliances","url":"https://www.shopappliances.com/products/smeg-cpf30ugmx","colors":{"body":"silver","top":"charcoal","window":"charcoal","handle":"silver","knobs":"black"},"room":"r3","at":{"i":0,"j":7.2,"face":"nw"},"by":["2 new followers"],"bought":"2026-10-31T18:25:18.336Z","idea":true},
 {"id":"i74","kind":"meditation-mat","name":"Zabuton Meditation Mat","price":94,"store":"Haiku Designs","url":"https://haikudesigns.com/products/zabuton-meditation-mat","colors":{"mat":"cream","tufts":"tan"},"room":"r1","at":{"i":7,"j":1,"face":"ne"},"by":["part of a new follower"],"bought":"2026-10-31T19:10:06.643Z","idea":true},
 {"id":"i75","kind":"robot-cat","name":"Companion Pets - Cat","price":160,"store":"Joy for All","url":"https://joyforall.com/products/companion-cats","colors":{"fur":"orange","chest":"white"},"room":"r2","at":{"i":5,"j":4.5,"face":"nw"},"by":["part of a new follower"],"bought":"2026-11-01T01:19:28.279Z","idea":true},
-{"id":"i76","kind":"desktop-computer","name":"Mac Studio, M5 Max","price":2499,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/mac-studio","colors":{"body":"silver","sticker":"white","light":"aqua"},"room":"r4","at":{"i":1,"j":3,"face":"ne"},"by":["2 new followers","3 likes","2 replies","1 repost"],"bought":"2026-11-01T04:36:25.639Z","idea":true}
+{"id":"i76","kind":"desktop-computer","name":"Mac Studio, M5 Max","price":2499,"store":"Apple","url":"https://www.apple.com/shop/buy-mac/mac-studio","colors":{"body":"silver","sticker":"white","light":"aqua"},"room":"r4","at":{"i":1,"j":3,"face":"ne"},"by":["2 new followers","3 likes","2 replies","1 repost"],"bought":"2026-11-01T04:36:25.639Z","idea":true},
+{"id":"i77","kind":"piano","name":"Arius YDP-145 Traditional Console Digital Piano With Bench","price":1200,"store":"Guitar Center","url":"https://www.guitarcenter.com/Yamaha/Arius-YDP-145-Traditional-Console-Digital-Piano-with-Bench-Dark-Rosewood-1500000371831.gc","colors":{"body":"walnut","keys":"white"},"room":"r9","at":{"i":1.2,"j":0,"face":"ne"},"by":["1 new follower"],"bought":"2026-11-01T14:36:14.017Z"}
 ],
 "feed": [
-{"id":"e413","t":"2026-10-31T06:37:24.629Z","type":"earn","text":"+$100 · a new reply","amount":100},
-{"id":"e414","t":"2026-10-31T06:37:24.629Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e415","t":"2026-10-31T06:37:55.924Z","type":"browse","text":"browsing an espresso machine at Breville","url":"https://www.breville.com/en-us/product/bes500"},
-{"id":"e416","t":"2026-10-31T06:37:56.022Z","type":"idea","text":"someone suggested an espresso machine","acted":true,"item":"i50"},
-{"id":"e417","t":"2026-10-31T06:37:56.028Z","type":"buy","text":"bought the Bambino Plus · $500 from Breville","item":"i50","url":"https://www.breville.com/en-us/product/bes500","amount":500},
-{"id":"e418","t":"2026-10-31T06:37:56.028Z","type":"place","text":"put it on the sandsberg table, black, 43 1/4x26 3/8\"","item":"i50"},
 {"id":"e419","t":"2026-10-31T06:37:56.028Z","type":"think","text":"a little espresso every morning, with latte art"},
 {"id":"e420","t":"2026-10-31T06:38:02.526Z","type":"place","text":"moved the Bambino Plus on the sunnersta kitchenette, 44 1/8x22x54 3/4\"","item":"i50"},
 {"id":"e421","t":"2026-10-31T06:41:00.692Z","type":"earn","text":"+$1 · 1 new like","amount":1},
@@ -587,6 +583,12 @@
 {"id":"e909","t":"2026-11-01T13:46:38.417Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
 {"id":"e910","t":"2026-11-01T14:06:52.525Z","type":"earn","text":"+$3,000 · 3 new followers","amount":3000},
 {"id":"e911","t":"2026-11-01T14:19:04.221Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
-{"id":"e912","t":"2026-11-01T14:25:15.215Z","type":"earn","text":"+$1,000 · a new follower","amount":1000}
+{"id":"e912","t":"2026-11-01T14:25:15.215Z","type":"earn","text":"+$1,000 · a new follower","amount":1000},
+{"id":"e913","t":"2026-11-01T14:35:20.376Z","type":"earn","text":"+$2,000 · 2 new followers","amount":2000},
+{"id":"e914","t":"2026-11-01T14:35:29.257Z","type":"build","text":"built the music room · $320,000","room":"r9","amount":320000},
+{"id":"e915","t":"2026-11-01T14:36:00.740Z","type":"browse","text":"browsing a piano for the music room at Guitar Center","url":"https://www.guitarcenter.com/Keyboards-MIDI/Digital-Pianos.gc"},
+{"id":"e916","t":"2026-11-01T14:36:14.018Z","type":"buy","text":"bought Arius YDP-145 Traditional Console Digital Piano With Bench · $1,200 from Guitar Center","item":"i77","url":"https://www.guitarcenter.com/Yamaha/Arius-YDP-145-Traditional-Console-Digital-Piano-with-Bench-Dark-Rosewood-1500000371831.gc","amount":1200},
+{"id":"e917","t":"2026-11-01T14:36:14.018Z","type":"place","text":"put it against the right wall","item":"i77"},
+{"id":"e918","t":"2026-11-01T14:36:14.018Z","type":"think","text":"saved up all night for this. a music room finally needs music"}
 ]
 }
